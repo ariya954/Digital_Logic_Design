@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_lsm_gpio_out">
+	<PARAMETERS>
+		<PARAMETER NAME="bitpos" TYPE="Integer" VALUE="-1..15" DEFAULT_VALUE="-1"/>
+		<PARAMETER NAME="role" TYPE="String" DEFAULT_VALUE="none"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_lsm_gpio_out" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="gpio_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

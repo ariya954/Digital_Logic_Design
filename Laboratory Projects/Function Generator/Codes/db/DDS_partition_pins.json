@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "in",
+					"strict" : false
+				},
+				{
+					"name" : "DFF[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DFF[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DFF[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DFF[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DFF[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DFF[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DFF[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DFF[0]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[7]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[6]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[5]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[4]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[3]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[2]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[1]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wave1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "wave1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "wave1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "wave1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "wave1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wave1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wave1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wave1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wave2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "wave2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "wave2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "wave2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "wave2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wave2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wave2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wave2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "func[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Phase_cntrl[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Phase_cntrl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Phase_cntrl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "func[1]",
+					"strict" : false
+				},
+				{
+					"name" : "func[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

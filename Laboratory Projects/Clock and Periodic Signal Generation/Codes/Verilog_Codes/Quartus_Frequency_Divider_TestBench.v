@@ -1,0 +1,25 @@
+`timescale 1 ns/ 1 ns
+
+module Frequency_Divider_TestBench();
+
+reg [7 : 0]IN;
+reg en, DN, Preset, clear, clk;
+wire ring_oscillator_output, divided_frequency_output, half_duty_cycle_divided_frequency_output, pin_name1;
+wire [7 : 0]Q; 
+
+Ring_Oscillator #(3, 21) ring_oscillator (en, ring_oscillator_output);
+Frequency_Divider frequency_divider(Q[7], Preset, IN[7], IN[6], IN[4], clear, IN[3], IN[2], IN[1], IN[0], clk, DN, Q[6], Q[5], Q[4], Q[0], Q[1], Q[3], Q[2],
+                                                                                                                                                 divided_frequency_output, pin_name1, 
+                                                                                                                                    half_duty_cycle_divided_frequency_output, IN[5]);
+
+always #10 clk = ~clk;
+initial begin
+clk = 1;
+IN = 8'b10011001; en = 0;  clear = 1; Preset = 1; DN = 1; 
+#10 clear = 0;
+#20 en = 1;  
+#100000 $stop;
+
+end
+
+endmodule

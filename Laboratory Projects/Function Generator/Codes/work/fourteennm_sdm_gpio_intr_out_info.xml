@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_sdm_gpio_intr_out">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_sdm_gpio_intr_out" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="gpio_intr_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

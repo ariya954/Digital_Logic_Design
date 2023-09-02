@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ROOT>
+	<FUNCTION_INFORMATION>
+		<HAS_SIM_LIB VALUE="ON" />
+	</FUNCTION_INFORMATION>
+	<PARAMETERS>
+		<PARAMETER NAME="a_oct_cal_mode" TYPE="String" VALUE="a_oct_cal_mode_single|a_oct_cal_mode_double|a_oct_cal_mode_pod|a_oct_cal_mode_auto" DEFAULT_VALUE="a_oct_cal_mode_single" />
+		<PARAMETER NAME="a_oct_user_oct" TYPE="String" VALUE="a_oct_user_oct_off|a_oct_user_oct_on" DEFAULT_VALUE="a_oct_user_oct_off" />
+		<PARAMETER NAME="a_oct_rsmultp1" TYPE="String" VALUE="a_oct_rsmultp1_1|a_oct_rsmultp1_2|a_oct_rsmultp1_3|a_oct_rsmultp1_4|a_oct_rsmultp1_5|a_oct_rsmultp1_6|a_oct_rsmultp1_7|a_oct_rsmultp1_10|a_oct_rsmultp1_off" DEFAULT_VALUE="a_oct_rsmultp1_1" />
+		<PARAMETER NAME="a_oct_rsmultp2" TYPE="String" VALUE="a_oct_rsmultp2_1|a_oct_rsmultp2_2|a_oct_rsmultp2_3|a_oct_rsmultp2_4|a_oct_rsmultp2_5|a_oct_rsmultp2_6|a_oct_rsmultp2_7|a_oct_rsmultp2_10|a_oct_rsmultp2_off" DEFAULT_VALUE="a_oct_rsmultp2_1" />
+		<PARAMETER NAME="a_oct_rsmultn1" TYPE="String" VALUE="a_oct_rsmultn1_1|a_oct_rsmultn1_2|a_oct_rsmultn1_3|a_oct_rsmultn1_4|a_oct_rsmultn1_5|a_oct_rsmultn1_6|a_oct_rsmultn1_7|a_oct_rsmultn1_10|a_oct_rsmultn1_off" DEFAULT_VALUE="a_oct_rsmultn1_1" />
+		<PARAMETER NAME="a_oct_rsmultn2" TYPE="String" VALUE="a_oct_rsmultn2_1|a_oct_rsmultn2_2|a_oct_rsmultn2_3|a_oct_rsmultn2_4|a_oct_rsmultn2_5|a_oct_rsmultn2_6|a_oct_rsmultn2_7|a_oct_rsmultn2_10|a_oct_rsmultn2_off" DEFAULT_VALUE="a_oct_rsmultn2_1" />
+		<PARAMETER NAME="a_oct_rsadjust1" TYPE="String" VALUE="a_oct_rsadjust1_none|a_oct_rsadjust1_10|a_oct_rsadjust1_6p5|a_oct_rsadjust1_3|a_oct_rsadjust1_n3|a_oct_rsadjust1_n6|a_oct_rsadjust1_n9|a_oct_rsadjust1_n12" DEFAULT_VALUE="a_oct_rsadjust1_none" />
+		<PARAMETER NAME="a_oct_rsadjust2" TYPE="String" VALUE="a_oct_rsadjust2_none|a_oct_rsadjust2_10|a_oct_rsadjust2_6p5|a_oct_rsadjust2_3|a_oct_rsadjust2_n3|a_oct_rsadjust2_n6|a_oct_rsadjust2_n9|a_oct_rsadjust2_n12" DEFAULT_VALUE="a_oct_rsadjust2_none" />
+		<PARAMETER NAME="a_oct_rtmult1" TYPE="String" VALUE="a_oct_rtmult1_1|a_oct_rtmult1_2|a_oct_rtmult1_3|a_oct_rtmult1_4|a_oct_rtmult1_5|a_oct_rtmult1_6|a_oct_rtmult1_7|a_oct_rtmult1_off" DEFAULT_VALUE="a_oct_rtmult1_1" />
+		<PARAMETER NAME="a_oct_rtmult2" TYPE="String" VALUE="a_oct_rtmult2_1|a_oct_rtmult2_2|a_oct_rtmult2_3|a_oct_rtmult2_4|a_oct_rtmult2_5|a_oct_rtmult2_6|a_oct_rtmult2_7|a_oct_rtmult2_off" DEFAULT_VALUE="a_oct_rtmult2_1" />
+		<PARAMETER NAME="a_oct_rtadjust1" TYPE="String" VALUE="a_oct_rtadjust1_none|a_oct_rtadjust1_1p5v|a_oct_rtadjust1_1p8v|a_oct_rtadjust1_1|a_oct_rtadjust1_2|a_oct_rtadjust1_3|a_oct_rtadjust1_4|a_oct_rtadjust1_5|a_oct_rtadjust1_6|a_oct_rtadjust1_7|a_oct_rtadjust1_8|a_oct_rtadjust1_9|a_oct_rtadjust1_10|a_oct_rtadjust1_11|a_oct_rtadjust1_12|a_oct_rtadjust1_13" DEFAULT_VALUE="a_oct_rtadjust1_none" />
+		<PARAMETER NAME="a_oct_rtadjust2" TYPE="String" VALUE="a_oct_rtadjust2_none|a_oct_rtadjust2_1p5v|a_oct_rtadjust2_1p8v|a_oct_rtadjust2_1|a_oct_rtadjust2_2|a_oct_rtadjust2_3|a_oct_rtadjust2_4|a_oct_rtadjust2_5|a_oct_rtadjust2_6|a_oct_rtadjust2_7|a_oct_rtadjust2_8|a_oct_rtadjust2_9|a_oct_rtadjust2_10|a_oct_rtadjust2_11|a_oct_rtadjust2_12|a_oct_rtadjust2_13" DEFAULT_VALUE="a_oct_rtadjust2_none" />
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_termination" />
+		<PARAMETER NAME="LPM_HINT" TYPE="STRING" VALUE="UNUSED" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="clkenusr" TYPE="INPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="clkusr" TYPE="INPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="enserusr" TYPE="INPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="nclrusr" TYPE="INPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="rzqin" TYPE="INPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="ser_data_ca_from_core" TYPE="INPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="ser_data_dq_from_core" TYPE="INPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="ser_data_ca_to_core" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="ser_data_dq_to_core" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="serdataout" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+	</PORTS>
+</ROOT>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_security_module">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_security_module" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="anti_tamper_in" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="anti_tamper_out" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga_dbgen_sig" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga_niden_sig" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

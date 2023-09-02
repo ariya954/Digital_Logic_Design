@@ -1,0 +1,216 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\DLD lab 2\Desktop
+vadder
+Z1 IQ2Z9k3?]?149aI]I@FcA<1
+Z2 V0LM1L3SQLO]nE0Ti;o<?o0
+Z3 dC:\Users\DLD lab 2\Desktop\Arian Mohammad\exp codes
+Z4 w1653745701
+Z5 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/adder.v
+Z6 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/adder.v
+L0 1
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-work work -O0
+Z9 !s100 =h96FYJmd@Hh2GmZe?>HP1
+Z10 !s108 1651949030.040000
+Z11 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/adder.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/adder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontroller
+Z13 !s100 GQCVzO2nj9HG81z><gHbl1
+Z14 In3_P>3^<?M3>1;J638MjQ1
+Z15 VcaSz2MBVaS]Q5aCUWB4Cz1
+R3
+Z16 w1653746185
+Z17 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Controller.v
+Z18 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Controller.v
+L0 1
+R7
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Controller.v|
+R8
+Z20 !s108 1651949030.133000
+Z21 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter
+Z22 InjOk[6la3?C1kMb_39U4>0
+Z23 VD>ZHGBO`FLBilAOTHjL@63
+R3
+Z24 w1653745787
+Z25 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Counter.v
+Z26 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Counter.v
+L0 2
+R7
+r1
+31
+R8
+Z27 !s100 8JX`Kl06=VE>:b:NEA6Gk3
+Z28 !s108 1651949030.305000
+Z29 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Counter.v|
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+Z31 IlOSWX`N]?iV9KHg5JlkzX1
+Z32 VNl4KO1j8IXWJPzz7ANnnP2
+R3
+Z33 w1653746703
+Z34 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Datapath.v
+Z35 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Datapath.v
+L0 1
+R7
+r1
+31
+R8
+Z36 !s100 QVGPEXVFWmDlRlbVdG_JE1
+Z37 !s108 1651949030.477000
+Z38 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Datapath.v|
+Z39 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vEXP_tb
+!i10b 1
+!s100 9m3JX?g_lF]iL?MCaV7XP2
+IS2D2@S:lez:FJW>3[8oYi2
+Z40 V69Qo^g<iMEYl]``IANS793
+R3
+w1651950525
+Z41 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/EXP_tb.v
+Z42 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/EXP_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1651950530.354000
+!s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/EXP_tb.v|
+Z43 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/EXP_tb.v|
+!s101 -O0
+R8
+Z44 n@e@x@p_tb
+vexponential
+Z45 I=4i]ahmIJJO[fQFj^0f172
+Z46 V==8=M@z8E6URNKP0g4HFV1
+R3
+Z47 w1653812506
+Z48 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/exponential.v
+Z49 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/exponential.v
+L0 1
+R7
+r1
+31
+R8
+Z50 !s100 WcBJ_@VBHV:[j8:gIb`IT1
+Z51 !s108 1651949030.586000
+Z52 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/exponential.v|
+Z53 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/exponential.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vLUT
+Z54 I<M8nhg?5`D[kBPFC[Q5Ak0
+Z55 Vh7kg2cEEBCi[=5oM4L;0S3
+R3
+Z56 w1653747017
+Z57 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/LUTExp.v
+Z58 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/LUTExp.v
+L0 1
+R7
+r1
+31
+R8
+Z59 n@l@u@t
+Z60 !s100 M00CC:U[>I_D10IzC8^dX2
+Z61 !s108 1651949030.695000
+Z62 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/LUTExp.v|
+Z63 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/LUTExp.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplier
+Z64 IPI5GblmZ37:c>MOHWaV>N1
+Z65 VH:6SEC``QL31]mIH0HHiV1
+R3
+Z66 w1653745912
+Z67 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/multiplier.v
+Z68 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/multiplier.v
+L0 2
+R7
+r1
+31
+R8
+Z69 !s100 ]^k<B7TmbYaJ8CzkWBU2T3
+Z70 !s108 1651949030.913000
+Z71 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/multiplier.v|
+Z72 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/multiplier.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2to1
+Z73 I>j^E2bDTWkmadNmf`32`=0
+Z74 V>M@I<QgBEE>P@>dOPjF]V3
+R3
+Z75 w1653745949
+Z76 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/mux2to1.v
+Z77 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/mux2to1.v
+L0 2
+R7
+r1
+31
+R8
+Z78 !s100 [Vz`gCf=9JhlL0=aOjDR?3
+Z79 !s108 1651949031.038000
+Z80 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/mux2to1.v|
+Z81 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/mux2to1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister
+Z82 I0JkVfahC13PNC[2@`nXFB0
+Z83 VbD9C:0UbIhUB?^a:7EYYh2
+R3
+Z84 w1653746000
+Z85 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register.v
+Z86 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register.v
+L0 2
+R7
+r1
+31
+R8
+Z87 !s100 QH97PGjcQdbaMJ?W957_23
+Z88 !s108 1651949031.225000
+Z89 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register.v|
+Z90 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister18
+Z91 IX9:0`7K6<Qi87]5?91=hF0
+Z92 V8BhoY;<lI<5_07X=bBL@m0
+R3
+Z93 w1653746042
+Z94 8C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register18.v
+Z95 FC:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register18.v
+L0 2
+R7
+r1
+31
+R8
+Z96 !s100 Anb<DGbeA6I15;0ehD7T41
+Z97 !s108 1651949031.303000
+Z98 !s107 C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register18.v|
+Z99 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register18.v|
+!i10b 1
+!s85 0
+!s101 -O0

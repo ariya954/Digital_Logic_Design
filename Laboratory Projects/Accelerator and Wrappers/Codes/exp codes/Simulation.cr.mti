@@ -1,0 +1,71 @@
+{C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register18.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register18.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module register18
+
+Top level modules:
+	register18
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/LUTExp.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/LUTExp.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module LUT
+
+Top level modules:
+	LUT
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/multiplier.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/multiplier.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/exponential.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/exponential.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module exponential
+
+Top level modules:
+	exponential
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Datapath.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Datapath.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/mux2to1.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/mux2to1.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Counter.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Counter.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/adder.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/adder.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Controller.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/Controller.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/Arian Mohammad/exp codes/register.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}}

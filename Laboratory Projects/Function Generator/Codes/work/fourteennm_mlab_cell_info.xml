@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_mlab_cell">
+	<PARAMETERS>
+		<PARAMETER NAME="logical_ram_depth" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="logical_ram_width" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="address_width" TYPE="Integer" VALUE="0..5" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="byte_enable_mask_width" TYPE="Integer" VALUE="0..2" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="first_bit_number" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="data_width" TYPE="Integer" VALUE="0..32" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="first_address" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="last_address" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="mixed_port_feed_through_mode" TYPE="String" VALUE="New Data|Dont Care|Constrained Dont Care" DEFAULT_VALUE="New Data"/>
+		<PARAMETER NAME="init_file" TYPE="String" DEFAULT_VALUE="none"/>
+		<PARAMETER NAME="byte_size" TYPE="Integer" VALUE="0..10" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="port_b_data_out_clock" TYPE="String" VALUE="none|clock1" DEFAULT_VALUE="none"/>
+		<PARAMETER NAME="port_b_data_out_clear" TYPE="String" VALUE="none|clear|sclear" DEFAULT_VALUE="none"/>
+		<PARAMETER NAME="logical_ram_name" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_mlab_cell" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="clk0" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clk1" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ena0" TYPE="INPUT" DEFAULT_VALUE="1"/>
+		<PORT NAME="ena1" TYPE="INPUT" DEFAULT_VALUE="1"/>
+		<PORT NAME="clr" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="portadatain" TYPE="INPUT" WIDTH="20" DEFAULT_VALUE="0"/>
+		<PORT NAME="portaaddr" TYPE="INPUT" WIDTH="5" DEFAULT_VALUE="0"/>
+		<PORT NAME="portabyteenamasks" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="portbaddr" TYPE="INPUT" WIDTH="5" DEFAULT_VALUE="0"/>
+		<PORT NAME="portbdataout" TYPE="OUTPUT" WIDTH="20" DEFAULT_VALUE="0"/>
+		<PORT NAME="observableportadatainregout" TYPE="OUTPUT" CONTEXT="OBSERVABLE" WIDTH="20" DEFAULT_VALUE="0"/>
+		<PORT NAME="observableportaaddressregout" TYPE="OUTPUT" CONTEXT="OBSERVABLE" WIDTH="5" DEFAULT_VALUE="0"/>
+		<PORT NAME="observableportabytenaregout" TYPE="OUTPUT" CONTEXT="OBSERVABLE" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="observableenaregout" TYPE="OUTPUT" CONTEXT="OBSERVABLE" DEFAULT_VALUE="0"/>
+		<PORT NAME="observablevirtualregout" TYPE="OUTPUT" CONTEXT="OBSERVABLE" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

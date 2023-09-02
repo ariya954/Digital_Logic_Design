@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_ddr">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_ddr" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="io48_a_afi_cal_success" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_clk_out_hps" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_ctl2core_cmd_ready0" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_dbc2core_rd_data_vld0_pl3" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_dbc2core_rd_type_pl3" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_dbc2core_wr_data_rdy_pl3" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_rdata_valid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_waitrequest" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_pll_locked" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_clk_out_hps" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_clk_out_hps" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_afi_seq2core" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb36_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb37_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb38_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb39_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb40_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb41_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb42_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb43_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb44_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb45_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb46_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_cdata_pb47_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_ctl2core_cmd_ecc_info" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_ctl2core_rd_ecc_info" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_ctl2core_rdata_id" TYPE="INPUT" WIDTH="13" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_dbc2core_wb_pointer_pl3" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_rdata" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb0_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb10_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb11_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb12_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb13_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb14_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb15_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb16_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb17_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb18_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb19_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb1_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb20_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb21_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb22_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb23_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb24_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb25_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb26_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb27_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb28_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb29_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb2_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb30_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb31_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb32_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb33_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb34_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb35_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb36_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb37_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb38_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb39_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb3_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb40_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb41_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb42_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb43_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb44_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb45_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb46_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb47_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb4_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb5_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb6_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb7_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb8_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_cdata_pb9_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_dbc2core_rd_data_vld0_pl" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_dbc2core_rd_type_pl" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_dbc2core_wb_pointer_pl0" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_dbc2core_wb_pointer_pl1" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_dbc2core_wb_pointer_pl2" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_dbc2core_wb_pointer_pl3" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_dbc2core_wr_data_rdy_pl" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb0_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb10_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb11_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb12_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb13_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb14_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb15_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb16_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb17_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb18_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb19_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb1_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb20_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb21_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb22_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb23_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb24_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb25_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb26_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb27_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb28_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb29_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb2_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb30_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb31_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb32_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb33_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb34_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb35_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb36_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb37_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb38_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb39_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb3_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb40_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb41_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb42_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb43_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb44_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb45_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb46_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb47_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb4_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb5_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb6_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb7_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb8_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_cdata_pb9_in" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_dbc2core_rd_data_vld0_pl" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_dbc2core_rd_type_pl" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_dbc2core_wb_pointer_pl0" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_dbc2core_wb_pointer_pl1" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_dbc2core_wb_pointer_pl2" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_dbc2core_wb_pointer_pl3" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_dbc2core_wr_data_rdy_pl" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_core2ctl_cmd_valid0" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_core2ctl_rd_data_ready0" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_core2ctl_wr_data_valid0" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_core2dbc_rd_data_rdy_pl3" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_core2dbc_wr_data_vld0_pl3" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_fb_clk_hps" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_global_reset_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_beginbursttransfer" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_read" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_write" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_ref_clkin_hps" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_fb_clk_hps" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_global_reset_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_fb_clk_hps" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_global_reset_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_afi_core2seq" TYPE="OUTPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_core2ctl_cmd_data0" TYPE="OUTPUT" WIDTH="58" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_core2ctl_wr_ecc_info" TYPE="OUTPUT" WIDTH="15" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_core2dbc_wr_ecc_info_pl3" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb36_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb37_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb38_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb39_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb40_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb41_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb42_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb43_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb44_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb45_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb46_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_iod_pb47_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_addr" TYPE="OUTPUT" WIDTH="10" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_be" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_burst_count" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_a_mmr_wdata" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_core2dbc_rd_data_rdy_pl" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_core2dbc_wr_data_vld0_pl" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_core2dbc_wr_ecc_info_pl0" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_core2dbc_wr_ecc_info_pl1" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_core2dbc_wr_ecc_info_pl2" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_core2dbc_wr_ecc_info_pl3" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb0_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb10_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb11_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb12_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb13_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb14_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb15_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb16_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb17_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb18_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb19_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb1_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb20_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb21_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb22_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb23_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb24_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb25_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb26_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb27_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb28_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb29_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb2_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb30_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb31_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb32_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb33_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb34_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb35_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb36_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb37_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb38_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb39_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb3_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb40_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb41_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb42_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb43_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb44_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb45_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb46_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb47_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb4_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb5_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb6_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb7_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb8_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_b_iod_pb9_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_core2dbc_rd_data_rdy_pl" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_core2dbc_wr_data_vld0_pl" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_core2dbc_wr_ecc_info_pl0" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_core2dbc_wr_ecc_info_pl1" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_core2dbc_wr_ecc_info_pl2" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_core2dbc_wr_ecc_info_pl3" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb0_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb10_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb11_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb12_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb13_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb14_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb15_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb16_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb17_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb18_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb19_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb1_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb20_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb21_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb22_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb23_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb24_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb25_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb26_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb27_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb28_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb29_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb2_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb30_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb31_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb32_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb33_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb34_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb35_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb36_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb37_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb38_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb39_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb3_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb40_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb41_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb42_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb43_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb44_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb45_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb46_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb47_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb4_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb5_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb6_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb7_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb8_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="io48_c_iod_pb9_out" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

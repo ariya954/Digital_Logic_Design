@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ROOT>
+	<FUNCTION_INFORMATION>
+		<HAS_SIM_LIB VALUE="ON" />
+	</FUNCTION_INFORMATION>
+	<PARAMETERS>
+		<PARAMETER NAME="init_filename" TYPE="String" DEFAULT_VALUE="UNUSED" />
+		<PARAMETER NAME="part_name" TYPE="String" DEFAULT_VALUE="none" />
+		<PARAMETER NAME="is_dual_boot" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false" />
+		<PARAMETER NAME="is_eram_skip" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false" />
+		<PARAMETER NAME="is_compressed_image" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false" />
+		<PARAMETER NAME="identifier" TYPE="String" DEFAULT_VALUE="none" />
+		<PARAMETER NAME="min_valid_addr" TYPE="Integer" DEFAULT_VALUE="-1" />
+		<PARAMETER NAME="max_valid_addr" TYPE="Integer" DEFAULT_VALUE="-1" />
+		<PARAMETER NAME="min_ufm_valid_addr" TYPE="Integer" DEFAULT_VALUE="-1" />
+		<PARAMETER NAME="max_ufm_valid_addr" TYPE="Integer" DEFAULT_VALUE="-1" />
+		<PARAMETER NAME="addr_range1_end_addr" TYPE="Integer" DEFAULT_VALUE="-1" />
+		<PARAMETER NAME="addr_range2_end_addr" TYPE="Integer" DEFAULT_VALUE="-1" />
+		<PARAMETER NAME="addr_range1_offset" TYPE="Integer" DEFAULT_VALUE="-1" />
+		<PARAMETER NAME="addr_range2_offset" TYPE="Integer" DEFAULT_VALUE="-1" />
+		<PARAMETER NAME="addr_range3_offset" TYPE="Integer" DEFAULT_VALUE="-1" />
+		<PARAMETER NAME="reserve_block" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false" />
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fiftyfivenm_unvm" />
+		<PARAMETER NAME="init_filename_sim" TYPE="STRING" DEFAULT_VALUE_INDEX="0" CONTEXT="SIM_ONLY" />
+		<PARAMETER NAME="device_id" TYPE="STRING" VALUE="02" DEFAULT_VALUE_INDEX="0" CONTEXT="SIM_ONLY" />
+		<PARAMETER NAME="LPM_HINT" TYPE="STRING" VALUE="UNUSED" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="arclk" TYPE="INPUT" DEFAULT_VALUE="1" />
+		<PORT NAME="arshft" TYPE="INPUT" DEFAULT_VALUE="1" SIM_DEFAULT_VALUE="0" />
+		<PORT NAME="drclk" TYPE="INPUT" DEFAULT_VALUE="1" />
+		<PORT NAME="drshft" TYPE="INPUT" DEFAULT_VALUE="1" SIM_DEFAULT_VALUE="0" />
+		<PORT NAME="drdin" TYPE="INPUT" DEFAULT_VALUE="1" SIM_DEFAULT_VALUE="0" />
+		<PORT NAME="nprogram" TYPE="INPUT" DEFAULT_VALUE="1" />
+		<PORT NAME="nerase" TYPE="INPUT" DEFAULT_VALUE="1" />
+		<PORT NAME="nosc_ena" TYPE="INPUT" DEFAULT_VALUE="1" SIM_DEFAULT_VALUE="0" />
+		<PORT NAME="par_en" TYPE="INPUT" DEFAULT_VALUE="1" SIM_DEFAULT_VALUE="0" />
+		<PORT NAME="xe_ye" TYPE="INPUT" DEFAULT_VALUE="1" SIM_DEFAULT_VALUE="0" />
+		<PORT NAME="se" TYPE="INPUT" DEFAULT_VALUE="1" SIM_DEFAULT_VALUE="0" />
+		<PORT NAME="ardin" TYPE="INPUT" WIDTH="23" DEFAULT_VALUE="1" SIM_DEFAULT_VALUE="0" />
+		<PORT NAME="busy" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="osc" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="bgpbusy" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="sp_pass" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="se_pass" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="drdout" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0" />
+	</PORTS>
+</ROOT>

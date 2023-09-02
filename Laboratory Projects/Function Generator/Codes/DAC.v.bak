@@ -1,0 +1,20 @@
+`timescale 1ns/1ns
+
+module DAC(input clk, input [7 : 0]data, output [7 : 0]Digital_To_Analog_Converted_Signal);
+
+reg pwm;
+
+initial begin
+pwm = 0;
+
+end
+
+always @(posedge clk)begin
+
+    pwm = ~pwm;
+
+end
+
+assign Digital_To_Analog_Converted_Signal = data * pwm;
+
+endmodule

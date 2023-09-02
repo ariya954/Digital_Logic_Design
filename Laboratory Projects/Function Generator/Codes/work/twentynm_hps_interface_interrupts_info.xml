@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_interrupts">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_interrupts" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="f2s_fpga_irq" TYPE="INPUT" WIDTH="64" DEFAULT_VALUE="0"/>
+		<PORT NAME="fakedout" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_clkmgr_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_dma_irq_abort" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_ecc_derr_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_ecc_serr_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_emac0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_emac1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_emac2_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_fpga_man_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_gpio0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_gpio1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_gpio2_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_hmc_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_i2c0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_i2c1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_i2c_emac0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_i2c_emac1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_i2c_emac2_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_mpuwakeup_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_nand_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_parity_l1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_qspi_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_sdmmc_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_spim0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_spim1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_spis0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_spis1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_timer_l4sp_0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_timer_l4sp_1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_timer_sys_0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_timer_sys_1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_uart0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_uart1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_usb0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_usb1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_wdog0_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_wdog1_irq" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_dma_irq" TYPE="OUTPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_ncti_irq" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

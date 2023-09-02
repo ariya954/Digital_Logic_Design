@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Generated_Waveform[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Generated_Waveform[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Generated_Waveform[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Generated_Waveform[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Generated_Waveform[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Generated_Waveform[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Generated_Waveform[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Generated_Waveform[7]",
+					"strict" : false
+				},
+				{
+					"name" : "func[0]",
+					"strict" : false
+				},
+				{
+					"name" : "func[1]",
+					"strict" : false
+				},
+				{
+					"name" : "func[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

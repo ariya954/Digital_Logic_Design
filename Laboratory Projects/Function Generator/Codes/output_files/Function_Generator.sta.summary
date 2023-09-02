@@ -1,0 +1,85 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'inst12'
+Slack : -7.373
+TNS   : -97.545
+
+Type  : Slow Model Setup 'ring_oscillator'
+Slack : -4.013
+TNS   : -11.206
+
+Type  : Slow Model Hold 'inst12'
+Slack : -3.645
+TNS   : -17.668
+
+Type  : Slow Model Hold 'ring_oscillator'
+Slack : -3.280
+TNS   : -19.091
+
+Type  : Slow Model Recovery 'inst12'
+Slack : 0.561
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'ring_oscillator'
+Slack : 1.014
+TNS   : 0.000
+
+Type  : Slow Model Removal 'inst12'
+Slack : -3.197
+TNS   : -16.615
+
+Type  : Slow Model Removal 'ring_oscillator'
+Slack : -2.832
+TNS   : -16.590
+
+Type  : Slow Model Minimum Pulse Width 'inst12'
+Slack : -2.904
+TNS   : -147.998
+
+Type  : Slow Model Minimum Pulse Width 'ring_oscillator'
+Slack : -1.631
+TNS   : -12.629
+
+Type  : Fast Model Setup 'inst12'
+Slack : -1.948
+TNS   : -21.888
+
+Type  : Fast Model Setup 'ring_oscillator'
+Slack : -0.872
+TNS   : -0.872
+
+Type  : Fast Model Hold 'ring_oscillator'
+Slack : -1.650
+TNS   : -10.835
+
+Type  : Fast Model Hold 'inst12'
+Slack : -1.476
+TNS   : -7.478
+
+Type  : Fast Model Recovery 'inst12'
+Slack : 0.529
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'ring_oscillator'
+Slack : 0.910
+TNS   : 0.000
+
+Type  : Fast Model Removal 'ring_oscillator'
+Slack : -1.330
+TNS   : -8.348
+
+Type  : Fast Model Removal 'inst12'
+Slack : -1.191
+TNS   : -6.119
+
+Type  : Fast Model Minimum Pulse Width 'inst12'
+Slack : -1.423
+TNS   : -75.188
+
+Type  : Fast Model Minimum Pulse Width 'ring_oscillator'
+Slack : -1.380
+TNS   : -10.380
+
+------------------------------------------------------------

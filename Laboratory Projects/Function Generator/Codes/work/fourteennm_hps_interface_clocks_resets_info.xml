@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_hps_interface_clocks_resets">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_hps_interface_clocks_resets" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="emac_ptp_ref_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_free_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_pending_rst_req" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_user_clk0_hio" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_user_clk1_hio" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_clk" TYPE="OUTPUT" WIDTH="11" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_dbg_apb">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_dbg_apb" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="f2s_dbgapb_disable" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_pclkdbg" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_pclkendbg" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_preadydbg" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_pslverrdbg" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_prdatadbg" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_paddrdbg31" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_penabledbg" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_presetdbgn" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_pseldbg" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_pwritedbg" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_paddrdbg" TYPE="OUTPUT" WIDTH="20" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_pwdatadbg" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

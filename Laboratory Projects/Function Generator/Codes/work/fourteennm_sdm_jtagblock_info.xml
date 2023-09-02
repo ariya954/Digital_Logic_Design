@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_sdm_jtagblock">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_sdm_jtagblock" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="reqcore" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tckcore" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tdicore" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tmscore" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tdocore" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

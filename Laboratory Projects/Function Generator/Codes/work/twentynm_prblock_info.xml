@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_prblock">
+	<PARAMETERS>
+		<PARAMETER NAME="pr_enable" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="en_pr_decomp" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="unique_identifier" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_prblock" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="corectl" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="prrequest" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="data" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="externalrequest" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="error" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ready" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="done" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

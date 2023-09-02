@@ -1,0 +1,65 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ring_oscillator'
+Slack : -3.072
+TNS   : -12.832
+
+Type  : Slow 1200mV 85C Model Hold 'ring_oscillator'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'ring_oscillator'
+Slack : -1.270
+TNS   : -7.039
+
+Type  : Slow 1200mV 85C Model Removal 'ring_oscillator'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ring_oscillator'
+Slack : -3.000
+TNS   : -13.000
+
+Type  : Slow 1200mV 0C Model Setup 'ring_oscillator'
+Slack : -2.683
+TNS   : -10.505
+
+Type  : Slow 1200mV 0C Model Hold 'ring_oscillator'
+Slack : 0.280
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'ring_oscillator'
+Slack : -1.028
+TNS   : -5.421
+
+Type  : Slow 1200mV 0C Model Removal 'ring_oscillator'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ring_oscillator'
+Slack : -3.000
+TNS   : -13.000
+
+Type  : Fast 1200mV 0C Model Setup 'ring_oscillator'
+Slack : -1.273
+TNS   : -3.005
+
+Type  : Fast 1200mV 0C Model Hold 'ring_oscillator'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'ring_oscillator'
+Slack : -0.276
+TNS   : -1.023
+
+Type  : Fast 1200mV 0C Model Removal 'ring_oscillator'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ring_oscillator'
+Slack : -3.000
+TNS   : -13.949
+
+------------------------------------------------------------

@@ -1,0 +1,194 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\DLD lab 2\Desktop
+Z1 !s11f MIXED_VERSIONS
+vASSUME_R4
+!i10b 1
+Z2 !s100 DS>N[;nIO5<bJcn[T7=OB2
+Z3 I8hn:Gz:PaW=UEOK9D2EC41
+Z4 VVMHIVj0k<iM^d4<F01U5l2
+Z5 dC:\Users\DLD lab 2\Desktop\ArianMohammad
+Z6 w1649536538
+Z7 8C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo
+Z8 FC:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo
+L0 31
+Z9 OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1649536625.245000
+!s107 C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo|
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo|
+!s101 -O0
+Z11 o-work work -O0
+Z12 n@a@s@s@u@m@e_@r4
+vASSUME_R4_CU
+Z13 IM<>oZmL1>D3Kd55z2=YjM1
+Z14 VG>0PZT6ge_ZLNjAZj8_kB2
+R5
+Z15 w1652174561
+Z16 FASSUME-R4.v
+Z17 8C:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4_TB.v
+Z18 FC:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4_TB.v
+L0 66
+R9
+r1
+31
+Z19 !s108 1649532777.296000
+Z20 !s107 ASSUME-R4.v|C:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4_TB.v|
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4_TB.v|
+R11
+Z22 n@a@s@s@u@m@e_@r4_@c@u
+Z23 !s100 >BR>6l2OhbP]bm<S=]JW@1
+!i10b 1
+!s85 0
+!s101 -O0
+vASSUME_R4_DataPath
+Z24 IiYT[<XSJMYHV3WFX?MG]Y0
+Z25 VXi15>J=323;lCU?_V^PMR3
+R5
+Z26 w1648326508
+Z27 8C:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4.v
+Z28 FC:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4.v
+L0 1
+R9
+r1
+31
+R11
+Z29 n@a@s@s@u@m@e_@r4_@data@path
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4.v|
+Z31 !s100 NW[Jcoi_OiGU>kk2fDEN]3
+Z32 !s108 1648326511.733000
+Z33 !s107 C:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vASSUME_R4_DP
+Z34 I@R<ziCXzTeUS_RQzP_Z]k3
+Z35 V@AeYKDoA2bJAE7>jYzF=z2
+R5
+R15
+R16
+R17
+R18
+L0 2
+R9
+r1
+31
+R19
+R20
+R21
+R11
+Z36 n@a@s@s@u@m@e_@r4_@d@p
+Z37 !s100 oJ=F<4JNQ<Ez?Te17GYV:3
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter8
+Z38 IKb5Jdb8j<DRkNLmXP7Y5L2
+Z39 VLkz[>DJLP:^9^k=7_^MIm0
+R5
+R15
+R16
+R17
+R18
+L0 56
+R9
+r1
+31
+R19
+R20
+R21
+R11
+Z40 !s100 JSM2zV;=8dLa?RB0bU7>i0
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter_Testbench
+Z41 Im4R:?iD@29WVQHYNMnLBj0
+Z42 V4efHBLNH_R9H<McTk7=We2
+R5
+Z43 w1648330646
+Z44 8C:/Users/DLD lab 2/Desktop/ArianMohammad/counter_Testbench.v
+Z45 FC:/Users/DLD lab 2/Desktop/ArianMohammad/counter_Testbench.v
+L0 2
+R9
+r1
+31
+R11
+Z46 ncounter_@testbench
+Z47 !s100 Z_f@nIUkC3_oBFOMjGQ?n1
+Z48 !s108 1649532777.967000
+Z49 !s107 C:/Users/DLD lab 2/Desktop/ArianMohammad/counter_Testbench.v|
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/ArianMohammad/counter_Testbench.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmod14counter
+Z51 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z52 IeAaC02lCS]3I?_QE;aadA3
+Z53 VDg1SIo80bB@j0V0VzS_@n1
+Z54 dE:/Digital Shit/DLD Lab/2/ArianMohammad
+Z55 w1652170170
+Z56 8E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4.v
+Z57 FE:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4.v
+Z58 L0 54 9
+Z59 OV;L;2020.1;71
+r1
+31
+Z60 !s107 E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4.v|
+Z61 !s90 -reportprogress|300|-work|work|-stats=none|E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4.v|
+Z62 o-work work
+Z63 tCvgOpt 0
+Z64 !s110 1652170180
+Z65 !s100 =_OgLdmCh_2fkiXCi=_XO3
+Z66 !s108 1652170180.000000
+!i10b 1
+!i122 54
+!s85 0
+!i113 1
+vmod3counter
+R51
+Z67 Im]ff0_;hVihmC=:K8d^IG1
+R53
+R54
+Z68 w1652159862
+R56
+R57
+R58
+R59
+r1
+31
+R60
+R61
+R62
+R63
+Z69 !s110 1652159877
+Z70 !s100 E3`H8WeDoT0mfe:6Jei9N0
+Z71 !s108 1652159877.000000
+!i10b 1
+!i122 11
+!s85 0
+!i113 1
+vtb_ASSUME_R4
+Z72 IjolCmC@]OES0d[VUHWjQf1
+Z73 V9BE=egDz6=<m]=<j9b8UV2
+R5
+R15
+R17
+R18
+L0 4
+R9
+r1
+31
+R19
+R20
+R21
+R11
+Z74 ntb_@a@s@s@u@m@e_@r4
+Z75 !s100 ?XA8k=D63;N9XWAJ=RPnB3
+!i10b 1
+!s85 0
+!s101 -O0

@@ -1,0 +1,172 @@
+# Compile of ASSUME-R4.v was successful.
+vsim work.tb_ASSUME_R4
+# vsim work.tb_ASSUME_R4 
+# Start time: 13:18:22 on May 10,2022
+# Loading work.tb_ASSUME_R4
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+add wave -position insertpoint  \
+sim:/tb_ASSUME_R4/CLK_PERIOD \
+sim:/tb_ASSUME_R4/clk \
+sim:/tb_ASSUME_R4/rst \
+sim:/tb_ASSUME_R4/start \
+sim:/tb_ASSUME_R4/getA \
+sim:/tb_ASSUME_R4/getX \
+sim:/tb_ASSUME_R4/in \
+sim:/tb_ASSUME_R4/result \
+sim:/tb_ASSUME_R4/ready
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: DLD lab 2  Hostname: DLDLABREF-PC  ProcessID: 2092
+#           Attempting to use alternate WLF file "./wlft1wg5dt".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1wg5dt
+add wave -position insertpoint  \
+sim:/tb_ASSUME_R4/uut/datapath/Xreg \
+sim:/tb_ASSUME_R4/uut/datapath/Areg \
+sim:/tb_ASSUME_R4/uut/datapath/ResMSB \
+sim:/tb_ASSUME_R4/uut/datapath/sum \
+sim:/tb_ASSUME_R4/uut/datapath/PP \
+sim:/tb_ASSUME_R4/uut/datapath/R4ENC
+add wave -position insertpoint  \
+sim:/tb_ASSUME_R4/uut/controlunit/ps
+add wave -position insertpoint  \
+sim:/tb_ASSUME_R4/uut/controlunit/counter/Cout \
+sim:/tb_ASSUME_R4/uut/controlunit/counter/count
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(37)
+#    Time: 1240 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 37
+# Compile of ASSUME-R4_TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_ASSUME_R4
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(38)
+#    Time: 1260 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 38
+# Compile of ASSUME-R4.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(38)
+#    Time: 1260 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 38
+# Compile of ASSUME-R4_TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_ASSUME_R4
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(38)
+#    Time: 1260 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 38
+# Compile of ASSUME-R4_TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_ASSUME_R4
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(39)
+#    Time: 1280 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 39
+# Compile of ASSUME-R4_TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_ASSUME_R4
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(39)
+#    Time: 1280 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 39
+# Compile of ASSUME-R4.v was successful.
+run -all
+# Break key hit
+# Break in Module ASSUME_R4_DP at ASSUME-R4.v line 8
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+restart -f
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(39)
+#    Time: 1280 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 39
+# Compile of ASSUME-R4.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(39)
+#    Time: 1280 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 39
+# Compile of ASSUME-R4.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(39)
+#    Time: 1280 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 39
+# Compile of ASSUME-R4_TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_ASSUME_R4
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(39)
+#    Time: 1280 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 39
+# Compile of ASSUME-R4_TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_ASSUME_R4
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(39)
+#    Time: 1280 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 39
+# Compile of ASSUME-R4_TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_ASSUME_R4
+# Loading work.ASSUME_R4
+# Loading work.ASSUME_R4_DP
+# Loading work.ASSUME_R4_CU
+# Loading work.counter8
+run -all
+# ** Note: $stop    : E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v(39)
+#    Time: 1280 ns  Iteration: 0  Instance: /tb_ASSUME_R4
+# Break in Module tb_ASSUME_R4 at E:/Digital Shit/DLD Lab/2/ArianMohammad/ASSUME-R4_TB.v line 39

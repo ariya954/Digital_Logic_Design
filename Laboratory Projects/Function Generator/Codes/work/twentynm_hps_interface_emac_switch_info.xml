@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_emac_switch">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_emac_switch" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="ap_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_ack_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_frameflush_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_ack_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_discrc_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_dispad_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_ena_timestamp_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_eof_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_sof_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_val_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_pbl_i" TYPE="INPUT" WIDTH="9" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_be_i" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_chksum_ctrl_i" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_data_i" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_pbl_i" TYPE="INPUT" WIDTH="9" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_eof_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_rx_watermark_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_rxstatus_val_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_sof_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_timestamp_val_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_val_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_rdy_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_tx_watermark_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_txstatus_val" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_be_o" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="ari_data_o" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_timestamp_o" TYPE="OUTPUT" WIDTH="64" DEFAULT_VALUE="0"/>
+		<PORT NAME="ati_txstatus_o" TYPE="OUTPUT" WIDTH="18" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

@@ -1,0 +1,50 @@
+module Wrapper_CU(input clk, rst, start, getA, getX, output reg ldx, ldA, ldR, MSBrst, inSrcx, inSrcA, Xsrc, ready);
+  parameter [3:0] Idle = 4'd1, wait0 = 4'd2, LSBA = 4'd3, wait1 = 4'd4, MSBA = 4'd5, wait2 = 4'd6, LSBX = 4'd7,
+                  wait3 = 4'd8, MSBX = 4'd9, wait4=4'd10, calc = 4'd11, done = 4'd0;
+
+
+  reg Cen, Crst;
+  wire cout;
+
+  counter8 counter (clk, Cen, Crst, cout);          
+  reg [3:0] ps, ns;
+  always @(start, getA, getX, cout, ps) begin
+    case(ps)
+      Idle : ns = start ? Idle : wait0;
+      wait0 : ns = getA ? LSBA : wait0;
+      LSBA : ns = getA ? LSBA : wait1;
+      wait1 : ns = getA ? MSBA : wait1;
+      MSBA : ns = getA ? MSBA : wait2;
+      wait2 : ns = getX ? LSBX : wait2;
+      LSBX : ns = getX ? LSBX : wait3;
+      wait3 : ns = getX ? MSBX : wait3;
+      MSBX : ns = getX ? MSBX : wait4;
+      wait4 : ns = calc;  
+      calc : ns = cout ? done : calc;
+      done : ns = start ? Idle : done;
+      default: ns=done;
+    endcase
+  end
+  
+  always @(ps) begin
+    {ldx, ldA, ldR, inSrcx, inSrcA, Xsrc, ready, MSBrst,Crst} = 9'b0;
+    case(ps)
+      Idle : begin MSBrst = 1'b1; Crst = 1'b1; end
+      LSBA : begin ldA=1'b1; end
+      MSBA : begin inSrcA=1'b1; end 
+      wait1 : begin ldA=1'b1; end
+      wait2 : begin ldA=1'b1; inSrcA=1'b1; end 
+      LSBX : begin ldx=1'b1; Xsrc=1'b1; end
+      wait3 : begin ldx=1'b1; Xsrc=1'b1; end
+      MSBX : begin inSrcx=1'b1; end
+      wait4 : begin ldx=1'b1; Xsrc=1'b1; inSrcx=1'b1; end            
+      calc : begin ldR=1'b1; ldx=1'b1; Cen=1'b1; end
+      done : ready = 1'b1;
+      default :  {ldx, ldA, ldR, inSrcx, inSrcA, Xsrc, ready, MSBrst,Crst} = 9'b0;
+    endcase
+  end
+  always @(posedge clk, posedge rst) begin
+     if(rst) ps<=done;
+    else ps<=ns;
+   end
+   

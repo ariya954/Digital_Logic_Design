@@ -1,0 +1,15 @@
+|behavioral_moore_10110_detector
+j => Selector1.IN2
+j => ns.100.DATAB
+j => Selector0.IN5
+j => Selector3.IN1
+j => ns.101.DATAB
+j => Selector0.IN1
+j => Selector0.IN2
+j => Selector0.IN3
+j => Selector2.IN1
+clk => ps~1.DATAIN
+reset => ps~3.DATAIN
+w << w.DB_MAX_OUTPUT_PORT_TYPE
+
+

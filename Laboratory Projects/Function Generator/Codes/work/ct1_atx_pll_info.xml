@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="ct1_atx_pll">
+	<PARAMETERS>
+		<PARAMETER NAME="analog_mode" TYPE="String" VALUE="user_custom" DEFAULT_VALUE="user_custom"/>
+		<PARAMETER NAME="bandwidth_range_high" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="bandwidth_range_low" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="bonding" TYPE="String" VALUE="cpri_bonding|pll_bonding" DEFAULT_VALUE="pll_bonding"/>
+		<PARAMETER NAME="bw_mode" TYPE="String" VALUE="low_bw|mid_bw|high_bw" DEFAULT_VALUE="low_bw"/>
+		<PARAMETER NAME="cal_status" TYPE="String" VALUE="cal_done|cal_in_progress" DEFAULT_VALUE="cal_done"/>
+		<PARAMETER NAME="calibration_mode" TYPE="String" VALUE="cal_off|uc_rst_pll|uc_rst_lf|uc_not_rst" DEFAULT_VALUE="cal_off"/>
+		<PARAMETER NAME="cascadeclk_test" TYPE="String" VALUE="cascadetest_off|cascadetest_on" DEFAULT_VALUE="cascadetest_off"/>
+		<PARAMETER NAME="cgb_div" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0001"/>
+		<PARAMETER NAME="chgpmp_testmode" TYPE="String" VALUE="cp_normal|cp_test_up|cp_test_dn|cp_tristate" DEFAULT_VALUE="cp_normal"/>
+		<PARAMETER NAME="clk_high_perf_voltage" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="clk_low_power_voltage" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="clk_mid_power_voltage" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="clk_vreg_boost" TYPE="String" VALUE="clk_lc_vreg_no_voltage_boost|clk_lc_vreg_boost_1_step|clk_lc_vreg_boost_2_step|clk_lc_vreg_boost_3_step|clk_lc_vreg_boost_4_step|clk_lc_vreg_boost_5_step|clk_lc_vreg_boost_6_step|clk_lc_vreg_boost_7_step" DEFAULT_VALUE="clk_lc_vreg_no_voltage_boost"/>
+		<PARAMETER NAME="datarate_bps" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="device_variant" TYPE="String" VALUE="device1|device2|device3|device4|device5" DEFAULT_VALUE="device1"/>
+		<PARAMETER NAME="clk_vreg_boost_expected_voltage" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="clk_vreg_boost_scratch" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="clk_vreg_boost_step_size" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="lc_vreg1_boost_expected_voltage" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="lc_vreg1_boost_scratch" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="lc_vreg_boost_expected_voltage" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="lc_vreg_boost_scratch" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="mcgb_vreg_boost_expected_voltage" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="mcgb_vreg_boost_scratch" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="mcgb_vreg_boost_step_size" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="status_select" TYPE="String" VALUE="dprio_normal_status|dsm_lsb_out|dsm_msb_out|dsm_dft_out" DEFAULT_VALUE="dprio_normal_status"/>
+		<PARAMETER NAME="vreg1_boost_step_size" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="vreg_boost_step_size" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="enable_hclk" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="expected_lc_boost_voltage" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="f_max_lcnt_fpll_cascading" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_max_pfd" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_max_pfd_fractional" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_max_ref" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_max_tank_0" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_max_tank_1" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_max_tank_2" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_max_vco" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_max_vco_fractional" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_max_x1" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_min_pfd" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_min_ref" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_min_tank_0" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_min_tank_1" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_min_tank_2" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="f_min_vco" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="fpll_refclk_selection" TYPE="String" VALUE="select_div_by_2|select_vco_output" DEFAULT_VALUE="select_div_by_2"/>
+		<PARAMETER NAME="hclk_en" TYPE="String" VALUE="hclk_disabled|hclk_enable" DEFAULT_VALUE="hclk_disabled"/>
+		<PARAMETER NAME="initial_settings" TYPE="String" VALUE="false|true" DEFAULT_VALUE="true"/>
+		<PARAMETER NAME="is_otn" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="is_pcie_hip" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="is_sdi" TYPE="String" VALUE="false|true" DEFAULT_VALUE="true"/>
+		<PARAMETER NAME="l_counter" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00001"/>
+		<PARAMETER NAME="lc_cal_status" TYPE="String" VALUE="lc_status_notdone|lc_status_done" DEFAULT_VALUE="lc_status_notdone"/>
+		<PARAMETER NAME="lc_calibration" TYPE="String" VALUE="lc_cal_off|lc_cal_on" DEFAULT_VALUE="lc_cal_off"/>
+		<PARAMETER NAME="lc_reg_calibration" TYPE="String" VALUE="lc_cal_reg_off|lc_cal_reg_on" DEFAULT_VALUE="lc_cal_reg_off"/>
+		<PARAMETER NAME="lc_reg_status" TYPE="String" VALUE="lc_reg_status_notdone|lc_reg_status_done" DEFAULT_VALUE="lc_reg_status_notdone"/>
+		<PARAMETER NAME="lc_to_fpll_l_counter" TYPE="String" VALUE="lcounter_setting0|lcounter_setting1|lcounter_setting2|lcounter_setting3|lcounter_setting4|lcounter_setting5|lcounter_setting6|lcounter_setting7|lcounter_setting8|lcounter_setting9|lcounter_setting10|lcounter_setting11|lcounter_setting12|lcounter_setting13|lcounter_setting14|lcounter_setting15|lcounter_setting16|lcounter_setting17|lcounter_setting18|lcounter_setting19|lcounter_setting20|lcounter_setting21|lcounter_setting22|lcounter_setting23|lcounter_setting24|lcounter_setting25|lcounter_setting26|lcounter_setting27|lcounter_setting28|lcounter_setting29|lcounter_setting30|lcounter_setting31" DEFAULT_VALUE="lcounter_setting0"/>
+		<PARAMETER NAME="lc_to_fpll_l_counter_scratch" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00001"/>
+		<PARAMETER NAME="lc_vreg1_boost" TYPE="String" VALUE="lc_vreg1_no_voltage_boost|lc_vreg1_boost_1_step|lc_vreg1_boost_2_step|lc_vreg1_boost_3_step|lc_vreg1_boost_4_step|lc_vreg1_boost_5_step|lc_vreg1_boost_6_step|lc_vreg1_boost_7_step" DEFAULT_VALUE="lc_vreg1_no_voltage_boost"/>
+		<PARAMETER NAME="lc_vreg_boost" TYPE="String" VALUE="lc_vreg_no_voltage_boost|lc_vreg_boost_1_step|lc_vreg_boost_2_step|lc_vreg_boost_3_step|lc_vreg_boost_4_step|lc_vreg_boost_5_step|lc_vreg_boost_6_step|lc_vreg_boost_7_step" DEFAULT_VALUE="lc_vreg_no_voltage_boost"/>
+		<PARAMETER NAME="lccmu_mode" TYPE="String" VALUE="lccmu_pd|lccmu_normal|lccmu_reset" DEFAULT_VALUE="lccmu_pd"/>
+		<PARAMETER NAME="max_fractional_percentage" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="0000000"/>
+		<PARAMETER NAME="mcgb_vreg_boost" TYPE="String" VALUE="mcgb_vreg_no_voltage_boost|mcgb_vreg_boost_1_step|mcgb_vreg_boost_2_step|mcgb_vreg_boost_3_step|mcgb_vreg_boost_4_step|mcgb_vreg_boost_5_step|mcgb_vreg_boost_6_step|mcgb_vreg_boost_7_step" DEFAULT_VALUE="mcgb_vreg_no_voltage_boost"/>
+		<PARAMETER NAME="mcnt_divide" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00001000"/>
+		<PARAMETER NAME="min_fractional_percentage" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="0000000"/>
+		<PARAMETER NAME="n_counter" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0001"/>
+		<PARAMETER NAME="out_freq" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="pfd_delay_compensation" TYPE="String" VALUE="normal_delay|ref_compensated_delay|fb_compensated_delay|unused_delay" DEFAULT_VALUE="normal_delay"/>
+		<PARAMETER NAME="pfd_pulse_width" TYPE="String" VALUE="pulse_width_setting0|pulse_width_setting1|pulse_width_setting2|pulse_width_setting3" DEFAULT_VALUE="pulse_width_setting0"/>
+		<PARAMETER NAME="pma_width" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="0001000"/>
+		<PARAMETER NAME="power_mode" TYPE="String" VALUE="low_power|mid_power|high_perf" DEFAULT_VALUE="low_power"/>
+		<PARAMETER NAME="power_rail_et" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="powerdown_mode" TYPE="String" VALUE="powerup|powerdown" DEFAULT_VALUE="powerup"/>
+		<PARAMETER NAME="primary_use" TYPE="String" VALUE="hssi_x1|hssi_hf|hssi_cascade" DEFAULT_VALUE="hssi_x1"/>
+		<PARAMETER NAME="prot_mode" TYPE="String" VALUE="unused|basic_tx|pcie_gen1_tx|pcie_gen2_tx|pcie_gen3_tx|pcie_gen4_tx|qpi_tx|gpon_tx|sata_tx|sas_tx|upi_tx" DEFAULT_VALUE="unused"/>
+		<PARAMETER NAME="reference_clock_frequency" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="regulator_bypass" TYPE="String" VALUE="reg_enable|reg_bypass" DEFAULT_VALUE="reg_enable"/>
+		<PARAMETER NAME="side" TYPE="String" VALUE="left|right|side_unknown" DEFAULT_VALUE="side_unknown"/>
+		<PARAMETER NAME="speed_grade" TYPE="String" VALUE="e1|i1|e2|i2|e3|i3|m3|e4|i4|m4|e5|i5" DEFAULT_VALUE="e2"/>
+		<PARAMETER NAME="sup_mode" TYPE="String" VALUE="user_mode|engineering_mode" DEFAULT_VALUE="user_mode"/>
+		<PARAMETER NAME="top_or_bottom" TYPE="String" VALUE="top|bot|tb_unknown" DEFAULT_VALUE="tb_unknown"/>
+		<PARAMETER NAME="vccdreg_clk" TYPE="String" VALUE="vreg_clk0|vreg_clk1|vreg_clk2|vreg_clk3|vreg_clk4|vreg_clk5|vreg_clk6|vreg_clk7|vreg_clk8|vreg_clk9|vreg_clk10|vreg_clk11|vreg_clk12|vreg_clk13|vreg_clk14|vreg_clk15|vreg_clk16|vreg_clk17|vreg_clk18|vreg_clk19|vreg_clk20|vreg_clk21|vreg_clk22|vreg_clk23|vreg_clk24|vreg_clk25|vreg_clk26|vreg_clk27|vreg_clk28|vreg_clk29|vreg_clk30|vreg_clk31" DEFAULT_VALUE="vreg_clk0"/>
+		<PARAMETER NAME="vccdreg_fb" TYPE="String" VALUE="vreg_fb0|vreg_fb1|vreg_fb2|vreg_fb3|vreg_fb4|vreg_fb5|vreg_fb6|vreg_fb7|vreg_fb8|vreg_fb9|vreg_fb10|vreg_fb11|vreg_fb12|vreg_fb13|vreg_fb14|vreg_fb15|vreg_fb16|vreg_fb17|vreg_fb18|vreg_fb19|vreg_fb20|vreg_fb21|vreg_fb22|vreg_fb23|vreg_fb24|vreg_fb25|vreg_fb26|vreg_fb27|vreg_fb28|vreg_fb29|vreg_fb30|vreg_fb31" DEFAULT_VALUE="vreg_fb0"/>
+		<PARAMETER NAME="vccdreg_fw" TYPE="String" VALUE="vreg_fw0|vreg_fw1|vreg_fw2|vreg_fw3|vreg_fw4|vreg_fw5|vreg_fw6|vreg_fw7|vreg_fw8|vreg_fw9|vreg_fw10|vreg_fw11|vreg_fw12|vreg_fw13|vreg_fw14|vreg_fw15|vreg_fw16|vreg_fw17|vreg_fw18|vreg_fw19|vreg_fw20|vreg_fw21|vreg_fw22|vreg_fw23|vreg_fw24|vreg_fw25|vreg_fw26|vreg_fw27|vreg_fw28|vreg_fw29|vreg_fw30|vreg_fw31" DEFAULT_VALUE="vreg_fw0"/>
+		<PARAMETER NAME="vco_freq" TYPE="Vector" WIDTH="36" DEFAULT_VALUE="000000000000000000000000000000000001"/>
+		<PARAMETER NAME="xatb_lccmu_atb" TYPE="String" VALUE="atb_selectdisable|atb_select0|atb_select1|atb_select2|atb_select3|atb_select4|atb_select5|atb_select6|atb_select7|atb_select8|atb_select9|atb_select10|atb_select11|atb_select12|atb_select13|atb_select14|atb_select15|atb_select16|atb_select17|atb_select18|atb_select19|atb_select20|atb_select21|atb_select22|atb_select23|atb_select24|atb_select25|atb_select26|atb_select27|atb_select28|atb_select29|atb_select30" DEFAULT_VALUE="atb_selectdisable"/>
+		<PARAMETER NAME="chgpmp_compensation" TYPE="String" VALUE="cp_mode_disable|cp_mode_enable" DEFAULT_VALUE="cp_mode_enable"/>
+		<PARAMETER NAME="chgpmp_current_setting" TYPE="String" VALUE="cp_current_setting0|cp_current_setting1|cp_current_setting2|cp_current_setting3|cp_current_setting4|cp_current_setting5|cp_current_setting6|cp_current_setting7|cp_current_setting8|cp_current_setting9|cp_current_setting10|cp_current_setting11|cp_current_setting12|cp_current_setting13|cp_current_setting14|cp_current_setting15|cp_current_setting16|cp_current_setting17|cp_current_setting18|cp_current_setting19|cp_current_setting20|cp_current_setting21|cp_current_setting22|cp_current_setting23|cp_current_setting24|cp_current_setting25|cp_current_setting26|cp_current_setting27|cp_current_setting28|cp_current_setting29|cp_current_setting30|cp_current_setting31|cp_current_setting32|cp_current_setting33|cp_current_setting34|cp_current_setting35|cp_current_setting36|cp_current_setting37|cp_current_setting38|cp_current_setting39|cp_current_setting40|cp_current_setting41" DEFAULT_VALUE="cp_current_setting0"/>
+		<PARAMETER NAME="cp_current_boost" TYPE="String" VALUE="normal_setting|boost_setting" DEFAULT_VALUE="normal_setting"/>
+		<PARAMETER NAME="lf_3rd_pole_freq" TYPE="String" VALUE="lf_3rd_pole_setting0|lf_3rd_pole_setting1|lf_3rd_pole_setting2|lf_3rd_pole_setting3" DEFAULT_VALUE="lf_3rd_pole_setting0"/>
+		<PARAMETER NAME="lf_cbig_size" TYPE="String" VALUE="lf_cbig_setting0|lf_cbig_setting1|lf_cbig_setting2|lf_cbig_setting3|lf_cbig_setting4" DEFAULT_VALUE="lf_cbig_setting0"/>
+		<PARAMETER NAME="lf_order" TYPE="String" VALUE="lf_3rd_order|lf_2nd_order" DEFAULT_VALUE="lf_2nd_order"/>
+		<PARAMETER NAME="lf_resistance" TYPE="String" VALUE="lf_setting0|lf_setting1|lf_setting2|lf_setting3" DEFAULT_VALUE="lf_setting0"/>
+		<PARAMETER NAME="lf_ripplecap" TYPE="String" VALUE="lf_no_ripple|lf_ripple_cap_0|lf_ripple_cap_1" DEFAULT_VALUE="lf_ripple_cap_0"/>
+		<PARAMETER NAME="lc_sel_tank" TYPE="String" VALUE="lctank0|lctank1|lctank2" DEFAULT_VALUE="lctank0"/>
+		<PARAMETER NAME="lc_tank_band" TYPE="String" VALUE="lc_band0|lc_band1|lc_band2|lc_band3|lc_band4|lc_band5|lc_band6|lc_band7" DEFAULT_VALUE="lc_band0"/>
+		<PARAMETER NAME="lc_tank_voltage_coarse" TYPE="String" VALUE="vreg_setting_coarse0|vreg_setting_coarse1|vreg_setting_coarse2|vreg_setting_coarse3|vreg_setting_coarse4|vreg_setting_coarse5|vreg_setting_coarse6|vreg_setting_coarse7" DEFAULT_VALUE="vreg_setting_coarse0"/>
+		<PARAMETER NAME="lc_tank_voltage_fine" TYPE="String" VALUE="vreg_setting0|vreg_setting1|vreg_setting2|vreg_setting3|vreg_setting4|vreg_setting5|vreg_setting6|vreg_setting7" DEFAULT_VALUE="vreg_setting5"/>
+		<PARAMETER NAME="output_regulator_supply" TYPE="String" VALUE="vreg1v_setting0|vreg1v_setting1|vreg1v_setting2|vreg1v_setting3|vreg1v_setting4|vreg1v_setting5|vreg1v_setting6|vreg1v_setting7" DEFAULT_VALUE="vreg1v_setting3"/>
+		<PARAMETER NAME="overrange_voltage" TYPE="String" VALUE="over_setting0|over_setting1|over_setting2|over_setting3|over_setting4|over_setting5|over_setting6|over_setting7" DEFAULT_VALUE="over_setting5"/>
+		<PARAMETER NAME="underrange_voltage" TYPE="String" VALUE="under_setting0|under_setting1|under_setting2|under_setting3|under_setting4|under_setting5|under_setting6|under_setting7" DEFAULT_VALUE="under_setting4"/>
+		<PARAMETER NAME="xd2a_lc_d2a_voltage" TYPE="String" VALUE="d2a_setting_0|d2a_setting_1|d2a_setting_2|d2a_setting_3|d2a_setting_4|d2a_setting_5|d2a_setting_6|d2a_setting_7|d2a_disable" DEFAULT_VALUE="d2a_disable"/>
+		<PARAMETER NAME="dsm_mode" TYPE="String" VALUE="dsm_mode_integer|dsm_mode_phase" DEFAULT_VALUE="dsm_mode_integer"/>
+		<PARAMETER NAME="pll_dsm_out_sel" TYPE="String" VALUE="pll_dsm_disable|pll_dsm_1st_order|pll_dsm_2nd_order|pll_dsm_3rd_order" DEFAULT_VALUE="pll_dsm_disable"/>
+		<PARAMETER NAME="pll_ecn_bypass" TYPE="String" VALUE="pll_ecn_bypass_disable|pll_ecn_bypass_enable" DEFAULT_VALUE="pll_ecn_bypass_disable"/>
+		<PARAMETER NAME="pll_ecn_test_en" TYPE="String" VALUE="pll_ecn_test_disable|pll_ecn_test_enable" DEFAULT_VALUE="pll_ecn_test_disable"/>
+		<PARAMETER NAME="dsm_fractional_division" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="pll_fractional_value_ready" TYPE="String" VALUE="pll_k_not_ready|pll_k_ready" DEFAULT_VALUE="pll_k_ready"/>
+		<PARAMETER NAME="direct_fb" TYPE="String" VALUE="iqtxrxclk_fb|direct_fb" DEFAULT_VALUE="direct_fb"/>
+		<PARAMETER NAME="iqclk_sel" TYPE="String" VALUE="iqtxrxclk0|iqtxrxclk1|iqtxrxclk2|iqtxrxclk3|iqtxrxclk4|iqtxrxclk5|power_down" DEFAULT_VALUE="power_down"/>
+		<PARAMETER NAME="lcnt_bypass" TYPE="String" VALUE="lcnt_no_bypass|lcnt_bypass" DEFAULT_VALUE="lcnt_no_bypass"/>
+		<PARAMETER NAME="lcnt_divide" TYPE="Integer" VALUE="1|2|4|8|16" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="lcnt_off" TYPE="String" VALUE="lcnt_on|lcnt_off" DEFAULT_VALUE="lcnt_off"/>
+		<PARAMETER NAME="ref_clk_div" TYPE="Integer" VALUE="1|2|4|8" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="silicon_rev" TYPE="String" VALUE="14nm5" DEFAULT_VALUE="14nm5"/>
+		<PARAMETER NAME="is_cascaded_pll" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="ct1_atx_pll" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="avmmclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="avmmread" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="avmmwrite" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="lf_rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="refclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="avmmaddress" TYPE="INPUT" WIDTH="10" DEFAULT_VALUE="0"/>
+		<PORT NAME="avmmwritedata" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="iqtxrxclk" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="blockselect" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clk0_16g" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clk0_8g" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clk180_16g" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clk180_8g" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clklow_buf" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fref_buf" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="hclk_out" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="iqtxrxclk_out" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="lc_to_fpll_refclk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="lock" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="overrange" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="underrange" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="atbsel" TYPE="OUTPUT" WIDTH="31" DEFAULT_VALUE="0"/>
+		<PORT NAME="avmmreaddata" TYPE="OUTPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="m_cnt_int" TYPE="OUTPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

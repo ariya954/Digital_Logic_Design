@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="ct1_cmu_fpll_pld_adapt">
+	<PARAMETERS>
+		<PARAMETER NAME="silicon_rev" TYPE="String" VALUE="14nm5" DEFAULT_VALUE="14nm5"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="ct1_cmu_fpll_pld_adapt" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="avmmclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dps_rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="extswitch_buf" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fbclkin" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_clk0_bad" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_clk1_bad" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_clklow" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_fbclkout" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_fref" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_lock" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_phase_done" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pfden" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="phase_en" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pllclksel" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="sta_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="up_dn" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="cnt_sel" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpll_ppm_clk" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_pllcout" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="num_phase_shifts" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="clk0_bad" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clk1_bad" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clklow" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fbclkout" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fref" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_dps_rst_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_extswitch_buf" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_fbclkin" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_pfden" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_phase_en" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_pllclksel" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_rst_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_up_dn" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="lock" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="phase_done" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_cnt_sel" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_fpll_ppm_clk" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_num_phase_shifts" TYPE="OUTPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="pllcout" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

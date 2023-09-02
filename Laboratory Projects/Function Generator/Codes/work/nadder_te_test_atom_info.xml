@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="nadder_te_test_atom">
+	<PARAMETERS>
+		<PARAMETER NAME="silicon_rev" TYPE="String" VALUE="20nm5es|20nm5es2|20nm4es|20nm4es2|20nm5|20nm4|20nm3|20nm2|20nm1" DEFAULT_VALUE="20nm5es"/>
+		<PARAMETER NAME="ip_type" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="config_fname" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="nadder_te_test_atom" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="te_test_atom_inp" TYPE="INPUT" WIDTH="16383" DEFAULT_VALUE="0"/>
+		<PORT NAME="te_test_atom_out" TYPE="OUTPUT" WIDTH="16383" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_sdm_aux_iossm">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_sdm_aux_iossm" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="core_avl_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_read" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_write" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave0_read" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave0_write" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave1_read" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave1_write" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave2_read" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave2_write" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_addr" TYPE="INPUT" WIDTH="9" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_writedata" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave0_address" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave0_byteenable" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave0_writedata" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave1_address" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave1_byteenable" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave1_writedata" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave2_address" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave2_byteenable" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave2_writedata" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave0_readdatavalid" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave0_waitrequest" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave1_readdatavalid" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave1_waitrequest" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave2_readdatavalid" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave2_waitrequest" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_readdata" TYPE="OUTPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave0_readdata" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave1_readdata" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2c_slave2_readdata" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

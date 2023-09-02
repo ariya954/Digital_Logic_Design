@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_tile_ctrl">
+	<PARAMETERS>
+		<PARAMETER NAME="hmc_wdata_driver_sel" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_prbs_ctrl_sel" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_cb_seq_en_fix_en_n" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_loopback_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_cmd_driver_sel" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbg_mode" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_dbg_ctrl" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_bist_cmd0_u" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_bist_cmd0_l" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_bist_cmd1_u" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_bist_cmd1_l" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_dbg_out_sel" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000000000"/>
+		<PARAMETER NAME="hmc_mem_type" TYPE="String" VALUE="mem_type_ddr3|mem_type_ddr4|mem_type_lpddr3|mem_type_rld3" DEFAULT_VALUE="mem_type_ddr3"/>
+		<PARAMETER NAME="hmc_dimm_type" TYPE="String" VALUE="dimm_type_component|dimm_type_udimm|dimm_type_rdimm|dimm_type_lrdimm|dimm_type_sodimm|dimm_type_3ds" DEFAULT_VALUE="dimm_type_component"/>
+		<PARAMETER NAME="hmc_ac_pos" TYPE="String" VALUE="use_0_1_2_lane|use_1_2_3_lane|use_0_1_2_3_lane|use_1_2_0_lane" DEFAULT_VALUE="use_0_1_2_lane"/>
+		<PARAMETER NAME="hmc_ctrl_burst_length" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="hmc_dbc0_burst_length" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="hmc_dbc1_burst_length" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="hmc_dbc2_burst_length" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="hmc_dbc3_burst_length" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="hmc_addr_order" TYPE="String" VALUE="addr_order_cs_row_ba_col|addr_order_cs_ba_row_col|addr_order_row_cs_ba_col" DEFAULT_VALUE="addr_order_cs_ba_row_col"/>
+		<PARAMETER NAME="hmc_ctrl_enable_ecc" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc0_enable_ecc" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc1_enable_ecc" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc2_enable_ecc" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc3_enable_ecc" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_reorder_data" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_ctrl_reorder_rdata" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc0_reorder_rdata" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc1_reorder_rdata" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc2_reorder_rdata" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc3_reorder_rdata" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_reorder_read" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_starve_limit" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_dqstrk_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_ctrl_enable_dm" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="enable"/>
+		<PARAMETER NAME="hmc_dbc0_enable_dm" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc1_enable_dm" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc2_enable_dm" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc3_enable_dm" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_ctrl_output_regd" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc0_output_regd" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc1_output_regd" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc2_output_regd" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc3_output_regd" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_ctrl2dbc_switch0" TYPE="String" VALUE="upper_tile_dbc0|local_tile_dbc0|lower_tile_dbc0" DEFAULT_VALUE="local_tile_dbc0"/>
+		<PARAMETER NAME="hmc_ctrl2dbc_switch1" TYPE="String" VALUE="upper_tile_dbc1|local_tile_dbc1|lower_tile_dbc1" DEFAULT_VALUE="local_tile_dbc1"/>
+		<PARAMETER NAME="hmc_dbc0_ctrl_sel" TYPE="String" VALUE="upper_mux_dbc0|lower_mux_dbc0" DEFAULT_VALUE="upper_mux_dbc0"/>
+		<PARAMETER NAME="hmc_dbc1_ctrl_sel" TYPE="String" VALUE="upper_mux_dbc1|lower_mux_dbc1" DEFAULT_VALUE="upper_mux_dbc1"/>
+		<PARAMETER NAME="hmc_dbc2_ctrl_sel" TYPE="String" VALUE="upper_mux_dbc2|lower_mux_dbc2" DEFAULT_VALUE="upper_mux_dbc2"/>
+		<PARAMETER NAME="hmc_dbc3_ctrl_sel" TYPE="String" VALUE="upper_mux_dbc3|lower_mux_dbc3" DEFAULT_VALUE="upper_mux_dbc3"/>
+		<PARAMETER NAME="hmc_dbc2ctrl_sel" TYPE="String" VALUE="dbc0_to_local|dbc1_to_local|dbc2_to_local|dbc3_to_local" DEFAULT_VALUE="dbc0_to_local"/>
+		<PARAMETER NAME="hmc_dbc0_pipe_lat" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="hmc_dbc1_pipe_lat" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="hmc_dbc2_pipe_lat" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="hmc_dbc3_pipe_lat" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="hmc_ctrl_cmd_rate" TYPE="String" VALUE="ctrl_cfg_cmd_rate_hr|ctrl_cfg_cmd_rate_qr" DEFAULT_VALUE="ctrl_cfg_cmd_rate_hr"/>
+		<PARAMETER NAME="hmc_dbc0_cmd_rate" TYPE="String" VALUE="dbc0_cfg_cmd_rate_hr|dbc0_cfg_cmd_rate_qr" DEFAULT_VALUE="dbc0_cfg_cmd_rate_hr"/>
+		<PARAMETER NAME="hmc_dbc1_cmd_rate" TYPE="String" VALUE="dbc1_cfg_cmd_rate_hr|dbc1_cfg_cmd_rate_qr" DEFAULT_VALUE="dbc1_cfg_cmd_rate_hr"/>
+		<PARAMETER NAME="hmc_dbc2_cmd_rate" TYPE="String" VALUE="dbc2_cfg_cmd_rate_hr|dbc2_cfg_cmd_rate_qr" DEFAULT_VALUE="dbc2_cfg_cmd_rate_hr"/>
+		<PARAMETER NAME="hmc_dbc3_cmd_rate" TYPE="String" VALUE="dbc3_cfg_cmd_rate_hr|dbc3_cfg_cmd_rate_qr" DEFAULT_VALUE="dbc3_cfg_cmd_rate_hr"/>
+		<PARAMETER NAME="hmc_ctrl_in_protocol" TYPE="String" VALUE="ctrl_ast|ctrl_amm" DEFAULT_VALUE="ctrl_ast"/>
+		<PARAMETER NAME="hmc_dbc0_in_protocol" TYPE="String" VALUE="dbc0_ast|dbc0_amm" DEFAULT_VALUE="dbc0_ast"/>
+		<PARAMETER NAME="hmc_dbc1_in_protocol" TYPE="String" VALUE="dbc1_ast|dbc1_amm" DEFAULT_VALUE="dbc1_ast"/>
+		<PARAMETER NAME="hmc_dbc2_in_protocol" TYPE="String" VALUE="dbc2_ast|dbc2_amm" DEFAULT_VALUE="dbc2_ast"/>
+		<PARAMETER NAME="hmc_dbc3_in_protocol" TYPE="String" VALUE="dbc3_ast|dbc3_amm" DEFAULT_VALUE="dbc3_ast"/>
+		<PARAMETER NAME="hmc_ctrl_dualport_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc0_dualport_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc1_dualport_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc2_dualport_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc3_dualport_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_arbiter_type" TYPE="String" VALUE="arbiter_type_1t|arbiter_type_2t" DEFAULT_VALUE="arbiter_type_1t"/>
+		<PARAMETER NAME="hmc_open_page_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_geardn_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_3dsref_ack_on_done" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_cb_tbp_reload_fix_en_n" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_tile_id" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="hmc_pingpong_mode" TYPE="String" VALUE="pingpong_off|pingpong_master0|pingpong_master1" DEFAULT_VALUE="pingpong_off"/>
+		<PARAMETER NAME="hmc_ctrl_slot_rotate_en" TYPE="String" VALUE="ctrl_disable|ctrl_enable_write_rotate|ctrl_enable_read_rotate|ctrl_enable_always_rotate" DEFAULT_VALUE="ctrl_disable"/>
+		<PARAMETER NAME="hmc_dbc0_slot_rotate_en" TYPE="String" VALUE="dbc0_disable|dbc0_enable_write_rotate|dbc0_enable_read_rotate|dbc0_enable_always_rotate" DEFAULT_VALUE="dbc0_disable"/>
+		<PARAMETER NAME="hmc_dbc1_slot_rotate_en" TYPE="String" VALUE="dbc1_disable|dbc1_enable_write_rotate|dbc1_enable_read_rotate|dbc1_enable_always_rotate" DEFAULT_VALUE="dbc1_disable"/>
+		<PARAMETER NAME="hmc_dbc2_slot_rotate_en" TYPE="String" VALUE="dbc2_disable|dbc2_enable_write_rotate|dbc2_enable_read_rotate|dbc2_enable_always_rotate" DEFAULT_VALUE="dbc2_disable"/>
+		<PARAMETER NAME="hmc_dbc3_slot_rotate_en" TYPE="String" VALUE="dbc3_disable|dbc3_enable_write_rotate|dbc3_enable_read_rotate|dbc3_enable_always_rotate" DEFAULT_VALUE="dbc3_disable"/>
+		<PARAMETER NAME="hmc_ctrl_slot_offset" TYPE="Vector" WIDTH="2" DEFAULT_VALUE="00"/>
+		<PARAMETER NAME="hmc_dbc0_slot_offset" TYPE="Vector" WIDTH="2" DEFAULT_VALUE="00"/>
+		<PARAMETER NAME="hmc_dbc1_slot_offset" TYPE="Vector" WIDTH="2" DEFAULT_VALUE="00"/>
+		<PARAMETER NAME="hmc_dbc2_slot_offset" TYPE="Vector" WIDTH="2" DEFAULT_VALUE="00"/>
+		<PARAMETER NAME="hmc_dbc3_slot_offset" TYPE="Vector" WIDTH="2" DEFAULT_VALUE="00"/>
+		<PARAMETER NAME="hmc_col_cmd_slot" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_row_cmd_slot" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_ctrl_rc_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc0_rc_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc1_rc_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc2_rc_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc3_rc_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_cs_chip" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000000000"/>
+		<PARAMETER NAME="hmc_core_scg_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_rb_reserved_entry" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="0000000"/>
+		<PARAMETER NAME="hmc_wb_reserved_entry" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="0000000"/>
+		<PARAMETER NAME="hmc_3ds_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_ck_inv" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_avl_scg_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dfx_bypass_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_tcl" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="0000110"/>
+		<PARAMETER NAME="hmc_power_saving_exit_cycles" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000101"/>
+		<PARAMETER NAME="hmc_mem_clk_disable_entry_cycles" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="001010"/>
+		<PARAMETER NAME="hmc_write_odt_chip" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000000000"/>
+		<PARAMETER NAME="hmc_read_odt_chip" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000000000"/>
+		<PARAMETER NAME="hmc_wr_odt_on" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_odt_on" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_wr_odt_period" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_odt_period" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rld3_refresh_seq0" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000001111"/>
+		<PARAMETER NAME="hmc_rld3_refresh_seq1" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000011110000"/>
+		<PARAMETER NAME="hmc_rld3_refresh_seq2" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000111100000000"/>
+		<PARAMETER NAME="hmc_rld3_refresh_seq3" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="1111000000000000"/>
+		<PARAMETER NAME="hmc_srf_zqcal_disable" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="enable"/>
+		<PARAMETER NAME="hmc_mps_zqcal_disable" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="enable"/>
+		<PARAMETER NAME="hmc_mps_dqstrk_disable" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="enable"/>
+		<PARAMETER NAME="hmc_sb_cg_disable" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="enable"/>
+		<PARAMETER NAME="hmc_user_rfsh_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_srf_autoexit_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_srf_entry_exit_block" TYPE="Vector" WIDTH="2" DEFAULT_VALUE="00"/>
+		<PARAMETER NAME="hmc_sb_ddr4_mr3" TYPE="Vector" WIDTH="20" DEFAULT_VALUE="00000000000000000000"/>
+		<PARAMETER NAME="hmc_sb_ddr4_mr4" TYPE="Vector" WIDTH="20" DEFAULT_VALUE="00000000000000000000"/>
+		<PARAMETER NAME="hmc_short_dqstrk_ctrl_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_period_dqstrk_ctrl_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_period_dqstrk_interval" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000000000"/>
+		<PARAMETER NAME="hmc_dqstrk_to_valid_last" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00000000"/>
+		<PARAMETER NAME="hmc_dqstrk_to_valid" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00000000"/>
+		<PARAMETER NAME="hmc_rfsh_warn_threshold" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="0000001"/>
+		<PARAMETER NAME="hmc_act_to_rdwr" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_act_to_pch" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_act_to_act" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_act_to_act_diff_bank" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_act_to_act_diff_bg" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_to_rd" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_to_rd_diff_chip" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_to_rd_diff_bg" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_to_wr" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_to_wr_diff_chip" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_to_wr_diff_bg" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_to_pch" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_rd_ap_to_valid" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_wr_to_wr" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_wr_to_wr_diff_chip" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_wr_to_wr_diff_bg" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_wr_to_rd" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_wr_to_rd_diff_chip" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_wr_to_rd_diff_bg" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_wr_to_pch" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_wr_ap_to_valid" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_pch_to_valid" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_pch_all_to_valid" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_arf_to_valid" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00000000"/>
+		<PARAMETER NAME="hmc_pdn_to_valid" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="hmc_srf_to_valid" TYPE="Vector" WIDTH="10" DEFAULT_VALUE="0000000000"/>
+		<PARAMETER NAME="hmc_srf_to_zq_cal" TYPE="Vector" WIDTH="10" DEFAULT_VALUE="0000000000"/>
+		<PARAMETER NAME="hmc_arf_period" TYPE="Vector" WIDTH="13" DEFAULT_VALUE="0000000000000"/>
+		<PARAMETER NAME="hmc_pdn_period" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000010000"/>
+		<PARAMETER NAME="hmc_zqcl_to_valid" TYPE="Vector" WIDTH="9" DEFAULT_VALUE="000000000"/>
+		<PARAMETER NAME="hmc_zqcs_to_valid" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="0000000"/>
+		<PARAMETER NAME="hmc_mrs_to_valid" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_mps_to_valid" TYPE="Vector" WIDTH="10" DEFAULT_VALUE="0000000000"/>
+		<PARAMETER NAME="hmc_mrr_to_valid" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_mpr_to_valid" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="hmc_mps_exit_cs_to_cke" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_mps_exit_cke_to_cs" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_rld3_multibank_ref_delay" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="hmc_mmr_cmd_to_valid" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00010000"/>
+		<PARAMETER NAME="hmc_4_act_to_act" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00000000"/>
+		<PARAMETER NAME="hmc_16_act_to_act" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00000000"/>
+		<PARAMETER NAME="hmc_col_addr_width" TYPE="String" VALUE="col_width_8|col_width_9|col_width_10|col_width_11|col_width_12" DEFAULT_VALUE="col_width_12"/>
+		<PARAMETER NAME="hmc_row_addr_width" TYPE="String" VALUE="row_width_12|row_width_13|row_width_14|row_width_15|row_width_16|row_width_17|row_width_18|row_width_19|row_width_20|row_width_21|row_width_22|row_width_23|row_width_24" DEFAULT_VALUE="row_width_16"/>
+		<PARAMETER NAME="hmc_bank_addr_width" TYPE="String" VALUE="bank_width_2|bank_width_3" DEFAULT_VALUE="bank_width_3"/>
+		<PARAMETER NAME="hmc_bank_group_addr_width" TYPE="String" VALUE="bank_group_width_0|bank_group_width_1|bank_group_width_2" DEFAULT_VALUE="bank_group_width_0"/>
+		<PARAMETER NAME="hmc_cs_addr_width" TYPE="String" VALUE="cs_width_0|cs_width_1|cs_width_2|cs_width_3|cs_width_4" DEFAULT_VALUE="cs_width_2"/>
+		<PARAMETER NAME="hmc_sb_ddr4_mr5" TYPE="Vector" WIDTH="20" DEFAULT_VALUE="00000000000000000000"/>
+		<PARAMETER NAME="hmc_ddr4_mps_addrmirror" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_3ds_lr_num0" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_3ds_lr_num1" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_3ds_lr_num2" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_3ds_lr_num3" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="hmc_cid_addr_width" TYPE="Vector" WIDTH="2" DEFAULT_VALUE="00"/>
+		<PARAMETER NAME="hmc_3ds_pr_stag_enable" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_3ds_ref2ref_dlr" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="0000000"/>
+		<PARAMETER NAME="hmc_chip_id" TYPE="Vector" WIDTH="9" DEFAULT_VALUE="000000000"/>
+		<PARAMETER NAME="hmc_arbiter_reg_ena" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_wb_ptr_reg_ena" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_rb_ptr_reg_ena" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_ctl2dbc_reg_ena" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_mmr_scg_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_ctl2dbc_tile_reg_ena" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_ac_tile_reg_ena" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_cmd_fifo_reserve_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbg_scg_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_scg_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_seq_scg_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_dbc_sw_scg_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_pipe_scg_en" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="hmc_memclkgate_setting" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00000000"/>
+		<PARAMETER NAME="hmc_mem_if_tcl" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tcwl" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_al" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tpl" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_trcd" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tras" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_trp" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_trc" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_trrd" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tfaw" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_trfc" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_txpdll" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_txsr" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tckesr" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tcksrx" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tccd" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_twr" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tzqcs" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tzqoper" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tmod" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_trefi" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_auto_pd_cycles" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_trtp" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_twtr" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_trrd_s" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tccd_s" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_wr_preamble" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_rd_preamble" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_wr_crc" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_twtr_l_crc_dm" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_twtr_s_crc_dm" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_twr_crc_dm" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_twtr_s" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_txp" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_tdqsckmax" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_ctl_odt_enabled" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_mem_if_cs_per_dimm" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_enable_fast_exit_ppd" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_ctl_short_dqstrk_en" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_phy_delay_mismatch" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000010000"/>
+		<PARAMETER NAME="hmc_col_to_row_offset" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_row_to_col_offset" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_col_to_col_offset" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_col_to_diff_col_offset" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_row_to_row_offset" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_sideband_offset" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_ctl_width_ratio" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_temp_wr_to_rd" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_temp_wr_to_rd_diff_chip" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_temp_wr_to_rd_diff_bg" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_temp_wr_to_wr_diff_bg" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_temp_rd_to_rd_diff_bg" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_temp_4_act_to_act" TYPE="Vector" WIDTH="32" DEFAULT_VALUE="00000000000000000000000000000000"/>
+		<PARAMETER NAME="hmc_powermode_ac" TYPE="String" VALUE="ac_tile|data_tile|not_used" DEFAULT_VALUE="ac_tile"/>
+		<PARAMETER NAME="hmc_powermode_dc" TYPE="String" VALUE="powerup|powerdown" DEFAULT_VALUE="powerup"/>
+		<PARAMETER NAME="physeq_tile_id" TYPE="Vector" WIDTH="9" DEFAULT_VALUE="000000000"/>
+		<PARAMETER NAME="physeq_bc_id_ena" TYPE="String" VALUE="bc_disable|bc_enable" DEFAULT_VALUE="bc_disable"/>
+		<PARAMETER NAME="physeq_avl_ena" TYPE="String" VALUE="avl_disable|avl_enable" DEFAULT_VALUE="avl_disable"/>
+		<PARAMETER NAME="physeq_hmc_or_core" TYPE="String" VALUE="core|hmc" DEFAULT_VALUE="core"/>
+		<PARAMETER NAME="physeq_trk_mgr_mrnk_mode" TYPE="String" VALUE="one_rank|two_rank|three_rank|four_rank" DEFAULT_VALUE="one_rank"/>
+		<PARAMETER NAME="physeq_trk_mgr_read_monitor_ena" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="physeq_hmc_id" TYPE="Vector" WIDTH="9" DEFAULT_VALUE="000000000"/>
+		<PARAMETER NAME="physeq_reset_auto_release" TYPE="String" VALUE="avl|auto" DEFAULT_VALUE="auto"/>
+		<PARAMETER NAME="physeq_rwlat_mode" TYPE="String" VALUE="csr_vlu|avl_vlu" DEFAULT_VALUE="csr_vlu"/>
+		<PARAMETER NAME="physeq_afi_rlat_vlu" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="physeq_afi_wlat_vlu" TYPE="Vector" WIDTH="6" DEFAULT_VALUE="000000"/>
+		<PARAMETER NAME="physeq_core_clk_sel" TYPE="String" VALUE="clk0|clk1" DEFAULT_VALUE="clk1"/>
+		<PARAMETER NAME="physeq_seq_feature" TYPE="Vector" WIDTH="21" DEFAULT_VALUE="000000000000000000000"/>
+		<PARAMETER NAME="pa_filter_code" TYPE="Integer" VALUE="200..1600" DEFAULT_VALUE="1600"/>
+		<PARAMETER NAME="pa_couple_enable" TYPE="String" VALUE="couple_en|couple_dis" DEFAULT_VALUE="couple_en"/>
+		<PARAMETER NAME="pa_coreclk_override" TYPE="String" VALUE="non_override|override" DEFAULT_VALUE="non_override"/>
+		<PARAMETER NAME="pa_phase_offset_0" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="pa_phase_offset_1" TYPE="Vector" WIDTH="12" DEFAULT_VALUE="000000000000"/>
+		<PARAMETER NAME="pa_exponent_0" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="pa_exponent_1" TYPE="Vector" WIDTH="3" DEFAULT_VALUE="000"/>
+		<PARAMETER NAME="pa_sync_control" TYPE="String" VALUE="no_sync|local_sync_bot|local_sync_top|local_sync_local" DEFAULT_VALUE="no_sync"/>
+		<PARAMETER NAME="pa_sync_latency" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="pa_track_speed" TYPE="Vector" WIDTH="5" DEFAULT_VALUE="00000"/>
+		<PARAMETER NAME="hps_ctrl_en" TYPE="String" VALUE="hps_ctrl_dis|hps_ctrl_en" DEFAULT_VALUE="hps_ctrl_dis"/>
+		<PARAMETER NAME="pa_freq_track_speed" TYPE="Vector" WIDTH="4" DEFAULT_VALUE="0000"/>
+		<PARAMETER NAME="pa_dprio_base_addr" TYPE="Vector" WIDTH="9" DEFAULT_VALUE="000000000"/>
+		<PARAMETER NAME="pa_feedback_mux_sel_0" TYPE="String" VALUE="fb0_p_clk|fb1_p_clk|fb2_p_clk|local_p_clk" DEFAULT_VALUE="fb0_p_clk"/>
+		<PARAMETER NAME="pa_feedback_mux_sel_1" TYPE="String" VALUE="fb0_p_clk|fb1_p_clk|fb2_p_clk|local_p_clk" DEFAULT_VALUE="fb0_p_clk"/>
+		<PARAMETER NAME="pa_hps_clk_en" TYPE="String" VALUE="fb_clk_core|fb_clk_hps" DEFAULT_VALUE="fb_clk_core"/>
+		<PARAMETER NAME="pa_feedback_divider_p0" TYPE="String" VALUE="div_by_1|div_by_2|div_by_3|div_by_4" DEFAULT_VALUE="div_by_1"/>
+		<PARAMETER NAME="pa_feedback_divider_p1" TYPE="String" VALUE="div_by_1|div_by_2|div_by_3|div_by_4" DEFAULT_VALUE="div_by_1"/>
+		<PARAMETER NAME="pa_feedback_divider_c0" TYPE="String" VALUE="div_by_1|div_by_2|div_by_3|div_by_4" DEFAULT_VALUE="div_by_1"/>
+		<PARAMETER NAME="pa_feedback_divider_c1" TYPE="String" VALUE="div_by_1|div_by_2|div_by_3|div_by_4" DEFAULT_VALUE="div_by_1"/>
+		<PARAMETER NAME="ioaux_info" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="ioaux_info_valid" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="ioaux_param_table" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="rewired" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="silicon_rev" TYPE="String" VALUE="14nm5es|14nm5es2|14nm4es|14nm4es2|14nm5|14nm4|14nm3|14nm2|14nm1" DEFAULT_VALUE="14nm5es"/>
+		<PARAMETER NAME="cfg_cb_memclk_gate_default" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="cfg_cb_en_cmd_valid_ungate_fix" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="cfg_cb_3ds_mixed_height_ref_ack_disable" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="cfg_cb_en_mrnk_rd_fix" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="cfg_cb_3ds_mixed_height_req_fix" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="cfg_cb_pdqs_perf_fix_disable" TYPE="String" VALUE="disable|enable" DEFAULT_VALUE="disable"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_tile_ctrl" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="core2ctl_avl_rd_data_ready" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dbc2core_wr_data_rdy0" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dbc2core_wr_data_rdy1" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dbc2core_wr_data_rdy2" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dbc2core_wr_data_rdy3" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dll_clk_in" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x4_a_0" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x4_a_1" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x4_a_2" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x4_a_3" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x4_b_0" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x4_b_1" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x4_b_2" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x4_b_3" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fast_test_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="global_reset_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_dprio_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_dprio_read" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_dprio_rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_dprio_write" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_fbclk_in" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_reset_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_sync_clk_bot_in" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_sync_clk_top_in" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_sync_data_bot_in" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_sync_data_top_in" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pll_locked_in" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="afi_core2ctl" TYPE="INPUT" WIDTH="18" DEFAULT_VALUE="0"/>
+		<PORT NAME="cal_avl_in" TYPE="INPUT" WIDTH="55" DEFAULT_VALUE="0"/>
+		<PORT NAME="cal_avl_rdata_in" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="core2ctl_avl" TYPE="INPUT" WIDTH="63" DEFAULT_VALUE="0"/>
+		<PORT NAME="core2ctl_sideband" TYPE="INPUT" WIDTH="42" DEFAULT_VALUE="0"/>
+		<PORT NAME="ctl2dbc_in_down" TYPE="INPUT" WIDTH="51" DEFAULT_VALUE="0"/>
+		<PORT NAME="ctl2dbc_in_up" TYPE="INPUT" WIDTH="51" DEFAULT_VALUE="0"/>
+		<PORT NAME="dbg_in" TYPE="INPUT" WIDTH="100" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x18_0" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x18_1" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x36" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x8_0" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x8_1" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x8_2" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_in_x8_3" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="mmr_in" TYPE="INPUT" WIDTH="51" DEFAULT_VALUE="0"/>
+		<PORT NAME="mrnk_read_core" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_core_clk_in" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_core_in" TYPE="INPUT" WIDTH="12" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_dprio_reg_addr" TYPE="INPUT" WIDTH="9" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_dprio_writedata" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="phy_clk_in" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="ping_pong_in" TYPE="INPUT" WIDTH="51" DEFAULT_VALUE="0"/>
+		<PORT NAME="pll_vco_in" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="rdata_en_full_core" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="test_dbg_in" TYPE="INPUT" WIDTH="48" DEFAULT_VALUE="0"/>
+		<PORT NAME="ctl2core_avl_cmd_ready" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dll_clk_out0" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dll_clk_out1" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dll_clk_out2" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dll_clk_out3" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x4_a_lane0" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x4_a_lane1" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x4_a_lane2" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x4_a_lane3" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x4_b_lane0" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x4_b_lane1" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x4_b_lane2" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x4_b_lane3" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_dprio_block_select" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_sync_clk_bot_out" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_sync_clk_top_out" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_sync_data_bot_out" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_sync_data_top_out" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="phy_fbclk_out" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="seq2core_reset_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="afi_cmd_bus" TYPE="OUTPUT" WIDTH="384" DEFAULT_VALUE="0"/>
+		<PORT NAME="afi_ctl2core" TYPE="OUTPUT" WIDTH="27" DEFAULT_VALUE="0"/>
+		<PORT NAME="cal_avl_out" TYPE="OUTPUT" WIDTH="55" DEFAULT_VALUE="0"/>
+		<PORT NAME="cal_avl_rdata_out" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="cfg_dbc0" TYPE="OUTPUT" WIDTH="18" DEFAULT_VALUE="0"/>
+		<PORT NAME="cfg_dbc1" TYPE="OUTPUT" WIDTH="18" DEFAULT_VALUE="0"/>
+		<PORT NAME="cfg_dbc2" TYPE="OUTPUT" WIDTH="18" DEFAULT_VALUE="0"/>
+		<PORT NAME="cfg_dbc3" TYPE="OUTPUT" WIDTH="18" DEFAULT_VALUE="0"/>
+		<PORT NAME="ctl2core_avl_rdata_id" TYPE="OUTPUT" WIDTH="13" DEFAULT_VALUE="0"/>
+		<PORT NAME="ctl2core_sideband" TYPE="OUTPUT" WIDTH="14" DEFAULT_VALUE="0"/>
+		<PORT NAME="ctl2dbc0" TYPE="OUTPUT" WIDTH="51" DEFAULT_VALUE="0"/>
+		<PORT NAME="ctl2dbc1" TYPE="OUTPUT" WIDTH="51" DEFAULT_VALUE="0"/>
+		<PORT NAME="ctl_mem_clk_disable" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dbg_out" TYPE="OUTPUT" WIDTH="100" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x18_lane0" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x18_lane1" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x18_lane2" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x18_lane3" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x36_lane0" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x36_lane1" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x36_lane2" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x36_lane3" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x8_lane0" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x8_lane1" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x8_lane2" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dqs_out_x8_lane3" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="mmr_out" TYPE="OUTPUT" WIDTH="34" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_core_clk_out" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_dprio_readdata" TYPE="OUTPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="pa_locked" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="phy_clk_out0" TYPE="OUTPUT" WIDTH="10" DEFAULT_VALUE="0"/>
+		<PORT NAME="phy_clk_out1" TYPE="OUTPUT" WIDTH="10" DEFAULT_VALUE="0"/>
+		<PORT NAME="phy_clk_out2" TYPE="OUTPUT" WIDTH="10" DEFAULT_VALUE="0"/>
+		<PORT NAME="phy_clk_out3" TYPE="OUTPUT" WIDTH="10" DEFAULT_VALUE="0"/>
+		<PORT NAME="ping_pong_out" TYPE="OUTPUT" WIDTH="51" DEFAULT_VALUE="0"/>
+		<PORT NAME="test_dbg_out" TYPE="OUTPUT" WIDTH="48" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

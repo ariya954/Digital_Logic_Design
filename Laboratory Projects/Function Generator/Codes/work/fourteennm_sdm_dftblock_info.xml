@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_sdm_dftblock">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_sdm_dftblock" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="dft_bhniotri" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_calbus_clock" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_calbus_read" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_calbus_write" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_early_bhniotri" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_early_csren" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_early_enrnsl" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_early_frzreg" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_early_niotri" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_early_octcalen" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_early_plniotri" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_early_usrmode" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_enrnsl" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_frzreg" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_if_override_sel_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_if_test_input" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_octcalen" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_pllbiasen" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_plniotri" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_usrmode" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_calbus_addr" TYPE="INPUT" WIDTH="20" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_calbus_writedata" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_calbus0_readdata" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_calbus1_readdata" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_calbus2_readdata" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="efuse_chipselect" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="efuse_keymatch" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="efuse_pgmctl" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="efuse_pgmen" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="efuse_pwrdn" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="efuse_sense" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

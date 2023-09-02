@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_peripheral_qspi">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_peripheral_qspi" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="io0_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io1_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io2_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io3_i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io0_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io1_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io2_wpn_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="io3_hold_o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_clk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="sclk_out" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="mo_oe" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="ss_o" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

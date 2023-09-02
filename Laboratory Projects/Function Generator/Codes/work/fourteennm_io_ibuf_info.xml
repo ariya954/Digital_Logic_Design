@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_io_ibuf">
+	<PARAMETERS>
+		<PARAMETER NAME="bus_hold" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="differential_mode" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="simulate_z_as" TYPE="String" VALUE="vcc|gnd|x|z" DEFAULT_VALUE="z"/>
+		<PARAMETER NAME="vref_type" TYPE="String" VALUE="none|external|calibrated|Calibrated-SSTL|non-calibrated" DEFAULT_VALUE="none"/>
+		<PARAMETER NAME="vref_setting" TYPE="Integer" DEFAULT_VALUE="8"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_io_ibuf" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="i" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ibar" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dynamicterminationcontrol" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="seriesterminationcontrol" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="parallelterminationcontrol" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="o" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

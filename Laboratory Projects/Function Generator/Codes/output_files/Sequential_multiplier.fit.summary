@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Jun 27 19:53:28 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Sequential_multiplier
+Top-level Entity Name : Sequential_multiplier
+Family : Cyclone IV E
+Device : EP4CE6E22C8L
+Timing Models : Final
+Total logic elements : 0 / 6,272 ( 0 % )
+    Total combinational functions : 0 / 6,272 ( 0 % )
+    Dedicated logic registers : 0 / 6,272 ( 0 % )
+Total registers : 0
+Total pins : 73 / 92 ( 79 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 2 / 30 ( 7 % )
+Total PLLs : 0 / 2 ( 0 % )

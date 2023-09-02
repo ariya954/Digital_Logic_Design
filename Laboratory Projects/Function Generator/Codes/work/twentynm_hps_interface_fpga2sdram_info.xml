@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_fpga2sdram">
+	<PARAMETERS>
+		<PARAMETER NAME="mode" TYPE="Integer" VALUE="1|2|3|4" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_fpga2sdram" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="f2s_sdram0_ar_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram0_aw_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram0_b_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram0_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram0_r_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram0_w_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram1_ar_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram1_aw_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram1_b_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram1_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram1_r_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram1_w_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram2_ar_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram2_aw_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram2_b_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram2_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram2_r_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_sdram2_w_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_ar_valid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_aw_valid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_b_ready" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_last" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_vld" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_rsp_rdy" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_ar_valid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_aw_valid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_b_ready" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_last" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_vld" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_rsp_rdy" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_ar_valid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_aw_valid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_b_ready" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_last" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_vld" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_rsp_rdy" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_addr" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_be" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_data" TYPE="INPUT" WIDTH="128" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_exclid" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_hurry" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_length" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_opc" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_press" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_seqid" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_trid" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_urgency" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_user" TYPE="INPUT" WIDTH="12" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_addr" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_be" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_data" TYPE="INPUT" WIDTH="128" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_exclid" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_hurry" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_length" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_opc" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_press" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_seqid" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_trid" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_urgency" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_user" TYPE="INPUT" WIDTH="12" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_addr" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_be" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_data" TYPE="INPUT" WIDTH="128" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_exclid" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_hurry" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_length" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_opc" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_press" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_seqid" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_trid" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_urgency" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_user" TYPE="INPUT" WIDTH="12" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram_port_size_config" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_ar_ready" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_aw_ready" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_b_valid" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_req_rdy" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_rsp_cont" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_rsp_last" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_rsp_vld" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_ar_ready" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_aw_ready" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_b_valid" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_req_rdy" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_rsp_cont" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_rsp_last" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_rsp_vld" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_ar_ready" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_aw_ready" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_b_valid" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_req_rdy" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_rsp_cont" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_rsp_last" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_rsp_vld" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_rsp_data" TYPE="OUTPUT" WIDTH="128" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_rsp_status" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram0_rsp_trid" TYPE="OUTPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_rsp_data" TYPE="OUTPUT" WIDTH="128" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_rsp_status" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram1_rsp_trid" TYPE="OUTPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_rsp_data" TYPE="OUTPUT" WIDTH="128" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_rsp_status" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2sdram2_rsp_trid" TYPE="OUTPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

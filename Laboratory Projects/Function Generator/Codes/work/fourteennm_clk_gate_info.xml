@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_clk_gate">
+	<PARAMETERS>
+		<PARAMETER NAME="ena_register_mode" TYPE="String" VALUE="none|falling edge" DEFAULT_VALUE="falling edge"/>
+		<PARAMETER NAME="enable_type" TYPE="String" VALUE="root|sector" DEFAULT_VALUE="sector"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_clk_gate" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="inclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="enable" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="outclk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

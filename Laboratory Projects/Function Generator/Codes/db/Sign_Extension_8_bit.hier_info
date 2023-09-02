@@ -1,0 +1,19 @@
+|Sign_Extension_8_bit
+_input[0] => sign_extended_input[0].DATAIN
+_input[1] => sign_extended_input[1].DATAIN
+_input[2] => sign_extended_input[2].DATAIN
+_input[2] => sign_extended_input[7].DATAIN
+_input[2] => sign_extended_input[6].DATAIN
+_input[2] => sign_extended_input[5].DATAIN
+_input[2] => sign_extended_input[4].DATAIN
+_input[2] => sign_extended_input[3].DATAIN
+sign_extended_input[0] <= _input[0].DB_MAX_OUTPUT_PORT_TYPE
+sign_extended_input[1] <= _input[1].DB_MAX_OUTPUT_PORT_TYPE
+sign_extended_input[2] <= _input[2].DB_MAX_OUTPUT_PORT_TYPE
+sign_extended_input[3] <= _input[2].DB_MAX_OUTPUT_PORT_TYPE
+sign_extended_input[4] <= _input[2].DB_MAX_OUTPUT_PORT_TYPE
+sign_extended_input[5] <= _input[2].DB_MAX_OUTPUT_PORT_TYPE
+sign_extended_input[6] <= _input[2].DB_MAX_OUTPUT_PORT_TYPE
+sign_extended_input[7] <= _input[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

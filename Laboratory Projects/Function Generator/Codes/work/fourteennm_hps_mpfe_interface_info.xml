@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_hps_mpfe_interface">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_hps_mpfe_interface" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="afvalidm" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="atreadym" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clkenm" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clkm" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="syncreqm" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="afreadym" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="atvalidm" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="atbytesm" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="atdatam" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="atidm" TYPE="OUTPUT" WIDTH="7" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

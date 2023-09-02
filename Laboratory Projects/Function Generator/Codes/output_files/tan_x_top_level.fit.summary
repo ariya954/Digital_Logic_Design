@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Jan 09 20:43:03 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : tan_x_top_level
+Top-level Entity Name : tan_x_top_level
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 6 / 6,272 ( < 1 % )
+    Total combinational functions : 4 / 6,272 ( < 1 % )
+    Dedicated logic registers : 2 / 6,272 ( < 1 % )
+Total registers : 2
+Total pins : 36 / 92 ( 39 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,4826 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/
+vABRCKT
+Z0 !s110 1650474283
+!i10b 1
+!s100 O5BC7jJB:0>]^aR>HGHGh1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDW7L?YIX2lJ8gHhc@DX3k2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/modelsim_ase/Projects
+Z4 w1650473883
+Z5 8D:/modelsim_ase/Projects/DLD_Lab1_ABRCKT.v
+Z6 FD:/modelsim_ase/Projects/DLD_Lab1_ABRCKT.v
+!i122 2511
+L0 60 7
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1650474283.000000
+Z9 !s107 D:/modelsim_ase/Projects/DLD_Lab1_ABRCKT.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/DLD_Lab1_ABRCKT.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@b@r@c@k@t
+vABRCKT_CU
+R0
+!i10b 1
+!s100 BD`kdKMn`H7PW[:^aZn<z0
+R1
+I<<TY=nkBc5WWbF]7mKl9:2
+R2
+R3
+R4
+R5
+R6
+!i122 2511
+L0 34 25
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@b@r@c@k@t_@c@u
+vABRCKT_DataPath
+R0
+!i10b 1
+!s100 e=gEN3UQi;n4DKY2m9PU12
+R1
+Ij0GkmA;USa1Fkm3f:>52W0
+R2
+R3
+R4
+R5
+R6
+!i122 2511
+L0 26 7
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@b@r@c@k@t_@data@path
+vabs_value
+Z13 !s110 1636549743
+!i10b 1
+!s100 _gRL0l1`eZ0I85n=E_T`j1
+R1
+IiHDDQ;bTZhC3:h8cI`VWj1
+R2
+R3
+Z14 w1636143011
+Z15 8D:/modelsim_ase/Projects/CA_2_Question_5_part_a.v
+Z16 FD:/modelsim_ase/Projects/CA_2_Question_5_part_a.v
+!i122 715
+L0 66 7
+R7
+r1
+!s85 0
+31
+Z17 !s108 1636549743.000000
+Z18 !s107 D:/modelsim_ase/Projects/CA_2_Question_5_part_a.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_5_part_a.v|
+!i113 1
+R11
+R12
+vabs_value_assign_statement_version
+R13
+!i10b 1
+!s100 75RJmNLH<]bcW>z[RfelS3
+R1
+I8oRUijoeAjB1_Pb2n:Y^b3
+R2
+R3
+w1636138895
+8D:/modelsim_ase/Projects/CA_2_Question_5_part_c.v
+FD:/modelsim_ase/Projects/CA_2_Question_5_part_c.v
+!i122 713
+Z20 L0 2 5
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/modelsim_ase/Projects/CA_2_Question_5_part_c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_5_part_c.v|
+!i113 1
+R11
+R12
+vabs_value_assign_statement_version_TEST_BENCH
+R13
+!i10b 1
+!s100 a]ZfgjQ;JeM1DlfjJ>^3c1
+R1
+I3OLDTE3bR;RBikef4^PfZ1
+R2
+R3
+w1636143447
+8D:/modelsim_ase/Projects/CA_2_Question_5_part_f.v
+FD:/modelsim_ase/Projects/CA_2_Question_5_part_f.v
+!i122 714
+Z21 L0 2 17
+R7
+r1
+!s85 0
+31
+R17
+!s107 D:/modelsim_ase/Projects/CA_2_Question_5_part_f.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_5_part_f.v|
+!i113 1
+R11
+R12
+nabs_value_assign_statement_version_@t@e@s@t_@b@e@n@c@h
+vadder_16_bit
+Z22 !s110 1638351539
+!i10b 1
+!s100 GTA2;FR73J_3Z[^8?nkI92
+R1
+I`QA^RHO]6z4jIWc0lZOi60
+R2
+R3
+Z23 w1638351417
+Z24 8D:/modelsim_ase/Projects/Structural_ALU_yosys.v
+Z25 FD:/modelsim_ase/Projects/Structural_ALU_yosys.v
+!i122 761
+L0 1869 1312
+R7
+r1
+!s85 0
+31
+Z26 !s108 1638351538.000000
+Z27 !s107 D:/modelsim_ase/Projects/Structural_ALU_yosys.v|
+Z28 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/Structural_ALU_yosys.v|
+!i113 1
+R11
+R12
+vALU
+Z29 !s110 1652868275
+!i10b 1
+!s100 M4RkP`^HF>`nWJ7g2dAG23
+R1
+I7HDa@Db]3?19PjIIX@47:0
+R2
+R3
+Z30 w1652812447
+Z31 8D:\modelsim_ase\Projects\CA__Single_Cycle_MIPS.v
+Z32 FD:\modelsim_ase\Projects\CA__Single_Cycle_MIPS.v
+!i122 2872
+L0 95 13
+R7
+r1
+!s85 0
+31
+Z33 !s108 1652868274.000000
+Z34 !s107 D:\modelsim_ase\Projects\CA__Single_Cycle_MIPS.v|
+Z35 !s90 -reportprogress|300|-work|work|-stats=none|D:\modelsim_ase\Projects\CA__Single_Cycle_MIPS.v|
+!i113 1
+R11
+R12
+n@a@l@u
+vALU_Test_Bench
+!s110 1638351717
+!i10b 1
+!s100 Nik6<ckz>SmkzF:XmPg2K0
+R1
+ImcLUW84TY6d_ceG_hk]1<2
+R2
+R3
+w1638351714
+Z36 8D:/modelsim_ase/Projects/CA_3_Question_2_part_c_TestBench.v
+Z37 FD:/modelsim_ase/Projects/CA_3_Question_2_part_c_TestBench.v
+!i122 762
+Z38 L0 2 21
+R7
+r1
+!s85 0
+31
+!s108 1638351717.000000
+Z39 !s107 D:/modelsim_ase/Projects/CA_3_Question_2_part_c_TestBench.v|
+Z40 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_3_Question_2_part_c_TestBench.v|
+!i113 1
+R11
+R12
+n@a@l@u_@test_@bench
+vALU_yosys
+R22
+!i10b 1
+!s100 DXI@`:4KP^>XM2fKH6ZOn1
+R1
+I@6SXYZSeX_jGJl0aNYS[<1
+R2
+R3
+R23
+R24
+R25
+!i122 761
+L0 3 322
+R7
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R11
+R12
+n@a@l@u_yosys
+vassign_statement_of_4_to_1_MUX
+Z41 !s110 1619074955
+!i10b 1
+!s100 dhX<AiZ_TJNjDQjY:^@?82
+R1
+IQD;Q<JJcoJWhi>am41U:Q3
+R2
+R3
+Z42 w1618684076
+Z43 8D:/modelsim_ase/Projects/CA_2_Question_3.v
+Z44 FD:/modelsim_ase/Projects/CA_2_Question_3.v
+!i122 92
+L0 3 6
+R7
+r1
+!s85 0
+31
+Z45 !s108 1619074955.000000
+Z46 !s107 D:/modelsim_ase/Projects/CA_2_Question_3.v|
+Z47 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_3.v|
+!i113 1
+R11
+R12
+nassign_statement_of_4_to_1_@m@u@x
+vassign_statement_of_4_to_1_MUX_TEST_BENCH
+!s110 1619072270
+!i10b 1
+!s100 >L=]>Gi_bF6Woniz7@o4X2
+R1
+Ieh8`<WkQ6Kl:U3hUdm2XW2
+R2
+R3
+w1618666105
+8D:/modelsim_ase/Projects/CA_2_Quesion_1_Test_Bench.v
+FD:/modelsim_ase/Projects/CA_2_Quesion_1_Test_Bench.v
+!i122 87
+Z48 L0 2 15
+R7
+r1
+!s85 0
+31
+!s108 1619072269.000000
+!s107 D:/modelsim_ase/Projects/CA_2_Quesion_1_Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Quesion_1_Test_Bench.v|
+!i113 1
+R11
+R12
+nassign_statement_of_4_to_1_@m@u@x_@t@e@s@t_@b@e@n@c@h
+vASSUME_R4
+!s110 1652898218
+!i10b 1
+!s100 8>8aRRP:WCFZiNjoM]OhW3
+R1
+IP]`YKa:S9MY_8F9CO?VHO0
+R2
+R3
+w1652894217
+8D:/modelsim_ase/Projects/ArianMohammad - DLD_Lab_2/simulation/modelsim/ASSUME_R4.vo
+FD:/modelsim_ase/Projects/ArianMohammad - DLD_Lab_2/simulation/modelsim/ASSUME_R4.vo
+!i122 2881
+L0 32 5436
+R7
+r1
+!s85 0
+31
+!s108 1652898217.000000
+!s107 D:/modelsim_ase/Projects/ArianMohammad - DLD_Lab_2/simulation/modelsim/ASSUME_R4.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/ArianMohammad - DLD_Lab_2/simulation/modelsim/ASSUME_R4.vo|
+!i113 1
+R11
+R12
+n@a@s@s@u@m@e_@r4
+vASSUME_R4_CU
+Z49 !s110 1652892872
+!i10b 1
+!s100 [W^]Y[He2;niWZ__ok^Re2
+R1
+I03mVOeiZ<SCz7zid:Znoz3
+R2
+R3
+Z50 w1649541101
+Z51 8D:\modelsim_ase\Projects\ArianMohammad - DLD_Lab_2\ASSUME-R4.v
+Z52 FD:\modelsim_ase\Projects\ArianMohammad - DLD_Lab_2\ASSUME-R4.v
+!i122 2877
+L0 70 51
+R7
+r1
+!s85 0
+31
+Z53 !s108 1652892871.000000
+Z54 !s107 D:\modelsim_ase\Projects\ArianMohammad - DLD_Lab_2\ASSUME-R4.v|
+Z55 !s90 -reportprogress|300|-work|work|-stats=none|D:\modelsim_ase\Projects\ArianMohammad - DLD_Lab_2\ASSUME-R4.v|
+!i113 1
+R11
+R12
+n@a@s@s@u@m@e_@r4_@c@u
+vASSUME_R4_DataPath
+Z56 !s110 1652168592
+!i10b 1
+!s100 MULQ2^adWz0boT5PZB4ij0
+R1
+IUSfY6ca4B090RK9SRQP:]3
+R2
+R3
+Z57 w1652168496
+Z58 8D:/modelsim_ase/Projects/ASSUME_R4.v
+Z59 FD:/modelsim_ase/Projects/ASSUME_R4.v
+!i122 2829
+L0 2 51
+R7
+r1
+!s85 0
+31
+Z60 !s108 1652168591.000000
+Z61 !s107 D:/modelsim_ase/Projects/ASSUME_R4.v|
+Z62 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/ASSUME_R4.v|
+!i113 1
+R11
+R12
+n@a@s@s@u@m@e_@r4_@data@path
+vASSUME_R4_DP
+R49
+!i10b 1
+!s100 0_oaOoleZol;@RLfz;6j01
+R1
+I8WANU[=BQM4WMoXnDTil=3
+R2
+R3
+R50
+R51
+R52
+!i122 2877
+L0 2 55
+R7
+r1
+!s85 0
+31
+R53
+R54
+R55
+!i113 1
+R11
+R12
+n@a@s@s@u@m@e_@r4_@d@p
+vASSUME_R4_Test_Bench
+!s110 1652170831
+!i10b 1
+!s100 ^XVYR95LT32lJ4>TT^PF=3
+R1
+I7V048;JENozehP@mid1^P2
+R2
+R3
+w1652170748
+Z63 8D:/modelsim_ase/Projects/ASSUME_R4_TestBench.v
+Z64 FD:/modelsim_ase/Projects/ASSUME_R4_TestBench.v
+!i122 2839
+Z65 L0 3 33
+R7
+r1
+!s85 0
+31
+!s108 1652170830.000000
+Z66 !s107 D:/modelsim_ase/Projects/ASSUME_R4_TestBench.v|
+Z67 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/ASSUME_R4_TestBench.v|
+!i113 1
+R11
+R12
+n@a@s@s@u@m@e_@r4_@test_@bench
+vbehavioral_ALU
+!s110 1638342357
+!i10b 1
+!s100 LTGb_GZGT6Qb?aiGRNZAA3
+R1
+Ig7CYHnO<nmk5czS82_GA]2
+R2
+R3
+w1638342353
+8D:/modelsim_ase/Projects/CA_3_Question_1_part_a.v
+FD:/modelsim_ase/Projects/CA_3_Question_1_part_a.v
+!i122 747
+Z68 L0 2 25
+R7
+r1
+!s85 0
+31
+!s108 1638342357.000000
+!s107 D:/modelsim_ase/Projects/CA_3_Question_1_part_a.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_3_Question_1_part_a.v|
+!i113 1
+R11
+R12
+nbehavioral_@a@l@u
+vbehavioral_ALU_Test_Bench
+!s110 1638346381
+!i10b 1
+!s100 C@>HFn;8UiD7BEna9la[f3
+R1
+I<m=h3cUh7M<:NS5_Tz@F70
+R2
+R3
+w1638346271
+Z69 8D:/modelsim_ase/Projects/CA_3_Question_1_part_c_TestBench.v
+Z70 FD:/modelsim_ase/Projects/CA_3_Question_1_part_c_TestBench.v
+!i122 748
+R38
+R7
+r1
+!s85 0
+31
+!s108 1638346380.000000
+Z71 !s107 D:/modelsim_ase/Projects/CA_3_Question_1_part_c_TestBench.v|
+Z72 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_3_Question_1_part_c_TestBench.v|
+!i113 1
+R11
+R12
+nbehavioral_@a@l@u_@test_@bench
+vbehavioral_ALU_yosys
+Z73 !s110 1638348321
+!i10b 1
+!s100 B_3kQ?o3a^EJ;jPNB0z]A0
+R1
+IBX>:[VCeHg45>D6Qcm;V?0
+R2
+R3
+Z74 w1638348314
+Z75 8D:/modelsim_ase/Projects/behavioral_ALU_yosys.v
+Z76 FD:/modelsim_ase/Projects/behavioral_ALU_yosys.v
+!i122 756
+L0 21 5318
+R7
+r1
+!s85 0
+31
+Z77 !s108 1638348321.000000
+Z78 !s107 D:/modelsim_ase/Projects/behavioral_ALU_yosys.v|
+Z79 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/behavioral_ALU_yosys.v|
+!i113 1
+R11
+R12
+nbehavioral_@a@l@u_yosys
+vbehavioral_eight_bit_DFF_shift_register
+!s110 1639562827
+!i10b 1
+!s100 @g_7WJ7d`n9@3iVnBGGD:3
+R1
+IDoS1G9i_i:B1RXnIcX3fo1
+R2
+R3
+w1639562824
+8D:/modelsim_ase/Projects/CA_4_Question_4_part_b_FALL.v
+FD:/modelsim_ase/Projects/CA_4_Question_4_part_b_FALL.v
+!i122 850
+Z80 L0 3 12
+R7
+r1
+!s85 0
+31
+!s108 1639562827.000000
+!s107 D:/modelsim_ase/Projects/CA_4_Question_4_part_b_FALL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_4_part_b_FALL.v|
+!i113 1
+R11
+R12
+nbehavioral_eight_bit_@d@f@f_shift_register
+vbehavioral_eight_bit_DFF_shift_register_TEST_BENCH
+!s110 1639562022
+!i10b 1
+!s100 XdddAMkm<mMnf79QJP_6Z3
+R1
+IP@:XEP6oRlnPb0U4L;A5Q3
+R2
+R3
+w1639562018
+Z81 8D:/modelsim_ase/Projects/CA_4_Question_4_part_b_TestBench.v
+Z82 FD:/modelsim_ase/Projects/CA_4_Question_4_part_b_TestBench.v
+!i122 847
+Z83 L0 3 17
+R7
+r1
+!s85 0
+31
+!s108 1639562022.000000
+Z84 !s107 D:/modelsim_ase/Projects/CA_4_Question_4_part_b_TestBench.v|
+Z85 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_4_part_b_TestBench.v|
+!i113 1
+R11
+R12
+nbehavioral_eight_bit_@d@f@f_shift_register_@t@e@s@t_@b@e@n@c@h
+vbehavioral_moore_10110_detector
+!s110 1640938696
+!i10b 1
+!s100 3TUXgd^iF9zzJdQk@H8N=3
+R1
+Ic^7BG<ISE<ll31G@b3HYY1
+R2
+R3
+w1640767279
+8D:/modelsim_ase/Projects/behavioral_moore_10110_detector.v
+FD:/modelsim_ase/Projects/behavioral_moore_10110_detector.v
+!i122 994
+L0 2 26
+R7
+r1
+!s85 0
+31
+!s108 1640938696.000000
+!s107 D:/modelsim_ase/Projects/behavioral_moore_10110_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/behavioral_moore_10110_detector.v|
+!i113 1
+R11
+R12
+vbehavioral_moore_10110_detector_Post
+!s110 1640765366
+!i10b 1
+!s100 a^2AecVg;j>N6U2P:8Qf00
+R1
+IcUk4:]<RB;VHiKijZjHI03
+R2
+R3
+w1640764909
+Z86 8D:/modelsim_ase/Projects/behavioral_moore_10110_detector.vo
+Z87 FD:/modelsim_ase/Projects/behavioral_moore_10110_detector.vo
+!i122 951
+Z88 L0 32 363
+R7
+r1
+!s85 0
+31
+!s108 1640765366.000000
+Z89 !s107 D:/modelsim_ase/Projects/behavioral_moore_10110_detector.vo|
+Z90 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/behavioral_moore_10110_detector.vo|
+!i113 1
+R11
+R12
+nbehavioral_moore_10110_detector_@post
+vbehavioral_moore_10110_detector_PP
+!s110 1640760089
+!i10b 1
+!s100 WB6W@472MWej[[WO?E^OR3
+R1
+IYUO[Ik3U5FUmV=bZ9bJlk3
+R2
+R3
+w1640759969
+R86
+R87
+!i122 933
+L0 32 359
+R7
+r1
+!s85 0
+31
+!s108 1640760089.000000
+R89
+R90
+!i113 1
+R11
+R12
+nbehavioral_moore_10110_detector_@p@p
+vbehavioral_moore_10110_detector_Test_Bench
+!s110 1640937617
+!i10b 1
+!s100 0oaOB82=YmNghBA_X0K0^0
+R1
+IAAo=BoX=J^gCgzAZGl<A61
+R2
+R3
+w1640753244
+Z91 8D:/modelsim_ase/Projects/CA_5_Question_a_TestBench_FALL.v
+Z92 FD:/modelsim_ase/Projects/CA_5_Question_a_TestBench_FALL.v
+!i122 992
+R38
+R7
+r1
+!s85 0
+31
+!s108 1640937616.000000
+Z93 !s107 D:/modelsim_ase/Projects/CA_5_Question_a_TestBench_FALL.v|
+Z94 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_5_Question_a_TestBench_FALL.v|
+!i113 1
+R11
+R12
+nbehavioral_moore_10110_detector_@test_@bench
+vbit_wise_and
+R22
+!i10b 1
+!s100 o]DJaihb[AUaj[DlRoX6_2
+R1
+IZii]W9?QGRO>f2zJcJadK3
+R2
+R3
+R23
+R24
+R25
+!i122 761
+L0 3182 341
+R7
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R11
+R12
+vbit_wise_not
+R22
+!i10b 1
+!s100 kBg>fgBRm`fbSn>eiK^[O0
+R1
+IgXGJMKbL;gSJIC8gQ9J]13
+R2
+R3
+R23
+R24
+R25
+!i122 761
+L0 3524 132
+R7
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R11
+R12
+vbit_wise_or
+R22
+!i10b 1
+!s100 3hjV8dT0HM54419>89EHI3
+R1
+IkYAlEj52>3>W8aQ7=e37S3
+R2
+R3
+R23
+R24
+R25
+!i122 761
+L0 3657 341
+R7
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R11
+R12
+vBRG_Counter
+R0
+!i10b 1
+!s100 lC5gFfFLOzG9elI1UE7g21
+R1
+IJJWonCNz0JZ2b>E7bB7md1
+R2
+R3
+R4
+R5
+R6
+!i122 2511
+L0 13 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@b@r@g_@counter
+XCA_4_Question_1_v_unit
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1622288677
+VoKMbgEi1XGS@K19m9@eS10
+r1
+!s85 0
+!i10b 1
+!s100 5^Q^g2JglJ<1<<dSASPFB0
+IoKMbgEi1XGS@K19m9@eS10
+!i103 1
+S1
+R3
+w1622288670
+Z95 8D:/modelsim_ase/Projects/CA_4_Question_1.v
+Z96 FD:/modelsim_ase/Projects/CA_4_Question_1.v
+!i122 249
+L0 1 0
+R7
+31
+!s108 1622288677.000000
+Z97 !s107 D:/modelsim_ase/Projects/CA_4_Question_1.v|
+Z98 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_1.v|
+!i113 1
+R11
+R12
+n@c@a_4_@question_1_v_unit
+vCmos_2_inputs_Nand_gate
+Z99 !s110 1618668228
+!i10b 1
+!s100 ;QgZgEX>YhIe<W9`]C;[<2
+R1
+IB@>I>=A0_MXTDVYbl@J2c0
+R2
+R3
+Z100 w1615996267
+Z101 8D:/modelsim_ase/Projects/MUX_4_to_1(With Nand Gates).v
+Z102 FD:/modelsim_ase/Projects/MUX_4_to_1(With Nand Gates).v
+!i122 53
+L0 2 11
+R7
+r1
+!s85 0
+31
+Z103 !s108 1618668228.000000
+Z104 !s107 D:/modelsim_ase/Projects/MUX_4_to_1(With Nand Gates).v|
+Z105 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/MUX_4_to_1(With Nand Gates).v|
+!i113 1
+R11
+R12
+n@cmos_2_inputs_@nand_gate
+vCmos_3_inputs_Nand_gate
+R99
+!i10b 1
+!s100 fDScC=>ZV:c>aA@mEGG4Q1
+R1
+I[>RE2aDEP_b5[J3FH_Wb50
+R2
+R3
+R100
+R101
+R102
+!i122 53
+L0 14 13
+R7
+r1
+!s85 0
+31
+R103
+R104
+R105
+!i113 1
+R11
+R12
+n@cmos_3_inputs_@nand_gate
+vCmos_4_inputs_Nand_gate
+R99
+!i10b 1
+!s100 4kQTnYYfXF7WR8P@TbX1@2
+R1
+Ic4mNKa;U_WBON9Z?N;LVP1
+R2
+R3
+R100
+R101
+R102
+!i122 53
+L0 28 15
+R7
+r1
+!s85 0
+31
+R103
+R104
+R105
+!i113 1
+R11
+R12
+n@cmos_4_inputs_@nand_gate
+vCmos_4_inputs_Nor_gate
+Z106 !s110 1616175685
+!i10b 1
+!s100 2`;l?N`O;_UX7JJ;l::h[3
+R1
+I<5EL2zoAjEVLHdR=O>Y0V1
+R2
+R3
+Z107 w1616175678
+Z108 8D:/modelsim_ase/Projects/4-bit Comperator.v
+Z109 FD:/modelsim_ase/Projects/4-bit Comperator.v
+!i122 16
+L0 32 15
+R7
+r1
+!s85 0
+31
+Z110 !s108 1616175685.000000
+Z111 !s107 D:/modelsim_ase/Projects/4-bit Comperator.v|
+Z112 !s90 -reportprogress|300|-work|work|D:/modelsim_ase/Projects/4-bit Comperator.v|
+!i113 1
+R11
+R12
+n@cmos_4_inputs_@nor_gate
+vCmos_Inverter_gate
+!s110 1617991534
+!i10b 1
+!s100 oYF2X22ci3FFPXLIb^CQV0
+R1
+IiUXnN9^I7[ZmRb0S45zo>0
+R2
+R3
+w1617991530
+Z113 8D:/modelsim_ase/Projects/HW_4_question_1.v
+Z114 FD:/modelsim_ase/Projects/HW_4_question_1.v
+!i122 23
+L0 23 9
+R7
+r1
+!s85 0
+31
+!s108 1617991534.000000
+Z115 !s107 D:/modelsim_ase/Projects/HW_4_question_1.v|
+Z116 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_4_question_1.v|
+!i113 1
+R11
+R12
+n@cmos_@inverter_gate
+vCoefficient_Calculator
+Z117 !s110 1650441741
+!i10b 1
+!s100 F=`HPHkP2XI[OnMB>b:0l3
+R1
+I938LSk^TgWo<moZ7]nLz71
+R2
+R3
+Z118 w1649681360
+Z119 8D:/modelsim_ase/Projects/CA__CA1_Coefficient_Calculator.v
+Z120 FD:/modelsim_ase/Projects/CA__CA1_Coefficient_Calculator.v
+!i122 2390
+L0 73 7
+R7
+r1
+!s85 0
+31
+Z121 !s108 1650441741.000000
+Z122 !s107 D:/modelsim_ase/Projects/CA__CA1_Coefficient_Calculator.v|
+Z123 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA__CA1_Coefficient_Calculator.v|
+!i113 1
+R11
+R12
+n@coefficient_@calculator
+vCoefficient_Calculator_CU
+R117
+!i10b 1
+!s100 hXD`=UfiU^OTMPNf_98:<3
+R1
+IC[chCcA];9Nk1W>5QJ^@C3
+R2
+R3
+R118
+R119
+R120
+!i122 2390
+L0 44 28
+R7
+r1
+!s85 0
+31
+R121
+R122
+R123
+!i113 1
+R11
+R12
+n@coefficient_@calculator_@c@u
+vCoefficient_Calculator_DataPath
+R117
+!i10b 1
+!s100 F8<:eBU[JcXcGUbiG=B0n2
+R1
+IIkgERVQJ:B8ZjO?7DObz[0
+R2
+R3
+R118
+R119
+R120
+!i122 2390
+L0 29 14
+R7
+r1
+!s85 0
+31
+R121
+R122
+R123
+!i113 1
+R11
+R12
+n@coefficient_@calculator_@data@path
+vcounter8
+R49
+!i10b 1
+!s100 DOo?=eiUIbG?z8VAGh@9@1
+R1
+InFXOCA__ScoSQAEGi<TX83
+R2
+R3
+R50
+R51
+R52
+!i122 2877
+L0 58 11
+R7
+r1
+!s85 0
+31
+R53
+R54
+R55
+!i113 1
+R11
+R12
+vD_Clocked_Latch
+Z124 !s110 1622583846
+!i10b 1
+!s100 =5;^0@2Fi3eV]angfgOY82
+R1
+IQP3cjIbg`m`L;H6TDM]@e2
+R2
+R3
+Z125 w1622583833
+Z126 8D:/modelsim_ase/Projects/CA_4_Question_4.v
+Z127 FD:/modelsim_ase/Projects/CA_4_Question_4.v
+!i122 345
+Z128 L0 3 11
+R7
+r1
+!s85 0
+31
+Z129 !s108 1622583845.000000
+Z130 !s107 D:/modelsim_ase/Projects/CA_4_Question_4.v|
+Z131 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_4.v|
+!i113 1
+R11
+R12
+n@d_@clocked_@latch
+vD_Clocked_Latch_TEST_BENCH
+!s110 1622388779
+!i10b 1
+!s100 2N[K<b]bKUEU63z4e176z1
+R1
+I`[[M70>F@eLRQC]zHe8jW1
+R2
+R3
+w1622388773
+8D:/modelsim_ase/Projects/CA_4_Question_3_Test_Bench.v
+FD:/modelsim_ase/Projects/CA_4_Question_3_Test_Bench.v
+!i122 276
+Z132 L0 3 18
+R7
+r1
+!s85 0
+31
+!s108 1622388779.000000
+!s107 D:/modelsim_ase/Projects/CA_4_Question_3_Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_3_Test_Bench.v|
+!i113 1
+R11
+R12
+n@d_@clocked_@latch_@t@e@s@t_@b@e@n@c@h
+vD_flip_flop
+Z133 !s110 1622817691
+!i10b 1
+!s100 ZGAiA]liTOi`MDd@HK:GX0
+R1
+IdO:]TZCHF>QX`^P0[C;UD3
+R2
+R3
+Z134 w1622817686
+Z135 8D:/modelsim_ase/Projects/HW_8_Question_3.v
+Z136 FD:/modelsim_ase/Projects/HW_8_Question_3.v
+!i122 376
+Z137 L0 2 8
+R7
+r1
+!s85 0
+31
+Z138 !s108 1622817690.000000
+Z139 !s107 D:/modelsim_ase/Projects/HW_8_Question_3.v|
+Z140 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_8_Question_3.v|
+!i113 1
+R11
+R12
+n@d_flip_flop
+vD_latch_made_by_2_to_1_MUX
+Z141 !s110 1639728895
+!i10b 1
+!s100 ;0KaYSOBIl;L8MnY0QJB61
+R1
+I_@6fN>i=:^MgT5@fT76IU0
+R2
+R3
+Z142 w1639728878
+Z143 8D:/modelsim_ase/Projects/CA_4_Question_2_FALL.v
+Z144 FD:/modelsim_ase/Projects/CA_4_Question_2_FALL.v
+!i122 869
+L0 13 5
+R7
+r1
+!s85 0
+31
+Z145 !s108 1639728895.000000
+Z146 !s107 D:/modelsim_ase/Projects/CA_4_Question_2_FALL.v|
+Z147 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_2_FALL.v|
+!i113 1
+R11
+R12
+n@d_latch_made_by_2_to_1_@m@u@x
+vD_latch_made_by_2_to_1_MUX_TEST_BENCH
+!s110 1639389291
+!i10b 1
+!s100 UD=YOnW<X57[<mJ`QP[bD1
+R1
+IV@[O13;Wk;l3SLXO`YY6T3
+R2
+R3
+w1639389264
+8D:/modelsim_ase/Projects/CA_4_Qustion_1_TestBench.v
+FD:/modelsim_ase/Projects/CA_4_Qustion_1_TestBench.v
+!i122 792
+Z148 L0 3 20
+R7
+r1
+!s85 0
+31
+!s108 1639389291.000000
+!s107 D:/modelsim_ase/Projects/CA_4_Qustion_1_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Qustion_1_TestBench.v|
+!i113 1
+R11
+R12
+n@d_latch_made_by_2_to_1_@m@u@x_@t@e@s@t_@b@e@n@c@h
+vDAC
+Z149 !s110 1653380337
+!i10b 1
+!s100 i:<QH[IR[eI=QL0VL@o:h2
+R1
+IUWY5of<hTO`5i^dBkEb4]2
+R2
+R3
+w1653328961
+8D:/modelsim_ase/Projects/DAC.v
+FD:/modelsim_ase/Projects/DAC.v
+!i122 2991
+R148
+R7
+r1
+!s85 0
+31
+Z150 !s108 1653380337.000000
+!s107 D:/modelsim_ase/Projects/DAC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/DAC.v|
+!i113 1
+R11
+R12
+n@d@a@c
+vDAC_TestBench
+R149
+!i10b 1
+!s100 P8oS8eXbSD[OKh=maKWRP0
+R1
+Im6OiLA_dHAGA=KV`MFKOI0
+R2
+R3
+w1653380144
+8D:/modelsim_ase/Projects/Wave_Generator_TestBench.v
+FD:/modelsim_ase/Projects/Wave_Generator_TestBench.v
+!i122 2990
+Z151 L0 3 16
+R7
+r1
+!s85 0
+31
+R150
+!s107 D:/modelsim_ase/Projects/Wave_Generator_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/Wave_Generator_TestBench.v|
+!i113 1
+R11
+R12
+n@d@a@c_@test@bench
+vData_Loader
+R117
+!i10b 1
+!s100 93aS:L`I7h]MIbGAIYC`<3
+R1
+Ib[4EH2OWJ5QQWR6L=5>Ko1
+R2
+R3
+Z152 w1649580279
+Z153 8D:/modelsim_ase/Projects/CA__CA1_Data_Loader.v
+Z154 FD:/modelsim_ase/Projects/CA__CA1_Data_Loader.v
+!i122 2391
+L0 101 8
+R7
+r1
+!s85 0
+31
+R121
+Z155 !s107 D:/modelsim_ase/Projects/CA__CA1_Data_Loader.v|
+Z156 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA__CA1_Data_Loader.v|
+!i113 1
+R11
+R12
+n@data_@loader
+vData_Loader_CU
+R117
+!i10b 1
+!s100 NS<=Cd257]m=UNWc`:3On2
+R1
+IkR:QJKi<k=aLebdhhjB591
+R2
+R3
+R152
+R153
+R154
+!i122 2391
+L0 65 35
+R7
+r1
+!s85 0
+31
+R121
+R155
+R156
+!i113 1
+R11
+R12
+n@data_@loader_@c@u
+vData_Loader_DataPath
+R117
+!i10b 1
+!s100 c;TVT]nE6[^V?Wh3>Pa<22
+R1
+Ie<Mel4L:VN1Oz]Q0DaWTB2
+R2
+R3
+R152
+R153
+R154
+!i122 2391
+L0 41 23
+R7
+r1
+!s85 0
+31
+R121
+R155
+R156
+!i113 1
+R11
+R12
+n@data_@loader_@data@path
+vDDS
+Z157 !s110 1653966691
+!i10b 1
+!s100 6hgh95MkCJ4?zF3BciUFA2
+R1
+IEWl98GX`OGFP_EW?SUch51
+R2
+R3
+w1653964015
+8D:/modelsim_ase/Projects/DDS.vo
+FD:/modelsim_ase/Projects/DDS.vo
+!i122 3060
+L0 32 2969
+R7
+r1
+!s85 0
+31
+!s108 1653966691.000000
+!s107 D:/modelsim_ase/Projects/DDS.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/DDS.vo|
+!i113 1
+R11
+R12
+n@d@d@s
+vDDS_TestBench
+R157
+!i10b 1
+!s100 LazVLhP:AjG9aPP?4I@Rl1
+R1
+IBkcaOXnmG4QHd`z^Mi=XR1
+R2
+R3
+w1653966685
+8D:/modelsim_ase/Projects/DDS_TestBench.v
+FD:/modelsim_ase/Projects/DDS_TestBench.v
+!i122 3059
+R83
+R7
+r1
+!s85 0
+31
+!s108 1653966690.000000
+!s107 D:/modelsim_ase/Projects/DDS_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/DDS_TestBench.v|
+!i113 1
+R11
+R12
+n@d@d@s_@test@bench
+vdivide_by_2
+R22
+!i10b 1
+!s100 KQnkR1dDmlb3KYE3C<mdl3
+R1
+IkhiVhODodobC_CUaOzHni1
+R2
+R3
+R23
+R24
+R25
+!i122 761
+L0 3999 5
+R7
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R11
+R12
+vDivider
+!s110 1648974884
+!i10b 1
+!s100 1Jbe]=`^3H8zQ;n@CWn]z1
+R1
+I@k0<Wf;M``9HUXkNEaQc=0
+R2
+R3
+w1648974873
+R153
+R154
+!i122 1467
+L0 28 11
+R7
+r1
+!s85 0
+31
+!s108 1648974884.000000
+R155
+R156
+!i113 1
+R11
+R12
+n@divider
+vdivision
+!s110 1649143390
+!i10b 1
+!s100 h4KgkRn3egz5SEUAkEM?W2
+R1
+I:XNB5]QjLG9:i>AIFP[?a2
+R2
+R3
+w1649143370
+R153
+R154
+!i122 1598
+L0 41 34
+R7
+r1
+!s85 0
+31
+!s108 1649143390.000000
+R155
+R156
+!i113 1
+R11
+R12
+veight_bit_2_s_complementor
+R13
+!i10b 1
+!s100 ioZnhejUg8X`b[hd@oZVE3
+R1
+I;BQzY8lBR]F]eSgWc8P6@1
+R2
+R3
+R14
+R15
+R16
+!i122 715
+L0 52 13
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+veight_bit_2_s_complementor_assign_statement_version
+Z158 !s110 1636549247
+!i10b 1
+!s100 IoD3VF=YSXKRWEYA3i[fM0
+R1
+I<UOiU0N0gDX6U8GM0G@H62
+R2
+R3
+w1636132232
+8D:/modelsim_ase/Projects/CA_2_Question_4_part_d.v
+FD:/modelsim_ase/Projects/CA_2_Question_4_part_d.v
+!i122 711
+L0 2 6
+R7
+r1
+!s85 0
+31
+Z159 !s108 1636549247.000000
+!s107 D:/modelsim_ase/Projects/CA_2_Question_4_part_d.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_4_part_d.v|
+!i113 1
+R11
+R12
+veight_bit_2_s_complementor_assign_statement_version_TEST_BENCH
+R158
+!i10b 1
+!s100 `6YT>@SOUFPbYn?L[Y<J21
+R1
+IoUl^Shl:R92E;4?dO87W>3
+R2
+R3
+w1636132483
+8D:/modelsim_ase/Projects/CA_2_Question_4_part_d_TestBench.v
+FD:/modelsim_ase/Projects/CA_2_Question_4_part_d_TestBench.v
+!i122 710
+Z160 L0 2 18
+R7
+r1
+!s85 0
+31
+R159
+!s107 D:/modelsim_ase/Projects/CA_2_Question_4_part_d_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_4_part_d_TestBench.v|
+!i113 1
+R11
+R12
+neight_bit_2_s_complementor_assign_statement_version_@t@e@s@t_@b@e@n@c@h
+veight_bit_2_s_complementor_TEST_BENCH
+!s110 1636549001
+!i10b 1
+!s100 edW_i^m3NeIM^B=c>[D0I1
+R1
+IXflVeG[aJ:6zVP]VobDFd1
+R2
+R3
+w1636128193
+8D:/modelsim_ase/Projects/CA_2_Question_4_part_c_TestBench.v
+FD:/modelsim_ase/Projects/CA_2_Question_4_part_c_TestBench.v
+!i122 709
+R21
+R7
+r1
+!s85 0
+31
+!s108 1636549001.000000
+!s107 D:/modelsim_ase/Projects/CA_2_Question_4_part_c_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_4_part_c_TestBench.v|
+!i113 1
+R11
+R12
+neight_bit_2_s_complementor_@t@e@s@t_@b@e@n@c@h
+veight_bit_Decoder
+R117
+!i10b 1
+!s100 NXWR=PfEEEfgnKi>aE4S`3
+R1
+ISQRiSoj`>LzV``oN6of;I2
+R2
+R3
+R152
+R153
+R154
+!i122 2391
+L0 29 11
+R7
+r1
+!s85 0
+31
+R121
+R155
+R156
+!i113 1
+R11
+R12
+neight_bit_@decoder
+veight_bit_DFF_shift_register
+Z161 !s110 1639557757
+!i10b 1
+!s100 :8Q`g3_SG`A8<[R:1N0F72
+R1
+IAKZgYMQ;MSgX?m@d:RYIO3
+R2
+R3
+Z162 w1639557654
+Z163 8D:/modelsim_ase/Projects/CA_4_Question_4_FALL.v
+Z164 FD:/modelsim_ase/Projects/CA_4_Question_4_FALL.v
+!i122 841
+L0 28 12
+R7
+r1
+!s85 0
+31
+Z165 !s108 1639557757.000000
+Z166 !s107 D:/modelsim_ase/Projects/CA_4_Question_4_FALL.v|
+Z167 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_4_FALL.v|
+!i113 1
+R11
+R12
+neight_bit_@d@f@f_shift_register
+veight_bit_DFF_shift_register_TEST_BENCH
+!s110 1639561934
+!i10b 1
+!s100 hC[1dGS_fkM^]`L<`KO<L3
+R1
+IL`?Dc6;Fec[M1lm>:cJmD2
+R2
+R3
+w1639561931
+R81
+R82
+!i122 845
+R83
+R7
+r1
+!s85 0
+31
+!s108 1639561934.000000
+R84
+R85
+!i113 1
+R11
+R12
+neight_bit_@d@f@f_shift_register_@t@e@s@t_@b@e@n@c@h
+vEight_bit_right_shift_shift_register
+R133
+!i10b 1
+!s100 0fbc>4c6C]?6ah?@a9fj51
+R1
+I0CgDV:CbhIndHR8[ICld;2
+R2
+R3
+R134
+R135
+R136
+!i122 376
+L0 11 12
+R7
+r1
+!s85 0
+31
+R138
+R139
+R140
+!i113 1
+R11
+R12
+n@eight_bit_right_shift_shift_register
+vEight_bit_shift_register
+R124
+!i10b 1
+!s100 ]KDMm`G0Di?T8eRIYVhDd3
+R1
+IkdEia4TMk:DLMfOLliG_<2
+R2
+R3
+R125
+R126
+R127
+!i122 345
+L0 15 12
+R7
+r1
+!s85 0
+31
+R129
+R130
+R131
+!i113 1
+R11
+R12
+n@eight_bit_shift_register
+veight_bit_shift_register
+Z168 !s110 1639728896
+!i10b 1
+!s100 j6cLVILOl;J_XC2c76;;92
+R1
+IoL6Tmzc;H8KZ[V66^bdhF0
+R2
+R3
+R142
+R143
+R144
+!i122 869
+L0 19 12
+R7
+r1
+!s85 0
+31
+R145
+R146
+R147
+!i113 1
+R11
+R12
+vEight_bit_shift_register_made_by_always_statement
+!s110 1622591961
+!i10b 1
+!s100 =m@A:e7KI9zgeda^6czeV3
+R1
+I8<233jG7l3IYlkSfQlSf]2
+R2
+R3
+w1622591954
+8D:/modelsim_ase/Projects/CA_4_Question_9.v
+FD:/modelsim_ase/Projects/CA_4_Question_9.v
+!i122 366
+Z169 L0 3 13
+R7
+r1
+!s85 0
+31
+!s108 1622591961.000000
+!s107 D:/modelsim_ase/Projects/CA_4_Question_9.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_9.v|
+!i113 1
+R11
+R12
+n@eight_bit_shift_register_made_by_always_statement
+vEight_bit_shift_register_made_by_always_statement_TEST_BENCH
+!s110 1622588668
+!i10b 1
+!s100 70K[f5TYgUT0SX1enUX<Z2
+R1
+IMazWeod3^A=2O^<VT[;ed2
+R2
+R3
+w1622588663
+8D:/modelsim_ase/Projects/CA_4_Question_9_Test_Bench.v
+FD:/modelsim_ase/Projects/CA_4_Question_9_Test_Bench.v
+!i122 358
+R151
+R7
+r1
+!s85 0
+31
+!s108 1622588667.000000
+!s107 D:/modelsim_ase/Projects/CA_4_Question_9_Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_9_Test_Bench.v|
+!i113 1
+R11
+R12
+n@eight_bit_shift_register_made_by_always_statement_@t@e@s@t_@b@e@n@c@h
+vEight_bit_shift_register_made_of_Master_slave_D_flip_flop_with_synchronous_reset_input
+Z170 !s110 1622583845
+!i10b 1
+!s100 L4mM[0aJX6lkNPoBiZGJ_1
+R1
+I=9P?nzSDQD:AFFhoHoY6d0
+R2
+R3
+Z171 w1622581208
+Z172 8D:/modelsim_ase/Projects/CA_4_Question_8.v
+Z173 FD:/modelsim_ase/Projects/CA_4_Question_8.v
+!i122 344
+L0 32 11
+R7
+r1
+!s85 0
+31
+R129
+Z174 !s107 D:/modelsim_ase/Projects/CA_4_Question_8.v|
+Z175 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_8.v|
+!i113 1
+R11
+R12
+n@eight_bit_shift_register_made_of_@master_slave_@d_flip_flop_with_synchronous_reset_input
+vEight_bit_shift_register_made_of_Master_slave_D_flip_flop_with_synchronous_reset_input_TEST_BENCH
+!s110 1639401077
+!i10b 1
+!s100 `aoQhm7Ykf9F9CMlj;@HP1
+R1
+IUM^e1oWcUM`__;:mN;;C`3
+R2
+R3
+w1639400637
+Z176 8D:/modelsim_ase/Projects/CA_4_Question_2_TestBench_FALL.v
+Z177 FD:/modelsim_ase/Projects/CA_4_Question_2_TestBench_FALL.v
+!i122 798
+R151
+R7
+r1
+!s85 0
+31
+!s108 1639401077.000000
+Z178 !s107 D:/modelsim_ase/Projects/CA_4_Question_2_TestBench_FALL.v|
+Z179 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_2_TestBench_FALL.v|
+!i113 1
+R11
+R12
+n@eight_bit_shift_register_made_of_@master_slave_@d_flip_flop_with_synchronous_reset_input_@t@e@s@t_@b@e@n@c@h
+vEight_bit_shift_register_TEST_BENCH
+!s110 1622583891
+!i10b 1
+!s100 Qij6T@d5U_^JPbQbQC4?_2
+R1
+I`IT;SlDQ^0m`RN=UidgWi3
+R2
+R3
+w1622583882
+Z180 8D:/modelsim_ase/Projects/CA_4_Question_5.v
+Z181 FD:/modelsim_ase/Projects/CA_4_Question_5.v
+!i122 347
+R151
+R7
+r1
+!s85 0
+31
+!s108 1622583891.000000
+Z182 !s107 D:/modelsim_ase/Projects/CA_4_Question_5.v|
+Z183 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_5.v|
+!i113 1
+R11
+R12
+n@eight_bit_shift_register_@t@e@s@t_@b@e@n@c@h
+veight_bit_shift_register_TEST_BENCH
+R168
+!i10b 1
+!s100 `VzXFn3f[K6UTfl_i`KXD3
+R1
+IHTlkccY`m@lB;z>QMc]J40
+R2
+R3
+w1639401174
+R176
+R177
+!i122 870
+R151
+R7
+r1
+!s85 0
+31
+!s108 1639728896.000000
+R178
+R179
+!i113 1
+R11
+R12
+neight_bit_shift_register_@t@e@s@t_@b@e@n@c@h
+vEight_bit_shift_register_wrong_version_TEST_BENCH
+!s110 1622583809
+!i10b 1
+!s100 i[EAeIKUlgPU_OnX_A=aK3
+R1
+IQKh1YPU=`dNnTbfA6W<An0
+R2
+R3
+w1622583639
+R180
+R181
+!i122 342
+R151
+R7
+r1
+!s85 0
+31
+!s108 1622583809.000000
+R182
+R183
+!i113 1
+R11
+R12
+n@eight_bit_shift_register_wrong_version_@t@e@s@t_@b@e@n@c@h
+vEight_bit_up_counter
+!s110 1622808741
+!i10b 1
+!s100 =DgOKYR_QSzOK93dj27F_1
+R1
+I]:e1=d`c@054FzbkBXG9D1
+R2
+R3
+w1622804529
+8D:\modelsim_ase\Projects\HW_8_Question_1.v
+FD:\modelsim_ase\Projects\HW_8_Question_1.v
+!i122 372
+Z184 L0 11 13
+R7
+r1
+!s85 0
+31
+!s108 1622808740.000000
+!s107 D:\modelsim_ase\Projects\HW_8_Question_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\modelsim_ase\Projects\HW_8_Question_1.v|
+!i113 1
+R11
+R12
+n@eight_bit_up_counter
+vError_Checker
+Z185 !s110 1650441740
+!i10b 1
+!s100 hJ=<3[P3;]Yg6?cd]^LCz2
+R1
+I2aT?XEKfHAgK[70^MXbDX3
+R2
+R3
+Z186 w1649683053
+Z187 8D:/modelsim_ase/Projects/CA__CA1_Error_Checker.v
+Z188 FD:/modelsim_ase/Projects/CA__CA1_Error_Checker.v
+!i122 2389
+L0 78 7
+R7
+r1
+!s85 0
+31
+Z189 !s108 1650441740.000000
+Z190 !s107 D:/modelsim_ase/Projects/CA__CA1_Error_Checker.v|
+Z191 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA__CA1_Error_Checker.v|
+!i113 1
+R11
+R12
+n@error_@checker
+vError_Checker_CU
+R185
+!i10b 1
+!s100 zHP0G:EAYRd0MPRKjPglT0
+R1
+IaObX_SL40mKc6RHL^NC4?3
+R2
+R3
+R186
+R187
+R188
+!i122 2389
+L0 48 29
+R7
+r1
+!s85 0
+31
+R189
+R190
+R191
+!i113 1
+R11
+R12
+n@error_@checker_@c@u
+vError_Checker_DataPath
+R185
+!i10b 1
+!s100 FI5j=d2bijQBJFEMN0>4T1
+R1
+ISE@ic:g@E6FRZz;2@IYe42
+R2
+R3
+R186
+R187
+R188
+!i122 2389
+L0 28 19
+R7
+r1
+!s85 0
+31
+R189
+R190
+R191
+!i113 1
+R11
+R12
+n@error_@checker_@data@path
+vfour_bit_barrel_shifter
+!s110 1619072407
+!i10b 1
+!s100 <BJ;2R<gifNDi1bczg92j1
+R1
+I_8G?h?_F:C780D6SB0fDS1
+R2
+R3
+w1618672780
+Z192 8D:/modelsim_ase/Projects/CA_2_Question_2.v
+Z193 FD:/modelsim_ase/Projects/CA_2_Question_2.v
+!i122 88
+L0 10 8
+R7
+r1
+!s85 0
+31
+!s108 1619072406.000000
+Z194 !s107 D:/modelsim_ase/Projects/CA_2_Question_2.v|
+Z195 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_2.v|
+!i113 1
+R11
+R12
+vfour_bit_barrel_shifter_TEST_BENCH
+!s110 1619072738
+!i10b 1
+!s100 ]:I`038ceeYeg6^g8b3Fo3
+R1
+I`UjmX0[=N7>YN7DSAn0R80
+R2
+R3
+w1619072728
+8D:/modelsim_ase/Projects/CA_2_Question_2_Test_Bench.v
+FD:/modelsim_ase/Projects/CA_2_Question_2_Test_Bench.v
+!i122 89
+R83
+R7
+r1
+!s85 0
+31
+!s108 1619072738.000000
+!s107 D:/modelsim_ase/Projects/CA_2_Question_2_Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_2_Test_Bench.v|
+!i113 1
+R11
+R12
+nfour_bit_barrel_shifter_@t@e@s@t_@b@e@n@c@h
+vfour_bit_comperator
+R106
+!i10b 1
+!s100 O7kAnF`;c;be4E[;2f4FN2
+R1
+I:YS3[MiMJQAV4GlGNk5`h0
+R2
+R3
+R107
+R108
+R109
+!i122 16
+L0 48 10
+R7
+r1
+!s85 0
+31
+R110
+R111
+R112
+!i113 1
+R11
+R12
+vFour_bit_up_counter
+Z196 !s110 1622834535
+!i10b 1
+!s100 QN0FAa@Qb4jb:z;VPj0IN2
+R1
+IkQB;^gZK_^>HS0O]8QHSE3
+R2
+R3
+Z197 w1622834527
+Z198 8D:/modelsim_ase/Projects/HW_8_Question_7.v
+Z199 FD:/modelsim_ase/Projects/HW_8_Question_7.v
+!i122 377
+R184
+R7
+r1
+!s85 0
+31
+Z200 !s108 1622834535.000000
+Z201 !s107 D:/modelsim_ase/Projects/HW_8_Question_7.v|
+Z202 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_8_Question_7.v|
+!i113 1
+R11
+R12
+n@four_bit_up_counter
+vFrequency_Divider
+Z203 !s110 1650481063
+!i10b 1
+!s100 GOj^`RZ`1cYaUHb^OnkjG3
+R1
+IS`]9?86gb0<5o9^L`Wnf32
+R2
+R3
+w1650481053
+8D:/modelsim_ase/Projects/Frequency_Divider.vo
+FD:/modelsim_ase/Projects/Frequency_Divider.vo
+!i122 2533
+L0 32 1739
+R7
+r1
+!s85 0
+31
+!s108 1650481063.000000
+!s107 D:/modelsim_ase/Projects/Frequency_Divider.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/Frequency_Divider.vo|
+!i113 1
+R11
+R12
+n@frequency_@divider
+vFrequency_Divider_TestBench
+R203
+!i10b 1
+!s100 7gFDLiPoWbCfziECXjD5_3
+R1
+I=LoXADfL^Q[eDQYILQ<fi3
+R2
+R3
+w1650479613
+8D:/modelsim_ase/Projects/Quartus_Frequency_Divider_TestBench.v
+FD:/modelsim_ase/Projects/Quartus_Frequency_Divider_TestBench.v
+!i122 2532
+Z204 L0 3 23
+R7
+r1
+!s85 0
+31
+!s108 1650481062.000000
+!s107 D:/modelsim_ase/Projects/Quartus_Frequency_Divider_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/Quartus_Frequency_Divider_TestBench.v|
+!i113 1
+R11
+R12
+n@frequency_@divider_@test@bench
+vFunction_Generator
+Z205 !s110 1653986952
+!i10b 1
+!s100 0o;VVD=HFD[@<:_VBPXac0
+R1
+IJRl[fT6_ekLeDP60zV0am1
+R2
+R3
+Z206 w1653986430
+Z207 8D:/modelsim_ase/Projects/Function_Generator.vo
+Z208 FD:/modelsim_ase/Projects/Function_Generator.vo
+!i122 3064
+L0 32 3986
+R7
+r1
+!s85 0
+31
+Z209 !s108 1653986952.000000
+Z210 !s107 D:/modelsim_ase/Projects/Function_Generator.vo|
+Z211 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/Function_Generator.vo|
+!i113 1
+R11
+R12
+n@function_@generator
+vFunction_Generator_TestBench
+!s110 1653987179
+!i10b 1
+!s100 fi:<QPY71m_nm5R_Ui]7j1
+R1
+IULH1ooZKT8FO9j;_ohMA10
+R2
+R3
+w1653987174
+8D:/modelsim_ase/Projects/Function_Generator_TestBench.v
+FD:/modelsim_ase/Projects/Function_Generator_TestBench.v
+!i122 3066
+R65
+R7
+r1
+!s85 0
+31
+!s108 1653987179.000000
+!s107 D:/modelsim_ase/Projects/Function_Generator_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/Function_Generator_TestBench.v|
+!i113 1
+R11
+R12
+n@function_@generator_@test@bench
+vhard_block
+R205
+!i10b 1
+!s100 f0dofV1jc:@Ajoe0DEU@d1
+R1
+I2fSm>9<dF6VPS>HnijJbm1
+R2
+R3
+R206
+R207
+R208
+!i122 3064
+L0 4019 34
+R7
+r1
+!s85 0
+31
+R209
+R210
+R211
+!i113 1
+R11
+R12
+vHexdisplay
+!s110 1652718511
+!i10b 1
+!s100 M_Ph_6Jg7a<7geUIJkkSc2
+R1
+I;c0CAN^1h@0<FPfIA_doJ0
+R2
+R3
+w1652175627
+8D:/modelsim_ase/Projects/ArianMohammad - DLD_Lab_2/Hexdisplay.v
+FD:/modelsim_ase/Projects/ArianMohammad - DLD_Lab_2/Hexdisplay.v
+!i122 2848
+L0 8 24
+R7
+r1
+!s85 0
+31
+!s108 1652718510.000000
+!s107 D:/modelsim_ase/Projects/ArianMohammad - DLD_Lab_2/Hexdisplay.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/ArianMohammad - DLD_Lab_2/Hexdisplay.v|
+!i113 1
+R11
+R12
+n@hexdisplay
+vHW_3_Question_6
+!s110 1635008562
+!i10b 1
+!s100 0R2n84KChJ<>B2XZnkM@^0
+R1
+IJR6i51[6]laYPTm??MPIz3
+R2
+R3
+w1635008559
+8D:/modelsim_ase/Projects/HW_3_Question_6.v
+FD:/modelsim_ase/Projects/HW_3_Question_6.v
+!i122 641
+Z212 L0 3 14
+R7
+r1
+!s85 0
+31
+!s108 1635008562.000000
+!s107 D:/modelsim_ase/Projects/HW_3_Question_6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_3_Question_6.v|
+!i113 1
+R11
+R12
+n@h@w_3_@question_6
+vHW_4_Question_6
+!s110 1635538380
+!i10b 1
+!s100 F7SlME8Be5SP@_dEkLA_<2
+R1
+IfHKXl=7=Tk>KL1:0?:1hC1
+R2
+R3
+w1635535643
+8D:/modelsim_ase/Projects/HW_4_Question_6_FALL.v
+FD:/modelsim_ase/Projects/HW_4_Question_6_FALL.v
+!i122 646
+Z213 L0 3 5
+R7
+r1
+!s85 0
+31
+Z214 !s108 1635538380.000000
+!s107 D:/modelsim_ase/Projects/HW_4_Question_6_FALL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_4_Question_6_FALL.v|
+!i113 1
+R11
+R12
+n@h@w_4_@question_6
+vHW_4_Question_6_TEST_BENCH
+!s110 1635538381
+!i10b 1
+!s100 CTTTUdo?3VWk?e<el:Rkh0
+R1
+I^Q?]UfDEMmFjjS^WZPcJ12
+R2
+R3
+w1635538372
+8D:/modelsim_ase/Projects/HW_4_Question_6_TestBench.v
+FD:/modelsim_ase/Projects/HW_4_Question_6_TestBench.v
+!i122 647
+L0 2 14
+R7
+r1
+!s85 0
+31
+R214
+!s107 D:/modelsim_ase/Projects/HW_4_Question_6_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_4_Question_6_TestBench.v|
+!i113 1
+R11
+R12
+n@h@w_4_@question_6_@t@e@s@t_@b@e@n@c@h
+vinstruction_MEM
+R29
+!i10b 1
+!s100 JbYfSS8FSF=1^NAf_03571
+R1
+IJR_TnAz9FeiH83j]738663
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 16 25
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+ninstruction_@m@e@m
+vInvert
+!s110 1621106842
+!i10b 1
+!s100 F`RYlJO2=F57NR0eIO>_22
+R1
+Ie`:KC^0neOZga`1bQCkcS1
+R2
+R3
+w1621106839
+Z215 8D:/modelsim_ase/Projects/CA_3_Question_1.v
+Z216 FD:/modelsim_ase/Projects/CA_3_Question_1.v
+!i122 95
+Z217 L0 3 8
+R7
+r1
+!s85 0
+31
+!s108 1621106842.000000
+Z218 !s107 D:/modelsim_ase/Projects/CA_3_Question_1.v|
+Z219 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_3_Question_1.v|
+!i113 1
+R11
+R12
+n@invert
+vInverter_gate
+R99
+!i10b 1
+!s100 BOFZkz6AUjXJKDZnTnYg70
+R1
+IP_Y;4D`F@Ql9X9Un:4A^l1
+R2
+R3
+R100
+R101
+R102
+!i122 53
+L0 44 5
+R7
+r1
+!s85 0
+31
+R103
+R104
+R105
+!i113 1
+R11
+R12
+n@inverter_gate
+vLFSR
+Z220 !s110 1639729659
+!i10b 1
+!s100 fI^RZ;[o6H2=Q7S1?fFnA0
+R1
+IR?:Y0YjY29ND8`m;gnzKQ0
+R2
+R3
+Z221 w1639567559
+Z222 8D:/modelsim_ase/Projects/CA_4_Question_5_FALL.v
+Z223 FD:/modelsim_ase/Projects/CA_4_Question_5_FALL.v
+!i122 872
+L0 18 7
+R7
+r1
+!s85 0
+31
+Z224 !s108 1639729659.000000
+Z225 !s107 D:/modelsim_ase/Projects/CA_4_Question_5_FALL.v|
+Z226 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_5_FALL.v|
+!i113 1
+R11
+R12
+n@l@f@s@r
+vLFSR_behavioral_eight_bit_DFF_shift_register
+R220
+!i10b 1
+!s100 onNKX;2Y=ISON_b1EWQ:k2
+R1
+IPR`6TfLLD<7ePgQi_X]8B1
+R2
+R3
+R221
+R222
+R223
+!i122 872
+R212
+R7
+r1
+!s85 0
+31
+R224
+R225
+R226
+!i113 1
+R11
+R12
+n@l@f@s@r_behavioral_eight_bit_@d@f@f_shift_register
+vLFSR_behavioral_eight_bit_DFF_shift_register_TEST_BENCH
+R220
+!i10b 1
+!s100 Pk7JPX3eV_>6H]Ad<B>L22
+R1
+IKi6IQ:f>ebeJ4Cd;RSS0F2
+R2
+R3
+w1639567440
+Z227 8D:/modelsim_ase/Projects/CA_4_Question_5_TestBench.v
+Z228 FD:/modelsim_ase/Projects/CA_4_Question_5_TestBench.v
+!i122 871
+R83
+R7
+r1
+!s85 0
+31
+R224
+Z229 !s107 D:/modelsim_ase/Projects/CA_4_Question_5_TestBench.v|
+Z230 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_5_TestBench.v|
+!i113 1
+R11
+R12
+n@l@f@s@r_behavioral_eight_bit_@d@f@f_shift_register_@t@e@s@t_@b@e@n@c@h
+vLFSR_TEST_BENCH
+!s110 1639565812
+!i10b 1
+!s100 je5nX9Jm?9?ETd5kW20MT3
+R1
+I3S9_U7adGFbRRKP^?DT`A0
+R2
+R3
+w1639565809
+R227
+R228
+!i122 853
+R83
+R7
+r1
+!s85 0
+31
+!s108 1639565811.000000
+R229
+R230
+!i113 1
+R11
+R12
+n@l@f@s@r_@t@e@s@t_@b@e@n@c@h
+vLinear_Regression_Calculator_Test_Bench
+!s110 1652164019
+!i10b 1
+!s100 nAQQ4Pnjlng91Rg2gkPo;1
+R1
+IH?L8KPQ0XWdgBR>KhU06@2
+R2
+R3
+w1652164008
+R63
+R64
+!i122 2800
+R204
+R7
+r1
+!s85 0
+31
+!s108 1652164019.000000
+R66
+R67
+!i113 1
+R11
+R12
+n@linear_@regression_@calculator_@test_@bench
+vMaster_slave_D_flip_flop
+R170
+!i10b 1
+!s100 jO=LzHhhJz6M_V=cde35P2
+R1
+IFi783m<`kSR:kKUmNP<@m1
+R2
+R3
+R171
+R172
+R173
+!i122 344
+L0 15 8
+R7
+r1
+!s85 0
+31
+R129
+R174
+R175
+!i113 1
+R11
+R12
+n@master_slave_@d_flip_flop
+vmaster_slave_D_flip_flop
+R161
+!i10b 1
+!s100 =2o;=zWKmU9=I6=1GSPjD1
+R1
+IZAhn>7]EmZ7Gjo>8LCH^o2
+R2
+R3
+R162
+R163
+R164
+!i122 841
+L0 19 8
+R7
+r1
+!s85 0
+31
+R165
+R166
+R167
+!i113 1
+R11
+R12
+nmaster_slave_@d_flip_flop
+vmaster_slave_D_flip_flop_TEST_BENCH
+!s110 1639556765
+!i10b 1
+!s100 ]@`YN0jECmR:@;`bn:FOl2
+R1
+Ig5hcHF]25Ug<V4H94Abgd0
+R2
+R3
+w1639549586
+8D:/modelsim_ase/Projects/CA_4_Question_3_TestBench.v
+FD:/modelsim_ase/Projects/CA_4_Question_3_TestBench.v
+!i122 833
+L0 3 21
+R7
+r1
+!s85 0
+31
+!s108 1639556765.000000
+!s107 D:/modelsim_ase/Projects/CA_4_Question_3_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_3_TestBench.v|
+!i113 1
+R11
+R12
+nmaster_slave_@d_flip_flop_@t@e@s@t_@b@e@n@c@h
+vMaster_slave_D_flip_flop_with_synchronous_reset_input
+R170
+!i10b 1
+!s100 VQQ2<:e95Y1CKS2K]l^;=3
+R1
+I?N8=hU26jQ:352UC8H7YN0
+R2
+R3
+R171
+R172
+R173
+!i122 344
+L0 24 7
+R7
+r1
+!s85 0
+31
+R129
+R174
+R175
+!i113 1
+R11
+R12
+n@master_slave_@d_flip_flop_with_synchronous_reset_input
+vmealy_10010_detector
+Z231 !s110 1623912553
+!i10b 1
+!s100 55anB1=;]:J;[b7lBIj`F3
+R1
+I`HQ31_fS7b6X`bW46JDi;2
+R2
+R3
+w1623604374
+Z232 8D:/modelsim_ase/Projects/mealy_10010_detector.vo
+Z233 FD:/modelsim_ase/Projects/mealy_10010_detector.vo
+!i122 493
+Z234 L0 32 287
+R7
+r1
+!s85 0
+31
+Z235 !s108 1623912553.000000
+Z236 !s107 D:/modelsim_ase/Projects/mealy_10010_detector.vo|
+Z237 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/mealy_10010_detector.vo|
+!i113 1
+R11
+R12
+vmealy_10010_detector_Test_Bench
+!s110 1623912062
+!i10b 1
+!s100 Ach>bik;LglCi?K^J8A:o3
+R1
+IOW@TJ9fZa9PS7^<ETOncW1
+R2
+R3
+w1623611499
+8D:/modelsim_ase/Projects/CA_5_Question_b_part_3.v
+FD:/modelsim_ase/Projects/CA_5_Question_b_part_3.v
+!i122 484
+R38
+R7
+r1
+!s85 0
+31
+!s108 1623912062.000000
+!s107 D:/modelsim_ase/Projects/CA_5_Question_b_part_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_5_Question_b_part_3.v|
+!i113 1
+R11
+R12
+nmealy_10010_detector_@test_@bench
+vMemory
+R29
+!i10b 1
+!s100 S9TKeJOKD]oQZWFOoFFER1
+R1
+ImYakY>fY0mgo;9O^m4fLU0
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 42 25
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@memory
+vminimized_function
+!s110 1617991558
+!i10b 1
+!s100 ;K6iNm:2i5fhkVN?ES_IR2
+R1
+IQQ`L?JoTQM@G6_9R_z=0c2
+R2
+R3
+w1617991554
+R113
+R114
+!i122 24
+Z238 L0 3 19
+R7
+r1
+!s85 0
+31
+!s108 1617991558.000000
+R115
+R116
+!i113 1
+R11
+R12
+vmod14counter
+R56
+!i10b 1
+!s100 S4HCjO9[lNObhUW0da5h30
+R1
+I1_OE=_PSRSoRTl2[5fER@0
+R2
+R3
+R57
+R58
+R59
+!i122 2829
+L0 54 11
+R7
+r1
+!s85 0
+31
+R60
+R61
+R62
+!i113 1
+R11
+R12
+vmod3counter
+!s110 1652160036
+!i10b 1
+!s100 ]FZTOV3o9SQkbUlI`Kkg03
+R1
+I>c3N[HHmF0847:`a`gXjo0
+R2
+R3
+w1652160014
+R58
+R59
+!i122 2789
+L0 52 11
+R7
+r1
+!s85 0
+31
+!s108 1652160036.000000
+R61
+R62
+!i113 1
+R11
+R12
+vmoore_10010_detector
+R231
+!i10b 1
+!s100 ]M@Y7jb`1DWe5i^ImI<3L0
+R1
+IdzNEDlan6c<B=9LOMUWQG1
+R2
+R3
+w1623598794
+8D:/modelsim_ase/Projects/moore_10010_detector.vo
+FD:/modelsim_ase/Projects/moore_10010_detector.vo
+!i122 492
+Z239 L0 32 307
+R7
+r1
+!s85 0
+31
+R235
+!s107 D:/modelsim_ase/Projects/moore_10010_detector.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/moore_10010_detector.vo|
+!i113 1
+R11
+R12
+vmoore_10010_detector_Test_Bench
+!s110 1623911881
+!i10b 1
+!s100 7@M:m`aahPM46K:FIJnA71
+R1
+IO6dLeIX_>[HSBRUm50_=S2
+R2
+R3
+w1623601243
+Z240 8D:/modelsim_ase/Projects/CA_5_Question_a_part_3.v
+Z241 FD:/modelsim_ase/Projects/CA_5_Question_a_part_3.v
+!i122 482
+R38
+R7
+r1
+!s85 0
+31
+!s108 1623911881.000000
+Z242 !s107 D:/modelsim_ase/Projects/CA_5_Question_a_part_3.v|
+Z243 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_5_Question_a_part_3.v|
+!i113 1
+R11
+R12
+nmoore_10010_detector_@test_@bench
+vmoore_10110_detector
+!s110 1640747764
+!i10b 1
+!s100 f3JUVf1:CTec7FDBGkiQ73
+R1
+IWUmK[FE;nE5B;K2kemC[k1
+R2
+R3
+w1640279380
+8D:/modelsim_ase/Projects/CA_5_Question_a_FALL.v
+FD:/modelsim_ase/Projects/CA_5_Question_a_FALL.v
+!i122 876
+L0 2 24
+R7
+r1
+!s85 0
+31
+Z244 !s108 1640747763.000000
+!s107 D:/modelsim_ase/Projects/CA_5_Question_a_FALL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_5_Question_a_FALL.v|
+!i113 1
+R11
+R12
+vmoore_10110_detector_Test_Bench
+!s110 1640747763
+!i10b 1
+!s100 :JeiTM?z@9FW=L7_JG]_]2
+R1
+IO]RnTCSoJjcCiON`e2m^L2
+R2
+R3
+w1640747648
+R91
+R92
+!i122 875
+L0 2 20
+R7
+r1
+!s85 0
+31
+R244
+R93
+R94
+!i113 1
+R11
+R12
+nmoore_10110_detector_@test_@bench
+vmoore_and_mealy_10010_detector_Test_Bench
+!s110 1623912193
+!i10b 1
+!s100 4eISDMhK9cc;m^oJ>b^h80
+R1
+IFO>Y6RCfQA]8kMk6D1G5B3
+R2
+R3
+w1623608052
+8D:/modelsim_ase/Projects/CA_5_Question_c.v
+FD:/modelsim_ase/Projects/CA_5_Question_c.v
+!i122 486
+L0 2 22
+R7
+r1
+!s85 0
+31
+!s108 1623912193.000000
+!s107 D:/modelsim_ase/Projects/CA_5_Question_c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_5_Question_c.v|
+!i113 1
+R11
+R12
+nmoore_and_mealy_10010_detector_@test_@bench
+vmoree_and_mealy_10010_detector_with_their_diff_output_Test_Bench
+!s110 1623912554
+!i10b 1
+!s100 Ik85Yb:]J:]<YU7zLdVV[3
+R1
+IJT3GX^f`@4Z2^33b7WNcl0
+R2
+R3
+w1623611933
+8D:/modelsim_ase/Projects/CA_5_Question_c_part_3.v
+FD:/modelsim_ase/Projects/CA_5_Question_c_part_3.v
+!i122 494
+Z245 L0 2 23
+R7
+r1
+!s85 0
+31
+!s108 1623912554.000000
+!s107 D:/modelsim_ase/Projects/CA_5_Question_c_part_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_5_Question_c_part_3.v|
+!i113 1
+R11
+R12
+nmoree_and_mealy_10010_detector_with_their_diff_output_@test_@bench
+vmoree_and_mealy_10010_detector_with_their_diffrence_output_Test_Bench
+!s110 1623912374
+!i10b 1
+!s100 hSa5KHO=64jH72n9C0En42
+R1
+I]zLF?Ye>Q3B`9MOhG]bSK2
+R2
+R3
+w1623608172
+8D:/modelsim_ase/Projects/CA_5_Question_c_part_1.v
+FD:/modelsim_ase/Projects/CA_5_Question_c_part_1.v
+!i122 491
+R245
+R7
+r1
+!s85 0
+31
+!s108 1623912374.000000
+!s107 D:/modelsim_ase/Projects/CA_5_Question_c_part_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_5_Question_c_part_1.v|
+!i113 1
+R11
+R12
+nmoree_and_mealy_10010_detector_with_their_diffrence_output_@test_@bench
+vmudulo_177_frequency_divide
+Z246 !s110 1640940905
+!i10b 1
+!s100 bEb[X1aaf;;?BXSMzShb72
+R1
+Ib7Xk:Z4hlPKVl<eQBAm^i3
+R2
+R3
+w1640939753
+8D:/modelsim_ase/Projects/mudulo_177_frequency_divide.vo
+FD:/modelsim_ase/Projects/mudulo_177_frequency_divide.vo
+!i122 1002
+L0 32 668
+R7
+r1
+!s85 0
+31
+Z247 !s108 1640940905.000000
+!s107 D:/modelsim_ase/Projects/mudulo_177_frequency_divide.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/mudulo_177_frequency_divide.vo|
+!i113 1
+R11
+R12
+vmudulo_177_frequency_divide_Test_Bench
+R246
+!i10b 1
+!s100 3]GWazO_8O@`0h0Tm73:U3
+R1
+I_BWV28HbDE4Ib^=QjR=aB2
+R2
+R3
+w1640940902
+8D:/modelsim_ase/Projects/CA_5_Question_b_part_ii.v
+FD:/modelsim_ase/Projects/CA_5_Question_b_part_ii.v
+!i122 1001
+R21
+R7
+r1
+!s85 0
+31
+R247
+!s107 D:/modelsim_ase/Projects/CA_5_Question_b_part_ii.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_5_Question_b_part_ii.v|
+!i113 1
+R11
+R12
+nmudulo_177_frequency_divide_@test_@bench
+vMUX_2_to_1
+R22
+!i10b 1
+!s100 PmMK8DU?AIWbf_mZ?<Fzj3
+R1
+I40@;R;gZPdkLG]lIjggh10
+R2
+R3
+R23
+R24
+R25
+!i122 761
+L0 326 381
+R7
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R11
+R12
+n@m@u@x_2_to_1
+vMUX_2_to_1_made_by_3_and_2_states_not
+R13
+!i10b 1
+!s100 cSgiVg5fkON=b]@TCi4N:2
+R1
+IHhRB``dBc_?@z]:Bc9aHP2
+R2
+R3
+R14
+R15
+R16
+!i122 715
+L0 25 9
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+n@m@u@x_2_to_1_made_by_3_and_2_states_not
+vMUX_2_to_1_made_by_3_and_2_states_not_TEST_BENCH
+!s110 1636054147
+!i10b 1
+!s100 oMUIYlX<GnbXUM7GgbmLL2
+R1
+I^SIVFihbV9LFYKLJcjoFn1
+R2
+R3
+w1636054022
+Z248 8D:/modelsim_ase/Projects/CA_2_Question_1_TestBench.v
+Z249 FD:/modelsim_ase/Projects/CA_2_Question_1_TestBench.v
+!i122 656
+R21
+R7
+r1
+!s85 0
+31
+!s108 1636054147.000000
+Z250 !s107 D:/modelsim_ase/Projects/CA_2_Question_1_TestBench.v|
+Z251 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_1_TestBench.v|
+!i113 1
+R11
+R12
+n@m@u@x_2_to_1_made_by_3_and_2_states_not_@t@e@s@t_@b@e@n@c@h
+vMUX_2_to_1_made_by_not_and_notifi
+R141
+!i10b 1
+!s100 3fYEGW6W7G0FAfV7S8bmY1
+R1
+IJ]dD@6Dn5@>`9Oi>@5aOQ1
+R2
+R3
+R142
+R143
+R144
+!i122 869
+Z252 L0 3 9
+R7
+r1
+!s85 0
+31
+R145
+R146
+R147
+!i113 1
+R11
+R12
+n@m@u@x_2_to_1_made_by_not_and_notifi
+vMUX_2_to_1_Testbench
+!s110 1633694858
+!i10b 1
+!s100 ZReN^lb<[CdH0U^3OVPjU1
+R1
+Ib?Ad7;:lH;0nZbC^W=@`B1
+R2
+R3
+w1633694629
+8D:/modelsim_ase/Projects/HW_1_Question_10_Testbench.v
+FD:/modelsim_ase/Projects/HW_1_Question_10_Testbench.v
+!i122 565
+R48
+R7
+r1
+!s85 0
+31
+!s108 1633694857.000000
+!s107 D:/modelsim_ase/Projects/HW_1_Question_10_Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_1_Question_10_Testbench.v|
+!i113 1
+R11
+R12
+n@m@u@x_2_to_1_@testbench
+vMUX_4_to_1
+R22
+!i10b 1
+!s100 ;=S9VgZN7RDGhMohnPe0]2
+R1
+IaI;MDmcRj8Mg9amR9PbM:3
+R2
+R3
+R23
+R24
+R25
+!i122 761
+L0 708 1160
+R7
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R11
+R12
+n@m@u@x_4_to_1
+vMUX_4_to_1_made_by_2_to_1_Muxs
+!s110 1636548407
+!i10b 1
+!s100 Z1VUmdNiezAkDBGGG2@Ij3
+R1
+In2Rcn9HX1SbJX8zPVnXF:2
+R2
+R3
+w1636099304
+8D:/modelsim_ase/Projects/CA_2_Question_2_FALL.v
+FD:/modelsim_ase/Projects/CA_2_Question_2_FALL.v
+!i122 703
+L0 34 9
+R7
+r1
+!s85 0
+31
+!s108 1636548406.000000
+!s107 D:/modelsim_ase/Projects/CA_2_Question_2_FALL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_2_FALL.v|
+!i113 1
+R11
+R12
+n@m@u@x_4_to_1_made_by_2_to_1_@muxs
+vMUX_4_to_1_made_by_2_to_1_Muxs_TEST_BENCH
+!s110 1636548406
+!i10b 1
+!s100 hY88SQVRCW>?Yf:932QZ:1
+R1
+IlV8Ei7JIYklbGmE01@mKB2
+R2
+R3
+w1636104158
+8D:/modelsim_ase/Projects/CA_2_Question_2_TestBench.v
+FD:/modelsim_ase/Projects/CA_2_Question_2_TestBench.v
+!i122 702
+R21
+R7
+r1
+!s85 0
+31
+!s108 1636548405.000000
+!s107 D:/modelsim_ase/Projects/CA_2_Question_2_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_2_TestBench.v|
+!i113 1
+R11
+R12
+n@m@u@x_4_to_1_made_by_2_to_1_@muxs_@t@e@s@t_@b@e@n@c@h
+vMUX_4_to_1_with_Nand_gates
+!s110 1618668249
+!i10b 1
+!s100 nOmaYZoM4hIl3^eOIB:Pe3
+R1
+I67lLT>Dio<DhL>X3HSGA91
+R2
+R3
+w1618668223
+R192
+R193
+!i122 54
+R80
+R7
+r1
+!s85 0
+31
+!s108 1618668248.000000
+R194
+R195
+!i113 1
+R11
+R12
+n@m@u@x_4_to_1_with_@nand_gates
+vn_bit_adder
+!s110 1621965588
+!i10b 1
+!s100 PFd_A>C?5=Zi^BnGjmNJF3
+R1
+I=n1PMA[iDk8I=[BCm`z5j0
+R2
+R3
+w1621965585
+8D:/modelsim_ase/Projects/CA_3_Question_4.v
+FD:/modelsim_ase/Projects/CA_3_Question_4.v
+!i122 246
+R169
+R7
+r1
+!s85 0
+31
+!s108 1621965588.000000
+!s107 D:/modelsim_ase/Projects/CA_3_Question_4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_3_Question_4.v|
+!i113 1
+R11
+R12
+vn_bit_adder_Test_Bench
+!s110 1621151579
+!i10b 1
+!s100 4`6=BfnOaVS30^QM]gdBT0
+R1
+Iz[>XeA`OA;@JM<jUL7WiF3
+R2
+R3
+w1621151557
+Z253 8D:/modelsim_ase/Projects/CA_3_Question_3.v
+Z254 FD:/modelsim_ase/Projects/CA_3_Question_3.v
+!i122 201
+R132
+R7
+r1
+!s85 0
+31
+!s108 1621151579.000000
+Z255 !s107 D:/modelsim_ase/Projects/CA_3_Question_3.v|
+Z256 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_3_Question_3.v|
+!i113 1
+R11
+R12
+nn_bit_adder_@test_@bench
+vn_bit_full_adder_Test_Bench
+!s110 1621122752
+!i10b 1
+!s100 7l7996>k=8518VlKEYkgL3
+R1
+IdfYIYGQdKc7dUOeFzj_=j1
+R2
+R3
+w1621122748
+R253
+R254
+!i122 182
+R151
+R7
+r1
+!s85 0
+31
+!s108 1621122752.000000
+R255
+R256
+!i113 1
+R11
+R12
+nn_bit_full_adder_@test_@bench
+vNAND
+R73
+!i10b 1
+!s100 cB]GPTgaj6<44YjkNAVV43
+R1
+Ia^gh[iVQ1EP]Ddh0>BN[b1
+R2
+R3
+R74
+R75
+R76
+!i122 756
+L0 9 5
+R7
+r1
+!s85 0
+31
+R77
+R78
+R79
+!i113 1
+R11
+R12
+n@n@a@n@d
+vNand
+!s110 1621107724
+!i10b 1
+!s100 AQ6_Z1iPAWNDj3fKzDndT2
+R1
+IYjU[bC^h]>KgK2WSfAEA03
+R2
+R3
+w1621107548
+R215
+R216
+!i122 96
+R128
+R7
+r1
+!s85 0
+31
+!s108 1621107724.000000
+R218
+R219
+!i113 1
+R11
+R12
+n@nand
+vNOR
+R73
+!i10b 1
+!s100 iT?hRo;1_Q88Z<?[^lB5e0
+R1
+I`74=3hU7RDoAdQ=e0C6P42
+R2
+R3
+R74
+R75
+R76
+!i122 756
+L0 15 5
+R7
+r1
+!s85 0
+31
+R77
+R78
+R79
+!i113 1
+R11
+R12
+n@n@o@r
+vNOT
+R73
+!i10b 1
+!s100 [hEHZNZT3QTH^6FEE9fVQ0
+R1
+ILjmb5QU_OFEd`Z1ROA;Rc2
+R2
+R3
+R74
+R75
+R76
+!i122 756
+R213
+R7
+r1
+!s85 0
+31
+R77
+R78
+R79
+!i113 1
+R11
+R12
+n@n@o@t
+vNOT_and_NAND_TEST_BENCH
+!s110 1634907750
+!i10b 1
+!s100 4J2ME`2S:SWOEk@SQ[`i31
+R1
+ImFHWlEe>]Z]0>gGLU8hB_0
+R2
+R3
+w1634509692
+8D:/modelsim_ase/Projects/CA_1_Question_1_TestBench_FALL.v
+FD:/modelsim_ase/Projects/CA_1_Question_1_TestBench_FALL.v
+!i122 626
+R160
+R7
+r1
+!s85 0
+31
+!s108 1634907750.000000
+!s107 D:/modelsim_ase/Projects/CA_1_Question_1_TestBench_FALL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_1_Question_1_TestBench_FALL.v|
+!i113 1
+R11
+R12
+n@n@o@t_and_@n@a@n@d_@t@e@s@t_@b@e@n@c@h
+vOAI
+!s110 1634289482
+!i10b 1
+!s100 zHfBgA0PRQ]kR9YkKGJo;0
+R1
+I>3JM;R8=1<LYV0W7:T45K1
+R2
+R3
+w1634289478
+Z257 8D:/modelsim_ase/Projects/HW_2_Question_2_FALL.v
+Z258 FD:/modelsim_ase/Projects/HW_2_Question_2_FALL.v
+!i122 567
+Z259 L0 2 13
+R7
+r1
+!s85 0
+31
+!s108 1634289481.000000
+Z260 !s107 D:/modelsim_ase/Projects/HW_2_Question_2_FALL.v|
+Z261 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_2_Question_2_FALL.v|
+!i113 1
+R11
+R12
+n@o@a@i
+vOAI_gate_level
+!s110 1634314452
+!i10b 1
+!s100 `zQKn18dmH^FWoJ0@Z8:e1
+R1
+I2=6EAS2^2NS3YE[EjRh^E2
+R2
+R3
+w1634314448
+8D:/modelsim_ase/Projects/HW_2_Question_3_FALL.v
+FD:/modelsim_ase/Projects/HW_2_Question_3_FALL.v
+!i122 574
+R137
+R7
+r1
+!s85 0
+31
+!s108 1634314452.000000
+!s107 D:/modelsim_ase/Projects/HW_2_Question_3_FALL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_2_Question_3_FALL.v|
+!i113 1
+R11
+R12
+n@o@a@i_gate_level
+vOAI_s_TEST_BENCH
+!s110 1634290543
+!i10b 1
+!s100 PZInIRGF=IWSQ>YUkAinF3
+R1
+ILF0N@gb_G9C=FcOZi7zE70
+R2
+R3
+w1634290521
+8D:/modelsim_ase/Projects/HW_2_Questions_2_v_3_Test_Bench.v
+FD:/modelsim_ase/Projects/HW_2_Questions_2_v_3_Test_Bench.v
+!i122 572
+R21
+R7
+r1
+!s85 0
+31
+!s108 1634290543.000000
+!s107 D:/modelsim_ase/Projects/HW_2_Questions_2_v_3_Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/HW_2_Questions_2_v_3_Test_Bench.v|
+!i113 1
+R11
+R12
+n@o@a@i_s_@t@e@s@t_@b@e@n@c@h
+vOAI_transistor_level
+!s110 1634290012
+!i10b 1
+!s100 ^mDfflLBS3I9MXjf5^5Q>1
+R1
+IRALzKYgAP5<AlUNT6I3A`3
+R2
+R3
+w1634289708
+R257
+R258
+!i122 570
+R259
+R7
+r1
+!s85 0
+31
+!s108 1634290011.000000
+R260
+R261
+!i113 1
+R11
+R12
+n@o@a@i_transistor_level
+voctal_2_to_1_mux
+R13
+!i10b 1
+!s100 6egF>Hb[Sm^WHIbelCE2^2
+R1
+IPd]jL_@@ESY1:PzJhC[>F1
+R2
+R3
+R14
+R15
+R16
+!i122 715
+L0 35 10
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+voctal_2_to_1_mux_assign_statement_version
+Z262 !s110 1636548720
+!i10b 1
+!s100 P<4TPU88010JTUXGIkRZ=1
+R1
+I83aOS2UKfTU@FQLGmC?9b1
+R2
+R3
+w1636120581
+8D:/modelsim_ase/Projects/CA_2_Question_3_part_d.v
+FD:/modelsim_ase/Projects/CA_2_Question_3_part_d.v
+!i122 706
+R20
+R7
+r1
+!s85 0
+31
+Z263 !s108 1636548720.000000
+!s107 D:/modelsim_ase/Projects/CA_2_Question_3_part_d.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_3_part_d.v|
+!i113 1
+R11
+R12
+voctal_2_to_1_mux_assign_statement_version_TEST_BENCH
+R262
+!i10b 1
+!s100 =JWnAXadk7``b9KhhJdEJ2
+R1
+Ie^T?X4kSkL6oMRg5jfQNc3
+R2
+R3
+w1636116392
+8D:/modelsim_ase/Projects/CA_2_Question_3_part_d_TestBench.v
+FD:/modelsim_ase/Projects/CA_2_Question_3_part_d_TestBench.v
+!i122 707
+R38
+R7
+r1
+!s85 0
+31
+R263
+!s107 D:/modelsim_ase/Projects/CA_2_Question_3_part_d_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_3_part_d_TestBench.v|
+!i113 1
+R11
+R12
+noctal_2_to_1_mux_assign_statement_version_@t@e@s@t_@b@e@n@c@h
+voctal_2_to_1_mux_TEST_BENCH
+!s110 1636548558
+!i10b 1
+!s100 O<goiFAS[XJLnVSL7be9<3
+R1
+IaU5Af:IBJPC@j`jJfGfd60
+R2
+R3
+w1636107489
+8D:/modelsim_ase/Projects/CA_2_Question_3_TestBench.v
+FD:/modelsim_ase/Projects/CA_2_Question_3_TestBench.v
+!i122 704
+Z264 L0 2 19
+R7
+r1
+!s85 0
+31
+!s108 1636548558.000000
+!s107 D:/modelsim_ase/Projects/CA_2_Question_3_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_3_TestBench.v|
+!i113 1
+R11
+R12
+noctal_2_to_1_mux_@t@e@s@t_@b@e@n@c@h
+vone_bit_2_s_complementor
+R13
+!i10b 1
+!s100 HGM1CDXFIA04J`GMfZBM02
+R1
+I2W=UGO[likc<4UD>C:OY13
+R2
+R3
+R14
+R15
+R16
+!i122 715
+L0 45 6
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+vOne_bit_full_adder
+!s110 1621405565
+!i10b 1
+!s100 S3ElDoN:5hX>0TTibLNii2
+R1
+I=_@EzY1R>_HGlj?eZTR931
+R2
+R3
+w1621405560
+Z265 8D:\modelsim_ase\Projects\CA_3_Question_4.v
+Z266 FD:\modelsim_ase\Projects\CA_3_Question_4.v
+!i122 206
+Z267 L0 3 10
+R7
+r1
+!s85 0
+31
+!s108 1621405565.000000
+Z268 !s107 D:\modelsim_ase\Projects\CA_3_Question_4.v|
+Z269 !s90 -reportprogress|300|-work|work|-stats=none|D:\modelsim_ase\Projects\CA_3_Question_4.v|
+!i113 1
+R11
+R12
+n@one_bit_full_adder
+vOne_bit_full_adder_Test_Bench
+!s110 1622807821
+!i10b 1
+!s100 L=;c=8JRTZ=X9cTI2F[LY0
+R1
+I@Fi=kY_MB05fgVBCc5FZU1
+R2
+R3
+w1621110216
+8D:/modelsim_ase/Projects/CA_3_Question_1_Test_Bench.v
+FD:/modelsim_ase/Projects/CA_3_Question_1_Test_Bench.v
+!i122 371
+R83
+R7
+r1
+!s85 0
+31
+!s108 1622807821.000000
+!s107 D:/modelsim_ase/Projects/CA_3_Question_1_Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_3_Question_1_Test_Bench.v|
+!i113 1
+R11
+R12
+n@one_bit_full_adder_@test_@bench
+vones_counter_127_bit
+!s110 1621411481
+!i10b 1
+!s100 a@a16EV<<EM^<SA9X2RV_3
+R1
+IbKYIkiH0G2fgLD6ERS6Tl1
+R2
+R3
+w1621411476
+R265
+R266
+!i122 229
+L0 17 30
+R7
+r1
+!s85 0
+31
+!s108 1621411481.000000
+R268
+R269
+!i113 1
+R11
+R12
+vPost_Pre_behavioral_moore_10110_detector_Test_Bench
+Z270 !s110 1640938697
+!i10b 1
+!s100 >iMk8LXhdZS<`PF@^InG93
+R1
+IFN>4HJWkNl;Pzf8TaMUi@1
+R2
+R3
+w1640765562
+8D:/modelsim_ase/Projects/CA_5_Question_a_part_iii.v
+FD:/modelsim_ase/Projects/CA_5_Question_a_part_iii.v
+!i122 995
+R38
+R7
+r1
+!s85 0
+31
+Z271 !s108 1640938697.000000
+!s107 D:/modelsim_ase/Projects/CA_5_Question_a_part_iii.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_5_Question_a_part_iii.v|
+!i113 1
+R11
+R12
+n@post_@pre_behavioral_moore_10110_detector_@test_@bench
+vPre_behavioral_moore_10110_detector
+R270
+!i10b 1
+!s100 K1m5;HNXTg:5EWLV5P:k11
+R1
+I0VJ@IV>C^PE1<FC774F:G2
+R2
+R3
+w1640766388
+8D:\modelsim_ase\Projects\Pre_behavioral_moore_10110_detector.vo
+FD:\modelsim_ase\Projects\Pre_behavioral_moore_10110_detector.vo
+!i122 996
+R88
+R7
+r1
+!s85 0
+31
+R271
+!s107 D:\modelsim_ase\Projects\Pre_behavioral_moore_10110_detector.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\modelsim_ase\Projects\Pre_behavioral_moore_10110_detector.vo|
+!i113 1
+R11
+R12
+n@pre_behavioral_moore_10110_detector
+vQuartus_and_verilog_of_moore_10010_detector_Test_Bench
+!s110 1623597680
+!i10b 1
+!s100 UY?8UFL;KzEYOFdGgXfl;3
+R1
+I1TUlZM4oXfWBRWP7S_8111
+R2
+R3
+w1623596796
+R240
+R241
+!i122 434
+R38
+R7
+r1
+!s85 0
+31
+!s108 1623597680.000000
+R242
+R243
+!i113 1
+R11
+R12
+n@quartus_and_verilog_of_moore_10010_detector_@test_@bench
+vQuartus_mealy_10010_detector
+!s110 1623604015
+!i10b 1
+!s100 @PHQ`cC7@Q`4VLo`V>bgg0
+R1
+I[Tac257WPDH:Mo=UGN2F<2
+R2
+R3
+w1623596394
+R232
+R233
+!i122 459
+R234
+R7
+r1
+!s85 0
+31
+!s108 1623604015.000000
+R236
+R237
+!i113 1
+R11
+R12
+n@quartus_mealy_10010_detector
+vQuartus_moore_10010_detector
+!s110 1623597681
+!i10b 1
+!s100 Md42N^JLD1KHkf`LS1Jc_3
+R1
+I_jJ``bhCa]zNS[=IZFNXX3
+R2
+R3
+w1623597654
+8D:/modelsim_ase/Projects/simulation/modelsim/moore_10010_detector_min_1000mv_0c_fast.vo
+FD:/modelsim_ase/Projects/simulation/modelsim/moore_10010_detector_min_1000mv_0c_fast.vo
+!i122 439
+R239
+R7
+r1
+!s85 0
+31
+!s108 1623597681.000000
+!s107 D:/modelsim_ase/Projects/simulation/modelsim/moore_10010_detector_min_1000mv_0c_fast.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/simulation/modelsim/moore_10010_detector_min_1000mv_0c_fast.vo|
+!i113 1
+R11
+R12
+n@quartus_moore_10010_detector
+vQuestion_3
+!s110 1634907649
+!i10b 1
+!s100 CK:EUa8gEY;^fk8MBz]Q<0
+R1
+IT__SGc6NGl3F_e^jKBI=Z1
+R2
+R3
+w1634907636
+8D:/modelsim_ase/Projects/CA_1_Question_3_FALL.v
+FD:/modelsim_ase/Projects/CA_1_Question_3_FALL.v
+!i122 624
+L0 24 11
+R7
+r1
+!s85 0
+31
+!s108 1634907649.000000
+!s107 D:/modelsim_ase/Projects/CA_1_Question_3_FALL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_1_Question_3_FALL.v|
+!i113 1
+R11
+R12
+n@question_3
+vQuestion_3_TEST_BENCH
+!s110 1634907511
+!i10b 1
+!s100 L>B00;NF4?:@[WXdU1YJW2
+R1
+I@@N;[eA=64XVeC7S@K6hS3
+R2
+R3
+w1634907499
+8D:/modelsim_ase/Projects/CA_1_Question_3_TestBench.v
+FD:/modelsim_ase/Projects/CA_1_Question_3_TestBench.v
+!i122 623
+Z272 L0 2 16
+R7
+r1
+!s85 0
+31
+!s108 1634907511.000000
+!s107 D:/modelsim_ase/Projects/CA_1_Question_3_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_1_Question_3_TestBench.v|
+!i113 1
+R11
+R12
+n@question_3_@t@e@s@t_@b@e@n@c@h
+vQuestion_4
+Z273 !s110 1634908902
+!i10b 1
+!s100 UNnOG3j_14D;:=[VcHK0_2
+R1
+IFCbT4zk^E^BiV:LS2cj4_2
+R2
+R3
+Z274 w1634908777
+Z275 8D:/modelsim_ase/Projects/CA_1_Question_4_FALL.v
+Z276 FD:/modelsim_ase/Projects/CA_1_Question_4_FALL.v
+!i122 633
+L0 31 11
+R7
+r1
+!s85 0
+31
+Z277 !s108 1634908902.000000
+Z278 !s107 D:/modelsim_ase/Projects/CA_1_Question_4_FALL.v|
+Z279 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_1_Question_4_FALL.v|
+!i113 1
+R11
+R12
+n@question_4
+vQuestion_4_TEST_BENCH
+!s110 1634908903
+!i10b 1
+!s100 Gha[l[;@_lB`GYl2ozNT^1
+R1
+IPfYM?8Oh=;`QfhfI^a@C70
+R2
+R3
+w1634908830
+8D:/modelsim_ase/Projects/CA_1_Question_4_TestBench.v
+FD:/modelsim_ase/Projects/CA_1_Question_4_TestBench.v
+!i122 634
+R272
+R7
+r1
+!s85 0
+31
+R277
+!s107 D:/modelsim_ase/Projects/CA_1_Question_4_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_1_Question_4_TestBench.v|
+!i113 1
+R11
+R12
+n@question_4_@t@e@s@t_@b@e@n@c@h
+vQuestion_5
+!s110 1634909396
+!i10b 1
+!s100 53OB9=QMjCXJe<LR7n6Y13
+R1
+IU7E`T?1@4JNR_H?GiIQNG2
+R2
+R3
+w1634722105
+Z280 8D:/modelsim_ase/Projects/CA_1_Question_5_FALL.v
+Z281 FD:/modelsim_ase/Projects/CA_1_Question_5_FALL.v
+!i122 635
+R132
+R7
+r1
+!s85 0
+31
+!s108 1634909396.000000
+Z282 !s107 D:/modelsim_ase/Projects/CA_1_Question_5_FALL.v|
+Z283 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_1_Question_5_FALL.v|
+!i113 1
+R11
+R12
+n@question_5
+vQuestion_5_
+!s110 1634722093
+!i10b 1
+!s100 ^:jiz]3A[7<;l6hm?GcBR1
+R1
+IlC[QCnDMKMa[cGEg2KdVn2
+R2
+R3
+w1634722081
+R280
+R281
+!i122 606
+R132
+R7
+r1
+!s85 0
+31
+!s108 1634722092.000000
+R282
+R283
+!i113 1
+R11
+R12
+n@question_5_
+vQuestion_5_TEST_BENCH
+!s110 1636046270
+!i10b 1
+!s100 HT<]nFd>U85WXc2^0SidQ3
+R1
+I:>N6?Fin<Xim?1=L?k4<D2
+R2
+R3
+w1636046265
+R248
+R249
+!i122 650
+R272
+R7
+r1
+!s85 0
+31
+!s108 1636046270.000000
+R250
+R251
+!i113 1
+R11
+R12
+n@question_5_@t@e@s@t_@b@e@n@c@h
+vQuestion_6_TEST_BENCH
+!s110 1634912086
+!i10b 1
+!s100 7@GFGGI<RVk=AFd:ZjKgg3
+R1
+I]`hfUnhSY40J;d56^l3a83
+R2
+R3
+w1634912083
+8D:/modelsim_ase/Projects/CA_1_Question_6_FALL.v
+FD:/modelsim_ase/Projects/CA_1_Question_6_FALL.v
+!i122 638
+R264
+R7
+r1
+!s85 0
+31
+!s108 1634912086.000000
+!s107 D:/modelsim_ase/Projects/CA_1_Question_6_FALL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_1_Question_6_FALL.v|
+!i113 1
+R11
+R12
+n@question_6_@t@e@s@t_@b@e@n@c@h
+vRegister
+R117
+!i10b 1
+!s100 OPefZC@FR]DaZ@D>A0aUF0
+R1
+ITKT_k5WFX6h3jVliE:Z1:3
+R2
+R3
+R152
+R153
+R154
+!i122 2391
+R80
+R7
+r1
+!s85 0
+31
+R121
+R155
+R156
+!i113 1
+R11
+R12
+n@register
+vregister
+!s110 1648371490
+!i10b 1
+!s100 _SO`1U6@MGkE8cTG7WhPS2
+R1
+IIBI=fQ3@gnHTjSmjXY[==0
+R2
+R3
+w1648371485
+R153
+R154
+!i122 1026
+R80
+R7
+r1
+!s85 0
+31
+!s108 1648371488.000000
+R155
+R156
+!i113 1
+R11
+R12
+vRegister_32_bit
+R29
+!i10b 1
+!s100 VJOZ]<@>BdRSi0CL8:h`e1
+R1
+I_W7HfX?<m[>aUnE7[`2QF0
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+R80
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@register_32_bit
+vRegister_40_bit
+R117
+!i10b 1
+!s100 F4b50ZzVS[Y2k?1kK9n6U1
+R1
+IC[=6YoAjZ7]<C383b0LDf3
+R2
+R3
+R152
+R153
+R154
+!i122 2391
+L0 16 12
+R7
+r1
+!s85 0
+31
+R121
+R155
+R156
+!i113 1
+R11
+R12
+n@register_40_bit
+vRegister_8_bit
+R0
+!i10b 1
+!s100 4W8Bkj9SbUcP[GVOfIZ=71
+R1
+IT;66g2OE3>21KBj=L36E22
+R2
+R3
+R4
+R5
+R6
+!i122 2511
+R252
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@register_8_bit
+vRegister_File
+R29
+!i10b 1
+!s100 [GlcPdcMILYB@@m9Fd_kF3
+R1
+I1f?Glg2ZaTc`EFQPoPF0N2
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 68 26
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@register_@file
+vRing_Oscillator
+Z284 !s110 1650545523
+!i10b 1
+!s100 mL4f`O:Zi_3THIK3AegB92
+R1
+I<P68b87PLOQ_nAHW<SSCN2
+R2
+R3
+w1650434455
+8D:/modelsim_ase/Projects/Ring_Oscillator.v
+FD:/modelsim_ase/Projects/Ring_Oscillator.v
+!i122 2535
+R132
+R7
+r1
+!s85 0
+31
+!s108 1650545522.000000
+!s107 D:/modelsim_ase/Projects/Ring_Oscillator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/Ring_Oscillator.v|
+!i113 1
+R11
+R12
+n@ring_@oscillator
+vRing_Oscillator_TestBench
+R284
+!i10b 1
+!s100 XlSdnK_8V3J1;I^2k]YR71
+R1
+I<CdAi`NI=EjXJPQloR4b50
+R2
+R3
+w1649264384
+8D:/modelsim_ase/Projects/Ring_Oscillator_TestBench.v
+FD:/modelsim_ase/Projects/Ring_Oscillator_TestBench.v
+!i122 2536
+Z285 L0 3 15
+R7
+r1
+!s85 0
+31
+!s108 1650545523.000000
+!s107 D:/modelsim_ase/Projects/Ring_Oscillator_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/Ring_Oscillator_TestBench.v|
+!i113 1
+R11
+R12
+n@ring_@oscillator_@test@bench
+vSequentail_multiplier
+!s110 1624805009
+!i10b 1
+!s100 dMm7BC`:B7D_[RXIBT:9>0
+R1
+II<kcizb120@7]mRNzKPJl2
+R2
+R3
+w1624805006
+Z286 8D:/modelsim_ase/Projects/CA_6_part_g.v
+Z287 FD:/modelsim_ase/Projects/CA_6_part_g.v
+!i122 535
+R137
+R7
+r1
+!s85 0
+31
+!s108 1624805009.000000
+Z288 !s107 D:/modelsim_ase/Projects/CA_6_part_g.v|
+Z289 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_6_part_g.v|
+!i113 1
+R11
+R12
+n@sequentail_multiplier
+vSequentail_multiplier_Test_Bench
+!s110 1624806098
+!i10b 1
+!s100 9BBR[zSFgZ29GLk:d>BH53
+R1
+ICJ16nlbYJLKmcZT_eQ`m;0
+R2
+R3
+w1624806057
+Z290 8D:/modelsim_ase/Projects/CA_6_part_g_TestBench.v
+Z291 FD:/modelsim_ase/Projects/CA_6_part_g_TestBench.v
+!i122 547
+R38
+R7
+r1
+!s85 0
+31
+!s108 1624806098.000000
+Z292 !s107 D:/modelsim_ase/Projects/CA_6_part_g_TestBench.v|
+Z293 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_6_part_g_TestBench.v|
+!i113 1
+R11
+R12
+n@sequentail_multiplier_@test_@bench
+vSequential_multiplier
+Z294 !s110 1624888641
+!i10b 1
+!s100 >@MYVUK?Nnfo[nKONnW9o0
+R1
+ImUP:82K`H^K@:zIz^??WU0
+R2
+R3
+w1624807229
+R286
+R287
+!i122 560
+R137
+R7
+r1
+!s85 0
+31
+Z295 !s108 1624888641.000000
+R288
+R289
+!i113 1
+R11
+R12
+n@sequential_multiplier
+vSequential_multiplier_Test_Bench
+R294
+!i10b 1
+!s100 5kEjLLH[`KTaehX7SCDCQ0
+R1
+I[Ic1U5T_YZUZk7>bGm]oC3
+R2
+R3
+w1624806648
+R290
+R291
+!i122 561
+R38
+R7
+r1
+!s85 0
+31
+R295
+R292
+R293
+!i113 1
+R11
+R12
+n@sequential_multiplier_@test_@bench
+vserial_transmitter
+!s110 1640776685
+!i10b 1
+!s100 a1<PZF0>_f`_KogUfo57J2
+R1
+ISj6^gi<Kd>j0d>kTzO=zc1
+R2
+R3
+w1640776682
+8D:/modelsim_ase/Projects/serial_transmitter.v
+FD:/modelsim_ase/Projects/serial_transmitter.v
+!i122 990
+R217
+R7
+r1
+!s85 0
+31
+!s108 1640776685.000000
+!s107 D:/modelsim_ase/Projects/serial_transmitter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/serial_transmitter.v|
+!i113 1
+R11
+R12
+vshiftregister8bitMS_always_sta
+Z296 !s110 1639566840
+!i10b 1
+!s100 X6=O4i>lITAbMizPJ>?@m1
+R1
+IMb?_1Gl7?Q`oKZ?jo@WQm2
+R2
+R3
+Z297 w1639566837
+R227
+R228
+!i122 860
+L0 42 12
+R7
+r1
+!s85 0
+31
+Z298 !s108 1639566840.000000
+R229
+R230
+!i113 1
+R11
+R12
+nshiftregister8bit@m@s_always_sta
+vSign_Extension_16_bit
+R29
+!i10b 1
+!s100 K95XWQXi_5:CfJ]BJRNUP0
+R1
+I>88TaI3LTB=KUjAcMe5cD3
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 109 6
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@sign_@extension_16_bit
+vSign_Extension_21_bit
+R29
+!i10b 1
+!s100 fhADfT0QBNG<NobF>1kn^3
+R1
+IdP^E5^C:zlY3:O:E^ziIO1
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 116 6
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@sign_@extension_21_bit
+vSign_Extension_26_bit
+R29
+!i10b 1
+!s100 9TI^nfRRPI99hJl18HfL_0
+R1
+IPMKQT6iDb[idiFA18[EKh0
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 123 5
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@sign_@extension_26_bit
+vSign_Extension_8_bit
+!s110 1653928939
+!i10b 1
+!s100 4C<1RKbBGfbz5dO9lFa;C2
+R1
+ICfoT5e^fN9L1O4PU?6kmD2
+R2
+R3
+w1653928935
+8D:\modelsim_ase\Projects\Sign_Extension_8_bit.v
+FD:\modelsim_ase\Projects\Sign_Extension_8_bit.v
+!i122 2994
+R213
+R7
+r1
+!s85 0
+31
+!s108 1653928938.000000
+!s107 D:\modelsim_ase\Projects\Sign_Extension_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\modelsim_ase\Projects\Sign_Extension_8_bit.v|
+!i113 1
+R11
+R12
+n@sign_@extension_8_bit
+vSingle_Cycle_MIPS
+R29
+!i10b 1
+!s100 BW2;OlMl<PYBXFlG<[dh11
+R1
+I=VPkIi9B4dTBF>kHZJ0YF3
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 200 11
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@single_@cycle_@m@i@p@s
+vSingle_Cycle_MIPS_ALU_Controller
+R29
+!i10b 1
+!s100 3ml_[]Sa620`akP4<@iIb0
+R1
+I@F@ZA9@3M6DKEPHzX61`]2
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 159 17
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@single_@cycle_@m@i@p@s_@a@l@u_@controller
+vSingle_Cycle_MIPS_CU
+R29
+!i10b 1
+!s100 ^?DnRSU5[jL7TT75izGLY0
+R1
+IX^@SBU083<:DRiB^Ic=5S2
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 177 22
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@single_@cycle_@m@i@p@s_@c@u
+vSingle_Cycle_MIPS_DataPath
+R29
+!i10b 1
+!s100 R2]C:4>_jN1:7^?@4[Bm13
+R1
+I9K;HG3884JM9VAe;52?KU2
+R2
+R3
+R30
+R31
+R32
+!i122 2872
+L0 129 29
+R7
+r1
+!s85 0
+31
+R33
+R34
+R35
+!i113 1
+R11
+R12
+n@single_@cycle_@m@i@p@s_@data@path
+vSingle_Cycle_MIPS_Test_Bench
+!s110 1652868274
+!i10b 1
+!s100 mHc@]Fo0fjP8z?fHNTjT03
+R1
+Ii`T7Lf3zNjMLL46YBGYKP3
+R2
+R3
+w1652868268
+8D:\modelsim_ase\Projects\CA__Sinlge_Cycle_MIPS_TestBench.v
+FD:\modelsim_ase\Projects\CA__Sinlge_Cycle_MIPS_TestBench.v
+!i122 2871
+L0 3 160
+R7
+r1
+!s85 0
+31
+R33
+!s107 D:\modelsim_ase\Projects\CA__Sinlge_Cycle_MIPS_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\modelsim_ase\Projects\CA__Sinlge_Cycle_MIPS_TestBench.v|
+!i113 1
+R11
+R12
+n@single_@cycle_@m@i@p@s_@test_@bench
+vsixteen_to_1_mux_with_4_to_1_muxs
+R41
+!i10b 1
+!s100 <O=MTPX2nbM_TRc4ABYdk2
+R1
+IZ>6=OAz;m1cAca:GOXX2L2
+R2
+R3
+R42
+R43
+R44
+!i122 92
+L0 10 10
+R7
+r1
+!s85 0
+31
+R45
+R46
+R47
+!i113 1
+R11
+R12
+vsixteen_to_1_mux_with_4_to_1_muxs_TEST_BENCH
+!s110 1619074959
+!i10b 1
+!s100 _oTjYAY]_SC?16dm4:CzU1
+R1
+IPU;`4Af[8OWUBTG;GcB?U1
+R2
+R3
+w1618685504
+8D:/modelsim_ase/Projects/CA_2_Question_3_Test_Bench.v
+FD:/modelsim_ase/Projects/CA_2_Question_3_Test_Bench.v
+!i122 93
+R285
+R7
+r1
+!s85 0
+31
+!s108 1619074959.000000
+!s107 D:/modelsim_ase/Projects/CA_2_Question_3_Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_2_Question_3_Test_Bench.v|
+!i113 1
+R11
+R12
+nsixteen_to_1_mux_with_4_to_1_muxs_@t@e@s@t_@b@e@n@c@h
+vSR_Clocked_Latch
+!s110 1622297955
+!i10b 1
+!s100 aVIAM>iUXhYb7ZSGC=83k0
+R1
+IoOj9DKNlTNmlJRMC34GBC0
+R2
+R3
+w1622297668
+R95
+R96
+!i122 266
+R80
+R7
+r1
+!s85 0
+31
+!s108 1622297955.000000
+R97
+R98
+!i113 1
+R11
+R12
+n@s@r_@clocked_@latch
+vSR_Clocked_Latch_TEST_BENCH
+!s110 1622300726
+!i10b 1
+!s100 8e^hTYE3e17VCE1E=<Ee=1
+R1
+I@g_hzF]X;l9@Uo_zTC6mz3
+R2
+R3
+w1622300714
+8D:/modelsim_ase/Projects/CA_4_Question_2.v
+FD:/modelsim_ase/Projects/CA_4_Question_2.v
+!i122 274
+R238
+R7
+r1
+!s85 0
+31
+!s108 1622300725.000000
+!s107 D:/modelsim_ase/Projects/CA_4_Question_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_4_Question_2.v|
+!i113 1
+R11
+R12
+n@s@r_@clocked_@latch_@t@e@s@t_@b@e@n@c@h
+vT_flip_flop
+R196
+!i10b 1
+!s100 ?BkhgHHRXgU9=cfi6C[;S3
+R1
+IFiGNX??bd0VekLj<led[I2
+R2
+R3
+R197
+R198
+R199
+!i122 377
+R137
+R7
+r1
+!s85 0
+31
+R200
+R201
+R202
+!i113 1
+R11
+R12
+n@t_flip_flop
+vtan_x_controller
+!s110 1641748497
+!i10b 1
+!s100 E4jf2ecN?1=iF4jXKz7UW2
+R1
+InUEDSU]dmEc2]F>9C@S9K0
+R2
+R3
+w1641746712
+8D:/modelsim_ase/Projects/tan_x_controller.v
+FD:/modelsim_ase/Projects/tan_x_controller.v
+!i122 1023
+R68
+R7
+r1
+!s85 0
+31
+!s108 1641748496.000000
+!s107 D:/modelsim_ase/Projects/tan_x_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/tan_x_controller.v|
+!i113 1
+R11
+R12
+vtan_x_DP
+!s110 1641730210
+!i10b 1
+!s100 lfgD8bm92T]DhAKFo_E@_1
+R1
+I_AXTWYN9bJRP[HKbGcNWl3
+R2
+R3
+w1641729495
+8D:/modelsim_ase/Projects/tan_x_DP.vo
+FD:/modelsim_ase/Projects/tan_x_DP.vo
+!i122 1010
+L0 32 1644
+R7
+r1
+!s85 0
+31
+!s108 1641730209.000000
+!s107 D:/modelsim_ase/Projects/tan_x_DP.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/tan_x_DP.vo|
+!i113 1
+R11
+R12
+ntan_x_@d@p
+vtan_x_Test_Bench
+Z299 !s110 1641876661
+!i10b 1
+!s100 B_5O6C`lBHJZmRDR5dK4J1
+R1
+IFjo4>LTLX1O58_NTTA8BI3
+R2
+R3
+Z300 w1641876658
+Z301 8D:/modelsim_ase/Projects/tan_x_TestBench.v
+Z302 FD:/modelsim_ase/Projects/tan_x_TestBench.v
+!i122 1025
+L0 778 19
+R7
+r1
+!s85 0
+31
+Z303 !s108 1641876661.000000
+Z304 !s107 D:/modelsim_ase/Projects/tan_x_TestBench.v|
+Z305 !s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/tan_x_TestBench.v|
+!i113 1
+R11
+R12
+ntan_x_@test_@bench
+vtan_x_top_level
+R299
+!i10b 1
+!s100 fUI6PY6mSlnZZdaA2;>:Y3
+R1
+I[iRZI=bFmKEYjVkf>^^bV3
+R2
+R3
+R300
+R301
+R302
+!i122 1025
+L0 32 710
+R7
+r1
+!s85 0
+31
+R303
+R304
+R305
+!i113 1
+R11
+R12
+vtb_ASSUME_R4
+!s110 1652892985
+!i10b 1
+!s100 FcX`A=K9hPTeV]70IIzPI1
+R1
+II_b10aMnL6S>nZn8=:^oJ3
+R2
+R3
+w1652892865
+8D:\modelsim_ase\Projects\ArianMohammad - DLD_Lab_2\ASSUME-R4_TB.v
+FD:\modelsim_ase\Projects\ArianMohammad - DLD_Lab_2\ASSUME-R4_TB.v
+!i122 2879
+L0 4 38
+R7
+r1
+!s85 0
+31
+!s108 1652892984.000000
+!s107 D:\modelsim_ase\Projects\ArianMohammad - DLD_Lab_2\ASSUME_R4.vo|D:\modelsim_ase\Projects\ArianMohammad - DLD_Lab_2\ASSUME-R4_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\modelsim_ase\Projects\ArianMohammad - DLD_Lab_2\ASSUME-R4_TB.v|
+!i113 1
+R11
+R12
+ntb_@a@s@s@u@m@e_@r4
+vtestbench_p5
+R296
+!i10b 1
+!s100 S1nmU=L:<6m[0ZNeJfCz]2
+R1
+IizddhC=iL^AA`b3kB11>i1
+R2
+R3
+R297
+R227
+R228
+!i122 860
+L0 61 23
+R7
+r1
+!s85 0
+31
+R298
+R229
+R230
+!i113 1
+R11
+R12
+vthree_state_NAND
+R273
+!i10b 1
+!s100 REFEIiCdGTE5KQg7NgZM]1
+R1
+IBckg7;m]45LJ^d=;^BD9b0
+R2
+R3
+R274
+R275
+R276
+!i122 633
+L0 16 14
+R7
+r1
+!s85 0
+31
+R277
+R278
+R279
+!i113 1
+R11
+R12
+nthree_state_@n@a@n@d
+vthree_state_NOT
+R13
+!i10b 1
+!s100 _==EW:nQ=Y0cG[:[czTXR0
+R1
+Id7TP;ZQN:8n>APNgBAeen3
+R2
+R3
+R14
+R15
+R16
+!i122 715
+L0 12 12
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+nthree_state_@n@o@t
+vthree_state_NOT_and_NAND_TEST_BENCH
+!s110 1634908053
+!i10b 1
+!s100 MfA6N<bA6m1nHkSF5K0^g1
+R1
+IfcLTh]M67D?[P]LeMEDQf2
+R2
+R3
+w1634680646
+8D:/modelsim_ase/Projects/CA_1_Question_2_TestBench_FALL.v
+FD:/modelsim_ase/Projects/CA_1_Question_2_TestBench_FALL.v
+!i122 628
+R264
+R7
+r1
+!s85 0
+31
+!s108 1634908053.000000
+!s107 D:/modelsim_ase/Projects/CA_1_Question_2_TestBench_FALL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_1_Question_2_TestBench_FALL.v|
+!i113 1
+R11
+R12
+nthree_state_@n@o@t_and_@n@a@n@d_@t@e@s@t_@b@e@n@c@h
+vWaveForm_Generator_Processor
+R149
+!i10b 1
+!s100 fYZ7ifnAecj9>FEZoY5E_0
+R1
+I=1Cj^K6>Jb1=9Ked0B`R?0
+R2
+R3
+w1653375335
+8D:/modelsim_ase/Projects/Waveform_Generator_Processor.v
+FD:/modelsim_ase/Projects/Waveform_Generator_Processor.v
+!i122 2989
+L0 3 42
+R7
+r1
+!s85 0
+31
+!s108 1653380336.000000
+!s107 D:/modelsim_ase/Projects/Waveform_Generator_Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/Waveform_Generator_Processor.v|
+!i113 1
+R11
+R12
+n@wave@form_@generator_@processor
+vwrapper
+Z306 !s110 1624888419
+!i10b 1
+!s100 >kVDZ_Ji1Zhi82OVeE2:f3
+R1
+I@HSHBWeJ^jF]a`RMgc@zg0
+R2
+R3
+w1624803924
+8D:/modelsim_ase/Projects/CA_6_part_f.v
+FD:/modelsim_ase/Projects/CA_6_part_f.v
+!i122 555
+L0 2 10
+R7
+r1
+!s85 0
+31
+!s108 1624888418.000000
+!s107 D:/modelsim_ase/Projects/CA_6_part_f.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_6_part_f.v|
+!i113 1
+R11
+R12
+vwrapper_Test_Bench
+R306
+!i10b 1
+!s100 IL26Ld=V]fkfi<>TkZ:B50
+R1
+I`o@129][M?Aka<B[?NF;a2
+R2
+R3
+w1624805828
+8D:/modelsim_ase/Projects/CA_6_part_f_TestBench.v
+FD:/modelsim_ase/Projects/CA_6_part_f_TestBench.v
+!i122 556
+R21
+R7
+r1
+!s85 0
+31
+!s108 1624888419.000000
+!s107 D:/modelsim_ase/Projects/CA_6_part_f_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/modelsim_ase/Projects/CA_6_part_f_TestBench.v|
+!i113 1
+R11
+R12
+nwrapper_@test_@bench
+vXor
+!s110 1621108346
+!i10b 1
+!s100 e:TC^><iQ;FoeDJzSV0Di1
+R1
+IVXcY0?Pa?>dK[>m2TfjS13
+R2
+R3
+w1621108343
+R215
+R216
+!i122 100
+R267
+R7
+r1
+!s85 0
+31
+!s108 1621108346.000000
+R218
+R219
+!i113 1
+R11
+R12
+n@xor
+vXOR_Complex_gate
+!s110 1616175689
+!i10b 1
+!s100 =8E7X]G_3U3X[M_b`_O9e0
+R1
+IAZLB@QW23PhC_?h[iPUbf0
+R2
+R3
+w1616171693
+8D:/modelsim_ase/Projects/XOR_Complex_Gate.v
+FD:/modelsim_ase/Projects/XOR_Complex_Gate.v
+!i122 17
+L0 12 19
+R7
+r1
+!s85 0
+31
+!s108 1616175689.000000
+!s107 D:/modelsim_ase/Projects/XOR_Complex_Gate.v|
+!s90 -reportprogress|300|-work|work|D:/modelsim_ase/Projects/XOR_Complex_Gate.v|
+!i113 1
+R11
+R12
+n@x@o@r_@complex_gate
+vyosys_behavioral_ALU_Test_Bench
+!s110 1638348320
+!i10b 1
+!s100 4WEe[LHgWAkYA5Jb^D`e03
+R1
+I=PoIJD?`>`TT5i:LFCh]B0
+R2
+R3
+w1638346462
+R69
+R70
+!i122 755
+R38
+R7
+r1
+!s85 0
+31
+!s108 1638348320.000000
+R71
+R72
+!i113 1
+R11
+R12
+nyosys_behavioral_@a@l@u_@test_@bench
+vyosys_Structural_ALU_Test_Bench
+!s110 1638351788
+!i10b 1
+!s100 N:0087Fhe=<;HXILOQHi=0
+R1
+Ikk]MW8FFDfA=C`P3iFjo]2
+R2
+R3
+w1638351785
+R36
+R37
+!i122 763
+R38
+R7
+r1
+!s85 0
+31
+!s108 1638351788.000000
+R39
+R40
+!i113 1
+R11
+R12
+nyosys_@structural_@a@l@u_@test_@bench

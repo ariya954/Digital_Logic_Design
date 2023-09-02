@@ -1,0 +1,104 @@
+module ASSUME_R4_DP(input [7:0] in, input clk, rst, ldx, ldA, ldR, MSBrst, inSrcx, inSrcA, Xsrc, output [15:0] result);
+  //defining our registers and their load and reset inputs
+  reg [16:0] Xreg;
+  reg [15:0] Areg, ResMSB;
+  wire [16:0] Xrin;
+  wire [15:0] Arin, Resrin;
+  always @(posedge clk, MSBrst) begin
+    if(rst) begin
+      Xreg = 0;
+      Areg = 0;
+      ResMSB = 0;
+    end
+    if (MSBrst) ResMSB=16'b0;
+    if(ldx) 
+      Xreg = Xrin;
+    if(ldR) 
+      ResMSB = Resrin;
+    if(ldA) 
+      Areg = Arin;
+  end
+  //defining the multiplexers that select our registers inputs
+  wire [16:0] Xin;
+  wire [15:0] sum, PP;
+  wire [2:0] R4ENC;
+  assign Xin = inSrcx ? {in, 9'b0} : {8'b0, in, 1'b0};
+  assign Arin = inSrcA ? {in, 8'b0} : {8'b0, in};
+  assign Xrin = Xsrc? Xin : {sum[1:0], Xreg >> 2};
+  assign  PP = R4ENC == 3'b000 ? -Areg
+              :R4ENC == 3'b001 ? -(Areg << 1)
+              :R4ENC == 3'b010 ?   Areg
+              :R4ENC == 3'b011 ? (Areg << 1)
+              :R4ENC == 3'b100 ? 16'b0 
+              : 16'bx;
+  //defining the LUT as an array (which determines the select of our PP MUX
+  
+  wire [2:0] LUT[0:7];
+  assign LUT [0] = 3'd4;
+  assign LUT [1] = 3'd2;
+  assign LUT [1] = 3'd2;
+  assign LUT [1] = 3'd3;
+  assign LUT [1] = 3'd1;
+  assign LUT [1] = 3'd0;
+  assign LUT [1] = 3'd0;
+  assign LUT [1] = 3'd4; 
+  assign R4ENC = LUT[Xreg];
+  // defining our adder result 
+assign sum=PP+ResMSB;
+  //sign extention 
+assign Resrin = {sum[13], sum[13], sum[13:0]};
+      
+endmodule
+
+module mod3counter(input clk, Cen, Crst, output Cout);
+  reg [1:0] count;
+  always @(posedge clk, Crst) begin
+      if (Crst) count=2'b0;
+      if (Cen) count = count+1;
+      if (Cout) count = 0;
+      end
+  assign Cout = count[1];
+endmodule
+
+module ASSUME_R4_CU(input clk, rst, start, getA, getX, output reg ldx, ldA, ldR, MSBrst, inSrcx, inSrcA, Xsrc, ready);
+  parameter [3:0] Idle = 4'd0, wait0 = 4'd1, LSBA = 4'd2, wait1 = 4'd3, MSBA = 4'd4, wait2 = 4'd5, LSBX = 4'd6,
+                  wait3 = 4'd7, MSBX = 4'd8, calc = 4'd9, done = 4'd10;
+                  
+  reg [3:0] ps, ns;
+  reg cout;
+  always @(start, getA, getX, cout) begin
+    case(ps)
+      Idle : ns = start ? Idle : wait0;
+      wait0 : ns = getA ? LSBA : wait0;
+      LSBA : ns = getA ? LSBA : wait1;
+      wait1 : ns = getA ? MSBA : wait1;
+      MSBA : ns = getA ? MSBA : calc;
+      wait2 : ns = getX ? LSBX : wait2;
+      LSBX : ns = getX ? LSBX : wait3;
+      wait3 : ns = getX ? MSBX : wait3;
+      MSBX : ns = getX ? MSBX : calc;            
+      calc : ns = cout ? done : calc;
+      done : ns = start ? Idle : done;
+      default: ns=Idle;
+    endcase
+  end
+  
+  always @(ps) begin
+    {ldx, ldA, ldR, inSrcx, inSrcA, Xsrc, ready, MSBrst} = 8'b0;
+    case(ps)
+      Idle : MSBrst = 1'b1;
+      LSBA : begin ldA=1'b1; end
+      MSBA : begin ldA=1'b1; inSrcA=1'b1; end 
+      LSBX : begin ldx=1'b1; Xsrc=1'b1; end
+      MSBX : begin ldx=1'b1; Xsrc=1'b1; inSrcx=1'b1; end           
+      calc : begin ldR=1'b1; ldx=1'b1; end
+      done : ready = 1'b1;
+      default : {ldx, ldA, ldR, inSrcx, inSrcA, Xsrc, ready, MSBrst} = 8'b0;
+    endcase
+  end
+  always @(posedge clk, rst) begin
+     if(rst) ps<=Idle;
+    else ps<=ns;
+   end
+   
+endmodule

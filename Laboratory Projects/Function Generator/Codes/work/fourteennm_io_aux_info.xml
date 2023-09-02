@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_io_aux">
+	<PARAMETERS>
+		<PARAMETER NAME="sys_clk_source" TYPE="String" VALUE="int_osc_clk|clock_user|core_clk" DEFAULT_VALUE="int_osc_clk"/>
+		<PARAMETER NAME="sys_clk_div" TYPE="Integer" VALUE="1|2|4|6" DEFAULT_VALUE="2"/>
+		<PARAMETER NAME="cal_clk_div" TYPE="Integer" VALUE="4|6|8|10|14|20|24|32" DEFAULT_VALUE="6"/>
+		<PARAMETER NAME="config_hps" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="config_io_aux_bypass" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="config_power_down" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="config_ram" TYPE="Vector" WIDTH="38" DEFAULT_VALUE="00000000000000000000000000000000000000"/>
+		<PARAMETER NAME="config_spare" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00000000"/>
+		<PARAMETER NAME="nios_break_vector_word_addr" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000000000"/>
+		<PARAMETER NAME="nios_exception_vector_word_addr" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000000000"/>
+		<PARAMETER NAME="nios_reset_vector_word_addr" TYPE="Vector" WIDTH="16" DEFAULT_VALUE="0000000000000000"/>
+		<PARAMETER NAME="parameter_table_hex_file" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="nios_code_hex_file" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="simulation_osc_freq_mhz" TYPE="Integer" DEFAULT_VALUE="800"/>
+		<PARAMETER NAME="interface_id" TYPE="Integer" VALUE="0..15" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="silicon_rev" TYPE="String" VALUE="14nm5es|14nm5es2|14nm4es|14nm4es2|14nm5|14nm4|14nm3|14nm2|14nm1" DEFAULT_VALUE="14nm5es"/>
+		<PARAMETER NAME="mem_contents" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="mem_contents_valid" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="mem_contents_updated" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_io_aux" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="core_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_usr_reset_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="debug_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="mcu_en" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="mode" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_burstcount" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_read_data_valid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_waitrequest" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_read" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_reset_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_write" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_rdata_valid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_reset_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_waitrequest" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="usrmode" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_cdr_to_the_hard_nios" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_rti_to_the_hard_nios" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_sdr_to_the_hard_nios" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_tck_to_the_hard_nios" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_tdi_to_the_hard_nios" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_udr_to_the_hard_nios" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_uir_to_the_hard_nios" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="debug_select" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="pio_in" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_addr" TYPE="INPUT" WIDTH="24" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_byteenable" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_read_data" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_write_data" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_read_data" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="uc_read_data" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_ir_in_to_the_hard_nios" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_burstcount" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_clk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_read" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_reset_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_write" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_read_data_valid" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_waitrequest" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_burstcount" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_debugaccess" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_read" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_rst_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_write" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="uc_av_bus_clk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="uc_read" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="uc_write" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_tdo_from_the_hard_nios" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="debug_out" TYPE="OUTPUT" WIDTH="22" DEFAULT_VALUE="0"/>
+		<PORT NAME="pio_out" TYPE="OUTPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_addr" TYPE="OUTPUT" WIDTH="24" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_byteenable" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_out_write_data" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_nios_read_data" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_addr" TYPE="OUTPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_byteenable" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="soft_ram_write_data" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="uc_address" TYPE="OUTPUT" WIDTH="20" DEFAULT_VALUE="0"/>
+		<PORT NAME="uc_write_data" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="vji_ir_out_from_the_hard_nios" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

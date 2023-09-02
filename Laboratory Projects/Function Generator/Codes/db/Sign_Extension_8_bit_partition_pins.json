@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sign_extended_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sign_extended_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sign_extended_input[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sign_extended_input[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sign_extended_input[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sign_extended_input[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sign_extended_input[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sign_extended_input[7]",
+					"strict" : false
+				},
+				{
+					"name" : "_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "_input[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

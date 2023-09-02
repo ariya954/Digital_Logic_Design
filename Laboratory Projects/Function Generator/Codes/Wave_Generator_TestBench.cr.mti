@@ -1,0 +1,15 @@
+D:/modelsim_ase/Projects/DAC.v {1 {vlog -work work -stats=none D:/modelsim_ase/Projects/DAC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DAC
+
+Top level modules:
+	DAC
+
+} {} {}} D:/modelsim_ase/Projects/Wave_Generator_TestBench.v {1 {vlog -work work -stats=none D:/modelsim_ase/Projects/Wave_Generator_TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DAC_TestBench
+
+Top level modules:
+	DAC_TestBench
+
+} {} {}}

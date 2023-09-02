@@ -1,0 +1,9 @@
+
+State Machine - |tan_x_top_level|tan_x_controller:controller|ps
+Name ps.mux_3 ps.mux_2 ps.mux_1 ps.load ps.init ps.Idle 
+ps.Idle 0 0 0 0 0 0 
+ps.init 0 0 0 0 1 1 
+ps.load 0 0 0 1 0 1 
+ps.mux_1 0 0 1 0 0 1 
+ps.mux_2 0 1 0 0 0 1 
+ps.mux_3 1 0 0 0 0 1 

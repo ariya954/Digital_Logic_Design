@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_ram_block">
+	<PARAMETERS>
+		<PARAMETER NAME="clk0_input_clock_enable" TYPE="String" VALUE="ena0|none" DEFAULT_VALUE="none"/>
+		<PARAMETER NAME="clk0_output_clock_enable" TYPE="String" VALUE="ena0|none" DEFAULT_VALUE="none"/>
+		<PARAMETER NAME="clk1_input_clock_enable" TYPE="String" VALUE="ena1|none" DEFAULT_VALUE="none"/>
+		<PARAMETER NAME="clk1_output_clock_enable" TYPE="String" VALUE="ena1|none" DEFAULT_VALUE="none"/>
+		<PARAMETER NAME="ecc_pipeline_stage_enabled" TYPE="String" VALUE="true|false" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="enable_ecc_encoder_bypass" TYPE="String" VALUE="true|false" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="enable_force_to_zero" TYPE="String" VALUE="true|false" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="enable_coherent_read" TYPE="String" VALUE="true|false" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="bist_ena" TYPE="String" VALUE="true|false" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="enable_ecc" TYPE="String" DEFAULT_VALUE="FALSE"/>
+		<PARAMETER NAME="init_file" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="init_file_layout" TYPE="String" DEFAULT_VALUE="PORT_A"/>
+		<PARAMETER NAME="mixed_port_feed_through_mode" TYPE="String" DEFAULT_VALUE="DONT_CARE"/>
+		<PARAMETER NAME="operation_mode" TYPE="String" DEFAULT_VALUE="DUAL_PORT"/>
+		<PARAMETER NAME="port_a_address_width" TYPE="Integer" VALUE="1..11" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="port_a_address2_width" TYPE="Integer" VALUE="1..11" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="port_a_byte_enable_mask_width" TYPE="Integer" VALUE="1..4" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="port_a_byte_size" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_a_data_out_clear" TYPE="String" DEFAULT_VALUE="NONE"/>
+		<PARAMETER NAME="port_a_data_out_clock" TYPE="String" DEFAULT_VALUE="NONE"/>
+		<PARAMETER NAME="port_a_data_width" TYPE="Integer" VALUE="1..40" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="port_a_first_address" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_a_first_bit_number" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_a_last_address" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_a_logical_ram_depth" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_a_logical_ram_width" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_b_address_clock" TYPE="String" DEFAULT_VALUE="CLOCK0"/>
+		<PARAMETER NAME="port_b_address_width" TYPE="Integer" VALUE="1..11" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="port_b_address2_width" TYPE="Integer" VALUE="1..11" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="port_b_byte_enable_mask_width" TYPE="Integer" VALUE="0..4" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="port_b_byte_size" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_b_data_out_clear" TYPE="String" DEFAULT_VALUE="NONE"/>
+		<PARAMETER NAME="port_b_data_out_clock" TYPE="String" DEFAULT_VALUE="NONE"/>
+		<PARAMETER NAME="port_b_data_width" TYPE="Integer" VALUE="1..40" DEFAULT_VALUE="1"/>
+		<PARAMETER NAME="port_b_first_address" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_b_first_bit_number" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_b_last_address" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_b_logical_ram_depth" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="port_b_logical_ram_width" TYPE="Integer" DEFAULT_VALUE="0"/>
+		<PARAMETER NAME="ram_block_type" TYPE="String" DEFAULT_VALUE="AUTO"/>
+		<PARAMETER NAME="width_eccstatus" TYPE="String" DEFAULT_VALUE="UNUSED"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_ram_block" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="clk0" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clk1" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="aclr" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="sclr" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ena0" TYPE="INPUT" DEFAULT_VALUE="1"/>
+		<PORT NAME="ena1" TYPE="INPUT" DEFAULT_VALUE="1"/>
+		<PORT NAME="portaaddrstall" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="portaaddrstall2" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="portare" TYPE="INPUT" DEFAULT_VALUE="1"/>
+		<PORT NAME="portawe" TYPE="INPUT" DEFAULT_VALUE="1"/>
+		<PORT NAME="eccencbypass" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="portbaddrstall" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="portbaddrstall2" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="portbre" TYPE="INPUT" DEFAULT_VALUE="1"/>
+		<PORT NAME="portbwe" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="portaaddr" TYPE="INPUT" WIDTH="11" DEFAULT_VALUE="0"/>
+		<PORT NAME="portaaddr2" TYPE="INPUT" WIDTH="11" DEFAULT_VALUE="0"/>
+		<PORT NAME="portabyteenamasks" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="1"/>
+		<PORT NAME="portadatain" TYPE="INPUT" WIDTH="40" DEFAULT_VALUE="0"/>
+		<PORT NAME="eccencparity" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="portbaddr" TYPE="INPUT" WIDTH="11" DEFAULT_VALUE="0"/>
+		<PORT NAME="portbaddr2" TYPE="INPUT" WIDTH="11" DEFAULT_VALUE="0"/>
+		<PORT NAME="portbbyteenamasks" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="1"/>
+		<PORT NAME="portbdatain" TYPE="INPUT" WIDTH="20" DEFAULT_VALUE="0"/>
+		<PORT NAME="portadataout" TYPE="OUTPUT" WIDTH="40" DEFAULT_VALUE="0"/>
+		<PORT NAME="portbdataout" TYPE="OUTPUT" WIDTH="40" DEFAULT_VALUE="0"/>
+		<PORT NAME="eccstatus" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="dftout" TYPE="OUTPUT" WIDTH="9" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

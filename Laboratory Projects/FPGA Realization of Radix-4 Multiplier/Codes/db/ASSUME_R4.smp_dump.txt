@@ -1,0 +1,15 @@
+
+State Machine - |ASSUME_R4|ASSUME_R4_CU:controlunit|ps
+Name ps.calc ps.wait4 ps.MSBX ps.wait3 ps.LSBX ps.wait2 ps.MSBA ps.wait1 ps.LSBA ps.wait0 ps.Idle ps.done 
+ps.done 0 0 0 0 0 0 0 0 0 0 0 0 
+ps.Idle 0 0 0 0 0 0 0 0 0 0 1 1 
+ps.wait0 0 0 0 0 0 0 0 0 0 1 0 1 
+ps.LSBA 0 0 0 0 0 0 0 0 1 0 0 1 
+ps.wait1 0 0 0 0 0 0 0 1 0 0 0 1 
+ps.MSBA 0 0 0 0 0 0 1 0 0 0 0 1 
+ps.wait2 0 0 0 0 0 1 0 0 0 0 0 1 
+ps.LSBX 0 0 0 0 1 0 0 0 0 0 0 1 
+ps.wait3 0 0 0 1 0 0 0 0 0 0 0 1 
+ps.MSBX 0 0 1 0 0 0 0 0 0 0 0 1 
+ps.wait4 0 1 0 0 0 0 0 0 0 0 0 1 
+ps.calc 1 0 0 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_dma">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_dma" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="fpga0_dma_req" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga0_dma_single" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga1_dma_req" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga1_dma_single" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2_dma_req" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2_dma_single" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga3_dma_req" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga3_dma_single" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga4_dma_req" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga4_dma_single" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga5_dma_req" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga5_dma_single" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga6_dma_req" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga6_dma_single" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga7_dma_req" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga7_dma_single" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga0_dma_peri_ack" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga1_dma_peri_ack" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga2_dma_peri_ack" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga3_dma_peri_ack" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga4_dma_peri_ack" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga5_dma_peri_ack" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga6_dma_peri_ack" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga7_dma_peri_ack" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

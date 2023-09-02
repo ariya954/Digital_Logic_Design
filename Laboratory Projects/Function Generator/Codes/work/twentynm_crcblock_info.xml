@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<ROOT>
+	<FUNCTION_INFORMATION>
+		<HAS_SIM_LIB VALUE="ON" />
+	</FUNCTION_INFORMATION>
+	<PARAMETERS>
+		<PARAMETER NAME="crc_enable" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false" />
+		<PARAMETER NAME="oscillator_divider" TYPE="Integer" VALUE="1|2|4|8|16|32|64|128|256" DEFAULT_VALUE="256" />
+		<PARAMETER NAME="error_delay" TYPE="Integer" VALUE="0..63" DEFAULT_VALUE="0" />
+		<PARAMETER NAME="disable_col_bits_updated" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false" />
+		<PARAMETER NAME="crc_deld_disable" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false" />
+		<PARAMETER NAME="col_chk_bit_update_retry" TYPE="Integer" VALUE="0..7" DEFAULT_VALUE="0" />
+		<PARAMETER NAME="edcrc_start_frame" TYPE="Integer" VALUE="0..65535" DEFAULT_VALUE="0" />
+		<PARAMETER NAME="edcrc_stop_frame" TYPE="Integer" VALUE="0..65535" DEFAULT_VALUE="0" />
+		<PARAMETER NAME="n_edcrc_colums" TYPE="Integer" VALUE="0..255" DEFAULT_VALUE="0" />
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_crcblock" />
+		<PARAMETER NAME="LPM_HINT" TYPE="STRING" VALUE="UNUSED" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="clk" TYPE="INPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="shiftnld" TYPE="INPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="crcerror" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="regout" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+		<PORT NAME="endofedfullchip" TYPE="OUTPUT" DEFAULT_VALUE="0" />
+	</PORTS>
+</ROOT>

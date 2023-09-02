@@ -1,0 +1,205 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "w[0]",
+					"strict" : false
+				},
+				{
+					"name" : "w[1]",
+					"strict" : false
+				},
+				{
+					"name" : "w[2]",
+					"strict" : false
+				},
+				{
+					"name" : "w[3]",
+					"strict" : false
+				},
+				{
+					"name" : "w[4]",
+					"strict" : false
+				},
+				{
+					"name" : "w[5]",
+					"strict" : false
+				},
+				{
+					"name" : "w[6]",
+					"strict" : false
+				},
+				{
+					"name" : "w[7]",
+					"strict" : false
+				},
+				{
+					"name" : "w[8]",
+					"strict" : false
+				},
+				{
+					"name" : "w[9]",
+					"strict" : false
+				},
+				{
+					"name" : "w[10]",
+					"strict" : false
+				},
+				{
+					"name" : "w[11]",
+					"strict" : false
+				},
+				{
+					"name" : "w[12]",
+					"strict" : false
+				},
+				{
+					"name" : "w[13]",
+					"strict" : false
+				},
+				{
+					"name" : "w[14]",
+					"strict" : false
+				},
+				{
+					"name" : "w[15]",
+					"strict" : false
+				},
+				{
+					"name" : "w[16]",
+					"strict" : false
+				},
+				{
+					"name" : "w[17]",
+					"strict" : false
+				},
+				{
+					"name" : "w[18]",
+					"strict" : false
+				},
+				{
+					"name" : "w[19]",
+					"strict" : false
+				},
+				{
+					"name" : "w[20]",
+					"strict" : false
+				},
+				{
+					"name" : "w[21]",
+					"strict" : false
+				},
+				{
+					"name" : "w[22]",
+					"strict" : false
+				},
+				{
+					"name" : "w[23]",
+					"strict" : false
+				},
+				{
+					"name" : "start_multplication",
+					"strict" : false
+				},
+				{
+					"name" : "a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "a[4]",
+					"strict" : false
+				},
+				{
+					"name" : "a[5]",
+					"strict" : false
+				},
+				{
+					"name" : "a[6]",
+					"strict" : false
+				},
+				{
+					"name" : "a[7]",
+					"strict" : false
+				},
+				{
+					"name" : "a[8]",
+					"strict" : false
+				},
+				{
+					"name" : "a[9]",
+					"strict" : false
+				},
+				{
+					"name" : "a[10]",
+					"strict" : false
+				},
+				{
+					"name" : "a[11]",
+					"strict" : false
+				},
+				{
+					"name" : "b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "b[5]",
+					"strict" : false
+				},
+				{
+					"name" : "b[6]",
+					"strict" : false
+				},
+				{
+					"name" : "b[7]",
+					"strict" : false
+				},
+				{
+					"name" : "b[8]",
+					"strict" : false
+				},
+				{
+					"name" : "b[9]",
+					"strict" : false
+				},
+				{
+					"name" : "b[10]",
+					"strict" : false
+				},
+				{
+					"name" : "b[11]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

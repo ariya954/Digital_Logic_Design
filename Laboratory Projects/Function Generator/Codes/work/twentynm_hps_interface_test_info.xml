@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_test">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_test" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="dft_in_advance" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_atpg_clk_sel_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_atpg_mode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_bist_cpu_si" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_bist_l2_si" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_bist_rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_bist_se_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_bistclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_bisten_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_clkod_ctl" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_clkod_scanclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_clkod_scanin" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_compress_enable_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_eccbyp_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_ensat" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_fasten" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_freeclk_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_io_interface_test_mode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_io_test_mode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_jtag_mode" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_jtag_update_dr" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_jtghighz" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_l4mpclk_div_ctl_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mainpll_bg_pwrdn" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mainpll_bg_reset" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mainpll_reg_pwrdn" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mainpll_reg_reset" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mainpll_reg_test_sel" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mem_cpu_si" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mem_l2_si" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mem_se_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_atpg_mode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_clk_sel_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_io_interface_test_mode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_occ_bypass_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_occ_enable_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_occ_si" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_pipeline_scan_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_scanen_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_clk_0" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_clk_1" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_clk_2" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_clock_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_mode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mtesten_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_occ_enable_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_outreset" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_outresetall" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_periphpll_bg_pwrdn" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_periphpll_bg_reset" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_periphpll_reg_pwrdn" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_periphpll_reg_reset" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_periphpll_reg_test_sel" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pinmux_scanen" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pinmux_scanin" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pipeline_scan_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pll_reg_ext_sel" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pll_reg_test_drv" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pll_reg_test_out" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pll_reg_test_rep" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pllbypass" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pllbypass_sel_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_plltest_input_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_prbs_test_enable_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pwrdn" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_reg_test_int_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_reset" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_scanen_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_step" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_tck" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_tdi" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_test" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_test_clock" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_test_init_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_testmode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_in_ringo_datain" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_in_ringo_enable_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_in_ringo_scan_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_in_t2_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_in_t2_datain" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_in_t2_scan_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_bist_peri_si" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_bwadj" TYPE="INPUT" WIDTH="12" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_clkf" TYPE="INPUT" WIDTH="13" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_clkod" TYPE="INPUT" WIDTH="11" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_clkr" TYPE="INPUT" WIDTH="6" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_io_control" TYPE="INPUT" WIDTH="20" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mem_peri_si" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_scanin" TYPE="INPUT" WIDTH="14" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_noc_left_scanin" TYPE="INPUT" WIDTH="15" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_noc_right_scanin" TYPE="INPUT" WIDTH="10" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pll_clk_testbus_sel" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_pll_debug_testbus_sel" TYPE="INPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_test_clock_en_n" TYPE="INPUT" WIDTH="60" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_test_si" TYPE="INPUT" WIDTH="50" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_bist_cpu_so" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_bist_l2_so" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_clkod_scanout" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mainpll_clkout_0_7" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mainpll_clkout_8_15" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mainpll_debugout" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mainpll_reg_test_int" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mainpll_reg_test_sig" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mem_cpu_so" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mem_l2_so" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mpfe_occ_so" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_periphpll_clkout_0_7" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_periphpll_clkout_8_15" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_periphpll_debugout" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_periphpll_reg_test_int" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_periphpll_reg_test_sig" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_pinmux_scanout" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_secmgr_por_rst_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_tdo" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_testmode_status" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_out_dclk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_out_fpga_l4_sys_free_clk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_out_fpga_s2f_ntrst" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_out_pr_request" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_out_ringo_dataout" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_bist_peri_so" TYPE="OUTPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mem_peri_so" TYPE="OUTPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mpfe_scanout" TYPE="OUTPUT" WIDTH="14" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_noc_left_scanout" TYPE="OUTPUT" WIDTH="15" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_noc_right_scanout" TYPE="OUTPUT" WIDTH="10" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_test_so" TYPE="OUTPUT" WIDTH="50" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_out_fpga_data" TYPE="OUTPUT" WIDTH="18" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_out_s2f_data" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="dfx_out_t2_dataout" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'tan_x_controller:controller|ps.Idle'
+Slack : -1.642
+TNS   : -1.642
+
+Type  : Slow 1200mV 125C Model Setup 'clock'
+Slack : -0.802
+TNS   : -1.234
+
+Type  : Slow 1200mV 125C Model Hold 'clock'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'tan_x_controller:controller|ps.Idle'
+Slack : 1.374
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -5.974
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'tan_x_controller:controller|ps.Idle'
+Slack : 0.414
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'tan_x_controller:controller|ps.Idle'
+Slack : -1.347
+TNS   : -1.347
+
+Type  : Slow 1200mV -40C Model Setup 'clock'
+Slack : -0.468
+TNS   : -0.706
+
+Type  : Slow 1200mV -40C Model Hold 'clock'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'tan_x_controller:controller|ps.Idle'
+Slack : 1.290
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -5.570
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'tan_x_controller:controller|ps.Idle'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'clock'
+Slack : -0.221
+TNS   : -0.221
+
+Type  : Fast 1200mV -40C Model Setup 'tan_x_controller:controller|ps.Idle'
+Slack : -0.202
+TNS   : -0.202
+
+Type  : Fast 1200mV -40C Model Hold 'clock'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'tan_x_controller:controller|ps.Idle'
+Slack : 0.609
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -5.136
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'tan_x_controller:controller|ps.Idle'
+Slack : 0.459
+TNS   : 0.000
+
+------------------------------------------------------------

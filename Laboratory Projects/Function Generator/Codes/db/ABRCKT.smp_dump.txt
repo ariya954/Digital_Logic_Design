@@ -1,0 +1,6 @@
+
+State Machine - |ABRCKT|ABRCKT_CU:CU|ps
+Name ps.looking_for_start_bit ps.send_BRG_reg_value_to_frequency_divider ps.Idle 
+ps.Idle 0 0 0 
+ps.looking_for_start_bit 1 0 1 
+ps.send_BRG_reg_value_to_frequency_divider 0 1 1 

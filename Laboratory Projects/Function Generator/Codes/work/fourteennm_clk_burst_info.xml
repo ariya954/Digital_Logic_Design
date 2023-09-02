@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_clk_burst">
+	<PARAMETERS>
+		<PARAMETER NAME="burst_inv" TYPE="String" VALUE="false|true" DEFAULT_VALUE="true"/>
+		<PARAMETER NAME="burstconf0" TYPE="String" VALUE="high|low" DEFAULT_VALUE="high"/>
+		<PARAMETER NAME="burstconf1" TYPE="String" VALUE="high|low" DEFAULT_VALUE="high"/>
+		<PARAMETER NAME="burstconf2" TYPE="String" VALUE="high|low" DEFAULT_VALUE="high"/>
+		<PARAMETER NAME="burstconf3" TYPE="String" VALUE="high|low" DEFAULT_VALUE="high"/>
+		<PARAMETER NAME="burstconf4" TYPE="String" VALUE="high|low" DEFAULT_VALUE="high"/>
+		<PARAMETER NAME="burstconf5" TYPE="String" VALUE="high|low" DEFAULT_VALUE="high"/>
+		<PARAMETER NAME="burstconf6" TYPE="String" VALUE="high|low" DEFAULT_VALUE="high"/>
+		<PARAMETER NAME="burstconf7" TYPE="String" VALUE="high|low" DEFAULT_VALUE="high"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_clk_burst" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="enable" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="inclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="outclk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_clk_select">
+	<PARAMETERS>
+		<PARAMETER NAME="mode" TYPE="String" VALUE="clkgateout|clkburstout|inclk" DEFAULT_VALUE="inclk"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_clk_select" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="inclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clkgatein" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clkburstin" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clkswitch" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="outclk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="ct1_cmu_fpll_refclk_select_pld_adapt">
+	<PARAMETERS>
+		<PARAMETER NAME="silicon_rev" TYPE="String" VALUE="14nm5" DEFAULT_VALUE="14nm5"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="ct1_cmu_fpll_refclk_select_pld_adapt" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="avmmclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_refclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="extswitch" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_pllclksel" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="sta_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tx_rx_core_refclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_core_refclk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_extswitch" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_tx_rx_core_refclk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pllclksel" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

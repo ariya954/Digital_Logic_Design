@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jun 14 14:51:34 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : ExpWrapped
+Top-level Entity Name : ExpWrapped
+Family : Cyclone IV E
+Total logic elements : 167
+    Total combinational functions : 164
+    Dedicated logic registers : 80
+Total registers : 80
+Total pins : 45
+Total virtual pins : 0
+Total memory bits : 512
+Embedded Multiplier 9-bit elements : 2
+Total PLLs : 0

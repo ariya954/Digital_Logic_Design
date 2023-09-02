@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_lsm_avmm_master">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_lsm_avmm_master" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="c2f_master_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="c2f_master_readdatavalid" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="c2f_master_waitrequest" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="c2f_master_readdata" TYPE="INPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+		<PORT NAME="c2f_master_read" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="c2f_master_write" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="c2f_master_address" TYPE="OUTPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="c2f_master_byteenable" TYPE="OUTPUT" WIDTH="4" DEFAULT_VALUE="0"/>
+		<PORT NAME="c2f_master_writedata" TYPE="OUTPUT" WIDTH="32" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

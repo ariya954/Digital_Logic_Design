@@ -1,0 +1,9 @@
+{D:/modelsim_ase/Projects/Arian Mohammad - DLD_Lab_4/Exp_Wrapper/ExpWrapped.vo} {1 {vlog -work work -stats=none {D:/modelsim_ase/Projects/Arian Mohammad - DLD_Lab_4/Exp_Wrapper/ExpWrapped.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ExpWrapped
+-- Compiling module hard_block
+
+Top level modules:
+	ExpWrapped
+
+} {} {}}

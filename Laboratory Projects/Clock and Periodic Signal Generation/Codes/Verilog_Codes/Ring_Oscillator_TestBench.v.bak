@@ -1,0 +1,17 @@
+`timescale 1ns/1ns
+
+module Ring_Oscillator_TestBench();
+
+reg en
+wire ring_oscillator_output;
+Ring_Oscillator #(3, 21) ring_oscillator (en, ring_oscillator_output);
+
+initial begin
+en = 0;
+#10;
+#20 en = 1;
+#1000 $stop;
+
+end
+
+endmodule

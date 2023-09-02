@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -5.333
+TNS   : -288.607
+
+Type  : Slow 1200mV 85C Model Setup 'exponential:inst4|datapath:dP|counter:count|out[3]'
+Slack : -1.004
+TNS   : -9.116
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'exponential:inst4|datapath:dP|counter:count|out[3]'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -0.860
+TNS   : -2.477
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 0.834
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -133.614
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'exponential:inst4|datapath:dP|counter:count|out[3]'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.627
+TNS   : -247.519
+
+Type  : Slow 1200mV 0C Model Setup 'exponential:inst4|datapath:dP|counter:count|out[3]'
+Slack : -0.800
+TNS   : -7.155
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'exponential:inst4|datapath:dP|counter:count|out[3]'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -0.666
+TNS   : -1.776
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 0.741
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -133.614
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'exponential:inst4|datapath:dP|counter:count|out[3]'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -2.596
+TNS   : -120.720
+
+Type  : Fast 1200mV 0C Model Setup 'exponential:inst4|datapath:dP|counter:count|out[3]'
+Slack : -0.137
+TNS   : -0.479
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'exponential:inst4|datapath:dP|counter:count|out[3]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : -0.045
+TNS   : -0.045
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -111.134
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'exponential:inst4|datapath:dP|counter:count|out[3]'
+Slack : 0.373
+TNS   : 0.000
+
+------------------------------------------------------------

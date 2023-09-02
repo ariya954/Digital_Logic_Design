@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ROOT>
+  <INCLUDE FILE="mfam_family_macros.xml" />
+
+  <!-- macros -->
+  <MACROS>
+    <MACRO NAME="m_advanced_fpga_family"  DEFINITION="(mfam_family_stratixv || mfam_family_arriav || mfam_family_cyclonev || mfam_family_nightfury)" />
+  </MACROS>
+
+  <PARAMETER_RULES>
+    <PARAMETER NAME="ENHANCED_MODE" >
+      <FORCE_VALUE TO="1" WHEN="m_advanced_fpga_family" />
+    </PARAMETER>
+  </PARAMETER_RULES>
+
+</ROOT>
+

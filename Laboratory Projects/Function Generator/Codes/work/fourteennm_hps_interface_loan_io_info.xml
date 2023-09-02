@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_hps_interface_loan_io">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_hps_interface_loan_io" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="f2s_loanio" TYPE="INPUT" WIDTH="48" DEFAULT_VALUE="0"/>
+		<PORT NAME="loanio_o" TYPE="INPUT" WIDTH="48" DEFAULT_VALUE="0"/>
+		<PORT NAME="loanio_oe" TYPE="INPUT" WIDTH="48" DEFAULT_VALUE="0"/>
+		<PORT NAME="loanio_i" TYPE="OUTPUT" WIDTH="48" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

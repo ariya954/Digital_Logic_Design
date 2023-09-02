@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\DLD lab 2\Desktop
+vASSUME_R4
+Z1 IAZfiOa6NTj4]k1Xlf9H3z3
+Z2 VVMHIVj0k<iM^d4<F01U5l2
+Z3 dC:\Users\DLD lab 2\Desktop\ArianMohammad\simulation\modelsim
+Z4 w1649541121
+Z5 8C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo
+Z6 FC:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo
+L0 31
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@a@s@s@u@m@e_@r4
+Z10 !s100 A2F>_M0WWg7aDFX4Je:4V1
+Z11 !s108 1649541344.704000
+Z12 !s107 C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo|
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_ASSUME_R4
+!i10b 1
+!s100 d;M7fF9DYjd26f@0iQbSc2
+Ie;:0<bdkCAAA?zl0n`HAh3
+Z14 V9BE=egDz6=<m]=<j9b8UV2
+R3
+w1649541587
+Z15 8C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME-R4_TB.v
+Z16 FC:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME-R4_TB.v
+L0 4
+R7
+r1
+!s85 0
+31
+!s108 1649541595.315000
+!s107 C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME-R4_TB.v|
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME-R4_TB.v|
+!s101 -O0
+R8
+Z18 ntb_@a@s@s@u@m@e_@r4

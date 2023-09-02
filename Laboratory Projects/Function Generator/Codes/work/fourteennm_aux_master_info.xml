@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_aux_master">
+	<PARAMETERS>
+		<PARAMETER NAME="silicon_rev" TYPE="String" VALUE="14nm5" DEFAULT_VALUE="14nm5"/>
+		<PARAMETER NAME="ioauxmaster_tstmux_statreg" TYPE="String" VALUE="ioauxmaster_tstmux_statreg_0|ioauxmaster_tstmux_statreg_1|ioauxmaster_tstmux_statreg_2|ioauxmaster_tstmux_statreg_3|ioauxmaster_tstmux_statreg_4|ioauxmaster_tstmux_statreg_5|ioauxmaster_tstmux_statreg_6|ioauxmaster_tstmux_statreg_7" DEFAULT_VALUE="ioauxmaster_tstmux_statreg_0"/>
+		<PARAMETER NAME="sup_mode" TYPE="String" VALUE="user_mode|engineering_mode" DEFAULT_VALUE="user_mode"/>
+		<PARAMETER NAME="powerdown_mode" TYPE="String" VALUE="powerdown|powerup" DEFAULT_VALUE="powerdown"/>
+		<PARAMETER NAME="initial_settings" TYPE="String" VALUE="false|true" DEFAULT_VALUE="false"/>
+		<PARAMETER NAME="xrefgen_ioauxmaster_bg_powerdown" TYPE="String" VALUE="ioauxmaster_bg_power_up|ioauxmaster_bg_power_down" DEFAULT_VALUE="ioauxmaster_bg_power_up"/>
+		<PARAMETER NAME="xrefgen_ioauxmaster_p5v_vref_trim" TYPE="String" VALUE="p5v_vref_trim_0|p5v_vref_trim_1|p5v_vref_trim_2|p5v_vref_trim_3|p5v_vref_trim_4|p5v_vref_trim_5|p5v_vref_trim_6|p5v_vref_trim_7|p5v_vref_trim_8|p5v_vref_trim_9|p5v_vref_trim_10|p5v_vref_trim_11|p5v_vref_trim_12|p5v_vref_trim_13|p5v_vref_trim_14|p5v_vref_trim_15" DEFAULT_VALUE="p5v_vref_trim_6"/>
+		<PARAMETER NAME="xrefgen_ioauxmaster_sel_fusetrim_ramtrim_p5v" TYPE="String" VALUE="sel_fusetrim|sel_ramtrim" DEFAULT_VALUE="sel_ramtrim"/>
+		<PARAMETER NAME="xrefgen_ioauxmaster_bypass_vcceref_to_irefc" TYPE="String" VALUE="ioauxmaster_bypass_vcceref_to_irefc|ioauxmaster_normal_operation_for_irefc" DEFAULT_VALUE="ioauxmaster_normal_operation_for_irefc"/>
+		<PARAMETER NAME="xrefgen_ioauxmaster_iconstant_opt" TYPE="String" VALUE="iconstant_opt_50u_plus_offset4|iconstant_opt_50u_plus_offset3|iconstant_opt_50u_plus_offset2|iconstant_opt_50u_plus_offset1|iconstant_opt_50u|iconstant_opt_50u_minus_offset1|iconstant_opt_50u_minus_offset2|iconstant_opt_50u_minus_offset3" DEFAULT_VALUE="iconstant_opt_50u"/>
+		<PARAMETER NAME="xrefgen_ioauxmaster_bypass_vcceref_to_ireft" TYPE="String" VALUE="ioauxmaster_bypass_vcceref_to_ireft|ioauxmaster_normal_operation_for_ireft" DEFAULT_VALUE="ioauxmaster_normal_operation_for_ireft"/>
+		<PARAMETER NAME="xrefgen_ioauxmaster_itracking_opt" TYPE="String" VALUE="itracking_opt_50u_plus_offset3|itracking_opt_50u_plus_offset2|itracking_opt_50u_plus_offset1|itracking_opt_50u|itracking_opt_50u_minus_offset1|itracking_opt_50u_minus_offset2|itracking_opt_50u_minus_offset3|itracking_opt_50u_minus_offset4" DEFAULT_VALUE="itracking_opt_50u"/>
+		<PARAMETER NAME="xrefgen_ioauxmaster_atb_mode" TYPE="String" VALUE="atb_default|atb_refgen_1|atb_refgen_2|atb_refgen_3|atb_refgen_4|atb_refgen_5|atb_refgen_6|atb_refgen_7|atb_refgen_8|atb_refgen_9|atb_refgen_10|atb_refgen_11|atb_refgen_12|atb_refgen_13|atb_refgen_14|atb_refgen_15" DEFAULT_VALUE="atb_default"/>
+		<PARAMETER NAME="xatb_ioauxmaster_atb_en" TYPE="String" VALUE="atb_global_disable|atb_global_enable" DEFAULT_VALUE="atb_global_disable"/>
+		<PARAMETER NAME="xatb_ioauxmaster_atben0" TYPE="String" VALUE="atben0_disable|atben0_enable" DEFAULT_VALUE="atben0_disable"/>
+		<PARAMETER NAME="xatb_ioauxmaster_atben1" TYPE="String" VALUE="atben1_disable|atben1_enable" DEFAULT_VALUE="atben1_disable"/>
+		<PARAMETER NAME="xatb_ioauxmaster_atben0_io" TYPE="String" VALUE="atb0_precomp_open|atb0_precomp_closed" DEFAULT_VALUE="atb0_precomp_open"/>
+		<PARAMETER NAME="xatb_ioauxmaster_atben1_io" TYPE="String" VALUE="atb1_precomp_open|atb1_precomp_closed" DEFAULT_VALUE="atb1_precomp_open"/>
+		<PARAMETER NAME="xatb_ioauxmaster_atben0_swap" TYPE="String" VALUE="atben0_swap_disable|atben0_swap_enable" DEFAULT_VALUE="atben0_swap_disable"/>
+		<PARAMETER NAME="xatb_ioauxmaster_atben1_swap" TYPE="String" VALUE="atben1_swap_disable|atben1_swap_enable" DEFAULT_VALUE="atben1_swap_disable"/>
+		<PARAMETER NAME="xatb_ioauxmaster_comp_plus" TYPE="String" VALUE="atb_comp_plus_disconnect|atb_comp_plus_connect" DEFAULT_VALUE="atb_comp_plus_disconnect"/>
+		<PARAMETER NAME="xatb_ioauxmaster_comp_minus" TYPE="String" VALUE="atb_comp_minus_disconnect|atb_comp_minus_connect" DEFAULT_VALUE="atb_comp_minus_disconnect"/>
+		<PARAMETER NAME="xatb_ioauxmaster_vrefen_plus" TYPE="String" VALUE="vref_comp_plus_disconnect|vref_comp_plus_connect" DEFAULT_VALUE="vref_comp_plus_disconnect"/>
+		<PARAMETER NAME="xatb_ioauxmaster_vrefen_minus" TYPE="String" VALUE="vref_comp_minus_disconnect|vref_comp_minus_connect" DEFAULT_VALUE="vref_comp_minus_disconnect"/>
+		<PARAMETER NAME="xatb_ioauxmaster_atbcmp_pdb" TYPE="String" VALUE="atb_comp_power_on|atb_comp_power_down" DEFAULT_VALUE="atb_comp_power_down"/>
+		<PARAMETER NAME="xatb_ioauxmaster_vgen_sel" TYPE="Vector" WIDTH="7" DEFAULT_VALUE="1000000"/>
+		<PARAMETER NAME="xatb_ioauxmaster_vgen_selvcca" TYPE="String" VALUE="vref_comp_vcca_disconnect|vref_comp_vcca_connect" DEFAULT_VALUE="vref_comp_vcca_disconnect"/>
+		<PARAMETER NAME="xatb_ioauxmaster_vgen_selvref" TYPE="String" VALUE="vref_comp_vcceref_disconnect|vref_comp_vcceref_connect" DEFAULT_VALUE="vref_comp_vcceref_disconnect"/>
+		<PARAMETER NAME="xdprio_dprio_base_addr" TYPE="Vector" WIDTH="9" DEFAULT_VALUE="000000000"/>
+		<PARAMETER NAME="xdprio_uc_channel_base_addr" TYPE="Vector" WIDTH="8" DEFAULT_VALUE="00000000"/>
+		<PARAMETER NAME="xdprio_cfg_dprio_sel_core" TYPE="String" VALUE="avalon_access_from_uc|avalon_access_from_core" DEFAULT_VALUE="avalon_access_from_uc"/>
+		<PARAMETER NAME="xdprio_dprio_power_iso_en" TYPE="String" VALUE="dprio_power_iso_en_csr_ctrl_en|dprio_power_iso_en_csr_ctrl_disable" DEFAULT_VALUE="dprio_power_iso_en_csr_ctrl_en"/>
+		<PARAMETER NAME="xdprio_dprio_broadcast_en" TYPE="String" VALUE="dprio_broadcast_en_csr_ctrl_en|dprio_broadcast_en_csr_ctrl_disable" DEFAULT_VALUE="dprio_broadcast_en_csr_ctrl_en"/>
+		<PARAMETER NAME="xdprio_dprio_force_mdio_dis" TYPE="String" VALUE="dprio_force_mdio_dis_csr_ctrl_en|dprio_force_mdio_dis_csr_ctrl_disable" DEFAULT_VALUE="dprio_force_mdio_dis_csr_ctrl_en"/>
+		<PARAMETER NAME="xdprio_dprio_cvp_mdio_dis" TYPE="String" VALUE="dprio_cvp_mdio_dis_csr_ctrl_en|dprio_cvp_mdio_dis_csr_ctrl_disable" DEFAULT_VALUE="dprio_cvp_mdio_dis_csr_ctrl_en"/>
+		<PARAMETER NAME="xdprio_extra_csr" TYPE="Vector" WIDTH="2" DEFAULT_VALUE="00"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_aux_master" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="core_avl_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_read" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_write" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="csr_test_dis" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="delayed_usermode" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dprio_rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="nfrzdrv" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pipe_global_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="scan_mode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="scan_shift_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="atpg_scan_in" TYPE="INPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_addr" TYPE="INPUT" WIDTH="9" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_writedata" TYPE="INPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="atpg_scan_out" TYPE="OUTPUT" WIDTH="2" DEFAULT_VALUE="0"/>
+		<PORT NAME="core_avl_readdata" TYPE="OUTPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+		<PORT NAME="tstmux_out" TYPE="OUTPUT" WIDTH="8" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

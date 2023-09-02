@@ -1,0 +1,42 @@
+`include "ASSUME_R4.vo"
+`default_nettype none
+
+module tb_ASSUME_R4();
+reg clk, rst, start, getA, getX;
+reg [7:0] in;
+wire [6:0]displ, disp2, disp3, disp4;
+wire ready;
+
+ASSUME_R4 uut
+(
+clk, rst, start, getA, getX, in, displ, disp2, disp3, disp4, ready
+);
+
+localparam CLK_PERIOD = 10;
+always #(CLK_PERIOD/2) clk=~clk;
+
+
+
+initial begin
+    {clk, rst, start, getA, getX} = 5'b0;
+    #60 start = 0;
+    #60 start = 1;
+    #60 start = 0;
+    in = (8'b11111011);
+    #60 getA = 1;
+    #60 getA = 0;
+    #80 getA = 1;
+    #20 in = 8'b11111111;
+    #60 getA = 0;
+    #60 getX = 1;
+    #60 getX = 0;
+    #20 in = 8'd8;
+    #80 getX = 1;
+    #20 in = 8'd0;
+    // #10 in = 8'd6;
+    #80 getX = 0;
+    #500 $stop; 
+end
+
+endmodule
+`default_nettype wire

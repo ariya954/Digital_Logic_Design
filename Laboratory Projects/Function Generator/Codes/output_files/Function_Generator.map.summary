@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun May 01 02:00:02 2022
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Web Edition
+Revision Name : Function_Generator
+Top-level Entity Name : Function_Generator
+Family : Cyclone II
+Total logic elements : 149
+    Total combinational functions : 149
+    Dedicated logic registers : 34
+Total registers : 34
+Total pins : 21
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

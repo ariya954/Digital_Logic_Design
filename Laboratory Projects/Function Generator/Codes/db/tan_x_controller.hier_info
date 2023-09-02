@@ -1,0 +1,23 @@
+|tan_x_controller
+start => ns.init.DATAB
+start => Selector1.IN1
+clk => ps~1.DATAIN
+reset => ps~3.DATAIN
+co => Selector1.IN3
+co => Selector3.IN2
+int << <GND>
+int_tmp << rst_result.DB_MAX_OUTPUT_PORT_TYPE
+int_res << <GND>
+ld << ld.DB_MAX_OUTPUT_PORT_TYPE
+ld_temp << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+load_result << <GND>
+rst << <GND>
+rst_temp << <GND>
+rst_result << rst_result.DB_MAX_OUTPUT_PORT_TYPE
+select << count_en.DB_MAX_OUTPUT_PORT_TYPE
+count_en << count_en.DB_MAX_OUTPUT_PORT_TYPE
+asynch_set << <GND>
+ready << ready.DB_MAX_OUTPUT_PORT_TYPE
+busy << busy$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

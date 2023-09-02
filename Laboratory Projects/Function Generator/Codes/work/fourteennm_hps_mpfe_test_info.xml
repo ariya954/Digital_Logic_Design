@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_hps_mpfe_test">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_hps_mpfe_test" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="dft_in_mpfe_atpg_clk_sel_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_atpg_mode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_bist_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_compress_enable_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_io_interface_test_mode_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_occ_bypass_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_occ_enable_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_occ_si" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_pipeline_scan_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_prbs_test_enable_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_scanen_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_tdf_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_clock" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_clock_b_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_clock_c_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_clock_en_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_si" TYPE="INPUT" WIDTH="22" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_spare_in" TYPE="INPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_in_mpfe_test_clk" TYPE="INPUT" WIDTH="3" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mpfe_occ_so" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mpfe_testmode_status_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mpfe_so" TYPE="OUTPUT" WIDTH="22" DEFAULT_VALUE="0"/>
+		<PORT NAME="dft_out_mpfe_spare_out" TYPE="OUTPUT" WIDTH="16" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

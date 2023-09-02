@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_sdm_oscillator">
+	<PARAMETERS>
+		<PARAMETER NAME="sim_clkout_period_ps" TYPE="Integer" DEFAULT_VALUE="5000"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_sdm_oscillator" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="clkout" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clkout1" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

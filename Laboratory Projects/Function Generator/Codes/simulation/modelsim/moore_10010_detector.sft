@@ -1,0 +1,6 @@
+set tool_name "ModelSim-Altera (Verilog)"
+set corner_file_list {
+    {{"Slow -8L 1.0V 85 Model"} {moore_10010_detector_8l_1000mv_85c_slow.vo moore_10010_detector_8l_1000mv_85c_v_slow.sdo}}
+    {{"Slow -8L 1.0V 0 Model"} {moore_10010_detector_8l_1000mv_0c_slow.vo moore_10010_detector_8l_1000mv_0c_v_slow.sdo}}
+    {{"Fast -M 1.0V 0 Model"} {moore_10010_detector_min_1000mv_0c_fast.vo moore_10010_detector_min_1000mv_0c_v_fast.sdo}}
+}

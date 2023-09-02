@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "generated_Wave_form[7]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[6]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[5]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[4]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[3]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[2]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[1]",
+					"strict" : false
+				},
+				{
+					"name" : "generated_Wave_form[0]",
+					"strict" : false
+				},
+				{
+					"name" : "func[2]",
+					"strict" : false
+				},
+				{
+					"name" : "func[1]",
+					"strict" : false
+				},
+				{
+					"name" : "func[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ring_oscillator",
+					"strict" : false
+				},
+				{
+					"name" : "Phase_cntrl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "Phase_cntrl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Phase_cntrl[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Freq_select07",
+					"strict" : false
+				},
+				{
+					"name" : "Preset",
+					"strict" : false
+				},
+				{
+					"name" : "CLR",
+					"strict" : false
+				},
+				{
+					"name" : "Freq_select6",
+					"strict" : false
+				},
+				{
+					"name" : "Freq_select3",
+					"strict" : false
+				},
+				{
+					"name" : "Freq_select2",
+					"strict" : false
+				},
+				{
+					"name" : "Freq_select1",
+					"strict" : false
+				},
+				{
+					"name" : "Freq_select0",
+					"strict" : false
+				},
+				{
+					"name" : "Freq_select4",
+					"strict" : false
+				},
+				{
+					"name" : "DN",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

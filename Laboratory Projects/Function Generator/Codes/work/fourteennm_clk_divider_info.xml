@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_clk_divider">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_clk_divider" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="inclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clock_div1" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clock_div2" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clock_div4" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

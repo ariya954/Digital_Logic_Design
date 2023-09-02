@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_controller">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_controller" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="ncecore" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="initdonecore" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

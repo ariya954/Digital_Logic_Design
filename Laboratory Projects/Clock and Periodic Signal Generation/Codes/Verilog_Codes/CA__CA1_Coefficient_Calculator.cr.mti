@@ -1,0 +1,12 @@
+D:/modelsim_ase/Projects/CA__CA1_Coefficient_Calculator.v {1 {vlog -work work -stats=none D:/modelsim_ase/Projects/CA__CA1_Coefficient_Calculator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+-- Compiling module Register_40_bit
+-- Compiling module Coefficient_Calculator_DataPath
+-- Compiling module Coefficient_Calculator_CU
+-- Compiling module Coefficient_Calculator
+
+Top level modules:
+	Coefficient_Calculator
+
+} {} {}}

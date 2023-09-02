@@ -1,0 +1,112 @@
+|ABRCKT
+ABAUD => ABAUD.IN1
+UxRX => UxRX.IN1
+BRGCLK => BRGCLK.IN2
+frequency_divider_input[0] <= ABRCKT_DataPath:Data_Path.port4
+frequency_divider_input[1] <= ABRCKT_DataPath:Data_Path.port4
+frequency_divider_input[2] <= ABRCKT_DataPath:Data_Path.port4
+frequency_divider_input[3] <= ABRCKT_DataPath:Data_Path.port4
+frequency_divider_input[4] <= ABRCKT_DataPath:Data_Path.port4
+frequency_divider_input[5] <= ABRCKT_DataPath:Data_Path.port4
+frequency_divider_input[6] <= ABRCKT_DataPath:Data_Path.port4
+frequency_divider_input[7] <= ABRCKT_DataPath:Data_Path.port4
+UxRXIF <= ABRCKT_CU:CU.port3
+
+
+|ABRCKT|ABRCKT_DataPath:Data_Path
+BRGCLK => BRGCLK.IN2
+ld_en => ld_en.IN1
+cnt_en => cnt_en.IN1
+cnt_rst => cnt_rst.IN1
+frequency_divider_input[0] <= Register_8_bit:BRG_Reg.port3
+frequency_divider_input[1] <= Register_8_bit:BRG_Reg.port3
+frequency_divider_input[2] <= Register_8_bit:BRG_Reg.port3
+frequency_divider_input[3] <= Register_8_bit:BRG_Reg.port3
+frequency_divider_input[4] <= Register_8_bit:BRG_Reg.port3
+frequency_divider_input[5] <= Register_8_bit:BRG_Reg.port3
+frequency_divider_input[6] <= Register_8_bit:BRG_Reg.port3
+frequency_divider_input[7] <= Register_8_bit:BRG_Reg.port3
+
+
+|ABRCKT|ABRCKT_DataPath:Data_Path|Register_8_bit:BRG_Reg
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+clk => Q[4]~reg0.CLK
+clk => Q[5]~reg0.CLK
+clk => Q[6]~reg0.CLK
+clk => Q[7]~reg0.CLK
+load_en => Q[0]~reg0.ENA
+load_en => Q[1]~reg0.ENA
+load_en => Q[2]~reg0.ENA
+load_en => Q[3]~reg0.ENA
+load_en => Q[4]~reg0.ENA
+load_en => Q[5]~reg0.ENA
+load_en => Q[6]~reg0.ENA
+load_en => Q[7]~reg0.ENA
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+D[6] => Q[6]~reg0.DATAIN
+D[7] => Q[7]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ABRCKT|ABRCKT_DataPath:Data_Path|BRG_Counter:comb_3
+BRGCLK => count[0]~reg0.CLK
+BRGCLK => count[1]~reg0.CLK
+BRGCLK => count[2]~reg0.CLK
+BRGCLK => count[3]~reg0.CLK
+BRGCLK => count[4]~reg0.CLK
+BRGCLK => count[5]~reg0.CLK
+BRGCLK => count[6]~reg0.CLK
+BRGCLK => count[7]~reg0.CLK
+cnt_rst => count[0]~reg0.ACLR
+cnt_rst => count[1]~reg0.ACLR
+cnt_rst => count[2]~reg0.ACLR
+cnt_rst => count[3]~reg0.ACLR
+cnt_rst => count[4]~reg0.ACLR
+cnt_rst => count[5]~reg0.ACLR
+cnt_rst => count[6]~reg0.ACLR
+cnt_rst => count[7]~reg0.ACLR
+cnt_en => Add0.IN2
+cnt_en => count[7]~reg0.ENA
+cnt_en => count[6]~reg0.ENA
+cnt_en => count[5]~reg0.ENA
+cnt_en => count[4]~reg0.ENA
+cnt_en => count[3]~reg0.ENA
+cnt_en => count[2]~reg0.ENA
+cnt_en => count[1]~reg0.ENA
+cnt_en => count[0]~reg0.ENA
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[5] <= count[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[6] <= count[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[7] <= count[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ABRCKT|ABRCKT_CU:CU
+ABAUD => Selector3.IN6
+ABAUD => Selector2.IN2
+UxRX => Selector5.IN4
+BRGCLK => ps~1.DATAIN
+UxRXIF <= UxRXIF$latch.DB_MAX_OUTPUT_PORT_TYPE
+cnt_rst <= cnt_rst$latch.DB_MAX_OUTPUT_PORT_TYPE
+cnt_en <= <VCC>
+ld_en <= ld_en$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

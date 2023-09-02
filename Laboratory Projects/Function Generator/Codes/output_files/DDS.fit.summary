@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May 31 06:56:46 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : DDS
+Top-level Entity Name : DDS
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 91 / 6,272 ( 1 % )
+    Total combinational functions : 91 / 6,272 ( 1 % )
+    Dedicated logic registers : 25 / 6,272 ( < 1 % )
+Total registers : 25
+Total pins : 41 / 92 ( 45 % )
+Total virtual pins : 0
+Total memory bits : 2,048 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

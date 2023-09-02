@@ -1,0 +1,53 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1000mV 85C Model Setup 'data_accept'
+Slack : -0.985
+TNS   : -28.820
+
+Type  : Slow 1000mV 85C Model Hold 'data_accept'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1000mV 85C Model Minimum Pulse Width 'data_accept'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1000mV 85C Model Minimum Pulse Width 'data_ready'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1000mV 0C Model Setup 'data_accept'
+Slack : -0.917
+TNS   : -26.860
+
+Type  : Slow 1000mV 0C Model Hold 'data_accept'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1000mV 0C Model Minimum Pulse Width 'data_accept'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1000mV 0C Model Minimum Pulse Width 'data_ready'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1000mV 0C Model Setup 'data_accept'
+Slack : -0.133
+TNS   : -2.792
+
+Type  : Fast 1000mV 0C Model Hold 'data_accept'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1000mV 0C Model Minimum Pulse Width 'data_accept'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1000mV 0C Model Minimum Pulse Width 'data_ready'
+Slack : -3.000
+TNS   : -3.000
+
+------------------------------------------------------------

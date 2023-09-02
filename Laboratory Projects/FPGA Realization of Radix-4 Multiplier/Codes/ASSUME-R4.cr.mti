@@ -1,0 +1,26 @@
+{C:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4_TB.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/ArianMohammad/ASSUME-R4_TB.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module ASSUME_R4_DP
+-- Compiling module counter8
+-- Compiling module ASSUME_R4_CU
+-- Compiling module ASSUME_R4
+-- Compiling module tb_ASSUME_R4
+
+Top level modules:
+	tb_ASSUME_R4
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/ArianMohammad/simulation/modelsim/ASSUME_R4.vo}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module ASSUME_R4
+
+Top level modules:
+	ASSUME_R4
+
+} {} {}} {C:/Users/DLD lab 2/Desktop/ArianMohammad/counter_Testbench.v} {1 {vlog -work work {C:/Users/DLD lab 2/Desktop/ArianMohammad/counter_Testbench.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module counter_Testbench
+
+Top level modules:
+	counter_Testbench
+
+} {} {}}

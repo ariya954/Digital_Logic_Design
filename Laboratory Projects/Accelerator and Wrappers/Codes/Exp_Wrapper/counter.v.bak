@@ -1,0 +1,12 @@
+module counter10(input clk, Cen, Crst, output [7:0] address, output Cout);
+  reg [3:0] count;
+  always @(posedge clk, posedge Crst) begin
+      if (Crst) count=4'b0;
+		else begin 
+		if (Cout) count = 0;
+		if (Cen) count = count+1;
+		end
+	end
+  assign Cout = (count == 4'd10);
+  assign address = {0,0,0,0, count};
+endmodule

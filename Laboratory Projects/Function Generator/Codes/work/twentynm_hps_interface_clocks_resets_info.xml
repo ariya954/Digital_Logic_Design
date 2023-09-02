@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="twentynm_hps_interface_clocks_resets">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="twentynm_hps_interface_clocks_resets" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="f2s_cold_rst_req_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_dbg_rst_req_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_free_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_pending_rst_ack" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="f2s_warm_rst_req_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ptp_ref_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_fpga_scanman_tck" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_pending_rst_req" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_user0_clk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_user1_clk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_user2_clk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_user3_clk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_user4_clk" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

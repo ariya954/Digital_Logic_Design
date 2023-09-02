@@ -1,0 +1,811 @@
+Analysis & Synthesis report for tan_x_top_level
+Sun Jan 09 20:42:56 2022
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |tan_x_top_level|tan_x_controller:controller|ps
+  9. User-Specified and Inferred Latches
+ 10. Registers Removed During Synthesis
+ 11. Removed Registers Triggering Further Register Optimizations
+ 12. General Register Statistics
+ 13. Source assignments for tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated
+ 14. Parameter Settings for User Entity Instance: tan_x:Data_Path|tan_adder:adder|lpm_add_sub:LPM_ADD_SUB_component
+ 15. Parameter Settings for User Entity Instance: tan_x:Data_Path|MULT:multiplier|lpm_mult:lpm_mult_component
+ 16. Parameter Settings for User Entity Instance: tan_x:Data_Path|tan_MUX:MUX|lpm_mux:LPM_MUX_component
+ 17. Parameter Settings for User Entity Instance: tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component
+ 18. Parameter Settings for User Entity Instance: tan_x:Data_Path|tan_counter:counter|lpm_counter:LPM_COUNTER_component
+ 19. Parameter Settings for User Entity Instance: tan_x_controller:controller
+ 20. lpm_mult Parameter Settings by Entity Instance
+ 21. altsyncram Parameter Settings by Entity Instance
+ 22. Post-Synthesis Netlist Statistics for Top Partition
+ 23. Elapsed Time Per Partition
+ 24. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sun Jan 09 20:42:56 2022       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                      ; tan_x_top_level                             ;
+; Top-level Entity Name              ; tan_x_top_level                             ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 4                                           ;
+;     Total combinational functions  ; 4                                           ;
+;     Dedicated logic registers      ; 2                                           ;
+; Total registers                    ; 2                                           ;
+; Total pins                         ; 36                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE6E22A7        ;                    ;
+; Top-level entity name                                            ; tan_x_top_level    ; tan_x_top_level    ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                            ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                            ; Library ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
+; tan_x_top_level.v                ; yes             ; User Verilog HDL File                    ; D:/modelsim_ase/Projects/tan_x_top_level.v                              ;         ;
+; tan_x.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/modelsim_ase/Projects/tan_x.bdf                                      ;         ;
+; tan_adder.v                      ; yes             ; Auto-Found Wizard-Generated File         ; D:/modelsim_ase/Projects/tan_adder.v                                    ;         ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_add_sub.tdf         ;         ;
+; addcore.inc                      ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/addcore.inc             ;         ;
+; look_add.inc                     ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/look_add.inc            ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/bypassff.inc            ;         ;
+; altshift.inc                     ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/altshift.inc            ;         ;
+; alt_stratix_add_sub.inc          ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
+; aglobal201.inc                   ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/aglobal201.inc          ;         ;
+; db/add_sub_dqh.tdf               ; yes             ; Auto-Generated Megafunction              ; D:/modelsim_ase/Projects/db/add_sub_dqh.tdf                             ;         ;
+; register.v                       ; yes             ; Auto-Found Verilog HDL File              ; D:/modelsim_ase/Projects/register.v                                     ;         ;
+; mult.v                           ; yes             ; Auto-Found Wizard-Generated File         ; D:/modelsim_ase/Projects/mult.v                                         ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_mult.tdf            ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_add_sub.inc         ;         ;
+; multcore.inc                     ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/multcore.inc            ;         ;
+; db/mult_qfn.tdf                  ; yes             ; Auto-Generated Megafunction              ; D:/modelsim_ase/Projects/db/mult_qfn.tdf                                ;         ;
+; tan_mux.v                        ; yes             ; Auto-Found Wizard-Generated File         ; D:/modelsim_ase/Projects/tan_mux.v                                      ;         ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_mux.tdf             ;         ;
+; muxlut.inc                       ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/muxlut.inc              ;         ;
+; db/mux_tsc.tdf                   ; yes             ; Auto-Generated Megafunction              ; D:/modelsim_ase/Projects/db/mux_tsc.tdf                                 ;         ;
+; tan_lut.v                        ; yes             ; Auto-Found Wizard-Generated File         ; D:/modelsim_ase/Projects/tan_lut.v                                      ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_mux.inc             ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_decode.inc          ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/a_rdenreg.inc           ;         ;
+; altrom.inc                       ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/altrom.inc              ;         ;
+; altram.inc                       ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/altram.inc              ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/altdpram.inc            ;         ;
+; db/altsyncram_ss81.tdf           ; yes             ; Auto-Generated Megafunction              ; D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf                         ;         ;
+; rom.hex                          ; yes             ; Auto-Found Memory Initialization File    ; D:/modelsim_ase/Projects/rom.hex                                        ;         ;
+; tan_counter.v                    ; yes             ; Auto-Found Wizard-Generated File         ; D:/modelsim_ase/Projects/tan_counter.v                                  ;         ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_counter.tdf         ;         ;
+; lpm_constant.inc                 ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_constant.inc        ;         ;
+; cmpconst.inc                     ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/cmpconst.inc            ;         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_compare.inc         ;         ;
+; lpm_counter.inc                  ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/lpm_counter.inc         ;         ;
+; dffeea.inc                       ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/dffeea.inc              ;         ;
+; alt_counter_stratix.inc          ; yes             ; Megafunction                             ; d:/modelsim_ase/quartus/libraries/megafunctions/alt_counter_stratix.inc ;         ;
+; db/cntr_rgk.tdf                  ; yes             ; Auto-Generated Megafunction              ; D:/modelsim_ase/Projects/db/cntr_rgk.tdf                                ;         ;
+; tan_x_controller.v               ; yes             ; Auto-Found Verilog HDL File              ; D:/modelsim_ase/Projects/tan_x_controller.v                             ;         ;
++----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                       ;
++---------------------------------------------+-------------------------------------+
+; Resource                                    ; Usage                               ;
++---------------------------------------------+-------------------------------------+
+; Estimated Total logic elements              ; 4                                   ;
+;                                             ;                                     ;
+; Total combinational functions               ; 4                                   ;
+; Logic element usage by number of LUT inputs ;                                     ;
+;     -- 4 input functions                    ; 0                                   ;
+;     -- 3 input functions                    ; 1                                   ;
+;     -- <=2 input functions                  ; 3                                   ;
+;                                             ;                                     ;
+; Logic elements by mode                      ;                                     ;
+;     -- normal mode                          ; 4                                   ;
+;     -- arithmetic mode                      ; 0                                   ;
+;                                             ;                                     ;
+; Total registers                             ; 2                                   ;
+;     -- Dedicated logic registers            ; 2                                   ;
+;     -- I/O registers                        ; 0                                   ;
+;                                             ;                                     ;
+; I/O pins                                    ; 36                                  ;
+;                                             ;                                     ;
+; Embedded Multiplier 9-bit elements          ; 0                                   ;
+;                                             ;                                     ;
+; Maximum fan-out node                        ; tan_x_controller:controller|ps.Idle ;
+; Maximum fan-out                             ; 4                                   ;
+; Total fan-out                               ; 51                                  ;
+; Average fan-out                             ; 0.65                                ;
++---------------------------------------------+-------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                          ;
++----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------+------------------+--------------+
+; Compilation Hierarchy Node       ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                          ; Entity Name      ; Library Name ;
++----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------+------------------+--------------+
+; |tan_x_top_level                 ; 4 (0)               ; 2 (0)                     ; 0           ; 0            ; 0       ; 0         ; 36   ; 0            ; |tan_x_top_level                             ; tan_x_top_level  ; work         ;
+;    |tan_x_controller:controller| ; 4 (4)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |tan_x_top_level|tan_x_controller:controller ; tan_x_controller ; work         ;
++----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------+------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++-------------------------------------------------------------------------+
+; State Machine - |tan_x_top_level|tan_x_controller:controller|ps         ;
++----------+----------+----------+----------+---------+---------+---------+
+; Name     ; ps.mux_3 ; ps.mux_2 ; ps.mux_1 ; ps.load ; ps.init ; ps.Idle ;
++----------+----------+----------+----------+---------+---------+---------+
+; ps.Idle  ; 0        ; 0        ; 0        ; 0       ; 0       ; 0       ;
+; ps.init  ; 0        ; 0        ; 0        ; 0       ; 1       ; 1       ;
+; ps.load  ; 0        ; 0        ; 0        ; 1       ; 0       ; 1       ;
+; ps.mux_1 ; 0        ; 0        ; 1        ; 0       ; 0       ; 1       ;
+; ps.mux_2 ; 0        ; 1        ; 0        ; 0       ; 0       ; 1       ;
+; ps.mux_3 ; 1        ; 0        ; 0        ; 0       ; 0       ; 1       ;
++----------+----------+----------+----------+---------+---------+---------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                               ;
++----------------------------------------------------+-------------------------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal                 ; Free of Timing Hazards ;
++----------------------------------------------------+-------------------------------------+------------------------+
+; tan_x_controller:controller|busy                   ; tan_x_controller:controller|WideOr2 ; yes                    ;
+; Number of user-specified and inferred latches = 1  ;                                     ;                        ;
++----------------------------------------------------+-------------------------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                                               ;
++---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+; Register name                                                                                                       ; Reason for Removal                                         ;
++---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+; tan_x:Data_Path|tan_counter:counter|lpm_counter:LPM_COUNTER_component|cntr_rgk:auto_generated|counter_reg_bit[0..2] ; Stuck at GND due to stuck port clock_enable                ;
+; tan_x:Data_Path|register:input_register|Q[0..15]                                                                    ; Lost fanout                                                ;
+; tan_x:Data_Path|register:temp_register|Q[0..15]                                                                     ; Stuck at VCC due to stuck port data_in                     ;
+; tan_x:Data_Path|register:result_register|Q[0..14]                                                                   ; Merged with tan_x:Data_Path|register:result_register|Q[15] ;
+; tan_x:Data_Path|register:result_register|Q[15]                                                                      ; Stuck at GND due to stuck port data_in                     ;
+; tan_x_controller:controller|ps~4                                                                                    ; Lost fanout                                                ;
+; tan_x_controller:controller|ps~5                                                                                    ; Lost fanout                                                ;
+; tan_x_controller:controller|ps~6                                                                                    ; Lost fanout                                                ;
+; tan_x_controller:controller|ps.load                                                                                 ; Lost fanout                                                ;
+; tan_x_controller:controller|ps.mux_1                                                                                ; Lost fanout                                                ;
+; tan_x_controller:controller|ps.mux_2                                                                                ; Lost fanout                                                ;
+; tan_x_controller:controller|ps.mux_3                                                                                ; Lost fanout                                                ;
+; Total Number of Removed Registers = 58                                                                              ;                                                            ;
++---------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                                                                                                    ;
++------------------------------------------------------------------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------+
+; Register name                                                                                                    ; Reason for Removal             ; Registers Removed due to This Register                                     ;
++------------------------------------------------------------------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------+
+; tan_x:Data_Path|tan_counter:counter|lpm_counter:LPM_COUNTER_component|cntr_rgk:auto_generated|counter_reg_bit[2] ; Stuck at GND                   ; tan_x:Data_Path|register:input_register|Q[15],                             ;
+;                                                                                                                  ; due to stuck port clock_enable ; tan_x:Data_Path|register:input_register|Q[14],                             ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[13],                             ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[12],                             ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[11],                             ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[10],                             ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[9],                              ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[8],                              ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[7],                              ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[6],                              ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[5],                              ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[4],                              ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[3],                              ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:input_register|Q[0],                              ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:temp_register|Q[2],                               ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:temp_register|Q[1],                               ;
+;                                                                                                                  ;                                ; tan_x:Data_Path|register:temp_register|Q[0]                                ;
+; tan_x_controller:controller|ps~4                                                                                 ; Lost Fanouts                   ; tan_x_controller:controller|ps.load, tan_x_controller:controller|ps.mux_2, ;
+;                                                                                                                  ;                                ; tan_x_controller:controller|ps.mux_3                                       ;
+; tan_x_controller:controller|ps~6                                                                                 ; Lost Fanouts                   ; tan_x_controller:controller|ps.mux_1                                       ;
++------------------------------------------------------------------------------------------------------------------+--------------------------------+----------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 2     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Source assignments for tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated ;
++---------------------------------+--------------------+------+-----------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                  ;
++---------------------------------+--------------------+------+-----------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                   ;
++---------------------------------+--------------------+------+-----------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tan_x:Data_Path|tan_adder:adder|lpm_add_sub:LPM_ADD_SUB_component ;
++------------------------+--------------+------------------------------------------------------------------------+
+; Parameter Name         ; Value        ; Type                                                                   ;
++------------------------+--------------+------------------------------------------------------------------------+
+; LPM_WIDTH              ; 16           ; Signed Integer                                                         ;
+; LPM_REPRESENTATION     ; UNSIGNED     ; Untyped                                                                ;
+; LPM_DIRECTION          ; ADD          ; Untyped                                                                ;
+; ONE_INPUT_IS_CONSTANT  ; NO           ; Untyped                                                                ;
+; LPM_PIPELINE           ; 0            ; Untyped                                                                ;
+; MAXIMIZE_SPEED         ; 5            ; Untyped                                                                ;
+; REGISTERED_AT_END      ; 0            ; Untyped                                                                ;
+; OPTIMIZE_FOR_SPEED     ; 5            ; Untyped                                                                ;
+; USE_CS_BUFFERS         ; 1            ; Untyped                                                                ;
+; CARRY_CHAIN            ; MANUAL       ; Untyped                                                                ;
+; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH                                                     ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped                                                                ;
+; USE_WYS                ; OFF          ; Untyped                                                                ;
+; STYLE                  ; FAST         ; Untyped                                                                ;
+; CBXI_PARAMETER         ; add_sub_dqh  ; Untyped                                                                ;
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY                                                             ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                                                           ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                                           ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                                         ;
++------------------------+--------------+------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tan_x:Data_Path|MULT:multiplier|lpm_mult:lpm_mult_component ;
++------------------------------------------------+--------------+------------------------------------------+
+; Parameter Name                                 ; Value        ; Type                                     ;
++------------------------------------------------+--------------+------------------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY                               ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY                             ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE                             ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE                           ;
+; LPM_WIDTHA                                     ; 16           ; Signed Integer                           ;
+; LPM_WIDTHB                                     ; 16           ; Signed Integer                           ;
+; LPM_WIDTHP                                     ; 16           ; Signed Integer                           ;
+; LPM_WIDTHR                                     ; 0            ; Untyped                                  ;
+; LPM_WIDTHS                                     ; 1            ; Untyped                                  ;
+; LPM_REPRESENTATION                             ; UNSIGNED     ; Untyped                                  ;
+; LPM_PIPELINE                                   ; 0            ; Untyped                                  ;
+; LATENCY                                        ; 0            ; Untyped                                  ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped                                  ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped                                  ;
+; USE_EAB                                        ; OFF          ; Untyped                                  ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped                                  ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped                                  ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped                                  ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K                      ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped                                  ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped                                  ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped                                  ;
+; CBXI_PARAMETER                                 ; mult_qfn     ; Untyped                                  ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped                                  ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped                                  ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped                                  ;
++------------------------------------------------+--------------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tan_x:Data_Path|tan_MUX:MUX|lpm_mux:LPM_MUX_component ;
++------------------------+--------------+------------------------------------------------------------+
+; Parameter Name         ; Value        ; Type                                                       ;
++------------------------+--------------+------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                                               ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                             ;
+; LPM_WIDTH              ; 16           ; Signed Integer                                             ;
+; LPM_SIZE               ; 2            ; Signed Integer                                             ;
+; LPM_WIDTHS             ; 1            ; Signed Integer                                             ;
+; LPM_PIPELINE           ; 0            ; Untyped                                                    ;
+; CBXI_PARAMETER         ; mux_tsc      ; Untyped                                                    ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped                                                    ;
++------------------------+--------------+------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+----------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                         ;
++------------------------------------+----------------------+----------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                      ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                   ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                                 ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                                 ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                               ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                      ;
+; OPERATION_MODE                     ; ROM                  ; Untyped                                      ;
+; WIDTH_A                            ; 16                   ; Signed Integer                               ;
+; WIDTHAD_A                          ; 3                    ; Signed Integer                               ;
+; NUMWORDS_A                         ; 8                    ; Signed Integer                               ;
+; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                                      ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                      ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                      ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                      ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                      ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                      ;
+; WIDTH_B                            ; 1                    ; Untyped                                      ;
+; WIDTHAD_B                          ; 1                    ; Untyped                                      ;
+; NUMWORDS_B                         ; 1                    ; Untyped                                      ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                                      ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                                      ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                      ;
+; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                                      ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                                      ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                      ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                      ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                      ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                      ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                                      ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                      ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                      ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                               ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                                      ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                      ;
+; BYTE_SIZE                          ; 8                    ; Untyped                                      ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                      ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                      ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                      ;
+; INIT_FILE                          ; ROM.hex              ; Untyped                                      ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                      ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                      ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                      ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                                      ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                                      ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                                      ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                      ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                      ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                      ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                      ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                      ;
+; DEVICE_FAMILY                      ; Cyclone IV E         ; Untyped                                      ;
+; CBXI_PARAMETER                     ; altsyncram_ss81      ; Untyped                                      ;
++------------------------------------+----------------------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tan_x:Data_Path|tan_counter:counter|lpm_counter:LPM_COUNTER_component ;
++------------------------+--------------+----------------------------------------------------------------------------+
+; Parameter Name         ; Value        ; Type                                                                       ;
++------------------------+--------------+----------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY                                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                                                               ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                                             ;
+; LPM_WIDTH              ; 3            ; Signed Integer                                                             ;
+; LPM_DIRECTION          ; UP           ; Untyped                                                                    ;
+; LPM_MODULUS            ; 0            ; Untyped                                                                    ;
+; LPM_AVALUE             ; 0            ; Untyped                                                                    ;
+; LPM_SVALUE             ; UNUSED       ; Untyped                                                                    ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED  ; Untyped                                                                    ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped                                                                    ;
+; CARRY_CHAIN            ; MANUAL       ; Untyped                                                                    ;
+; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH                                                         ;
+; NOT_GATE_PUSH_BACK     ; ON           ; NOT_GATE_PUSH_BACK                                                         ;
+; CARRY_CNT_EN           ; SMART        ; Untyped                                                                    ;
+; LABWIDE_SCLR           ; ON           ; Untyped                                                                    ;
+; USE_NEW_VERSION        ; TRUE         ; Untyped                                                                    ;
+; CBXI_PARAMETER         ; cntr_rgk     ; Untyped                                                                    ;
++------------------------+--------------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tan_x_controller:controller ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; Idle           ; 000   ; Unsigned Binary                                 ;
+; init           ; 001   ; Unsigned Binary                                 ;
+; load           ; 010   ; Unsigned Binary                                 ;
+; mux_1          ; 011   ; Unsigned Binary                                 ;
+; mux_2          ; 100   ; Unsigned Binary                                 ;
+; mux_3          ; 101   ; Unsigned Binary                                 ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance                                                      ;
++---------------------------------------+-------------------------------------------------------------+
+; Name                                  ; Value                                                       ;
++---------------------------------------+-------------------------------------------------------------+
+; Number of entity instances            ; 1                                                           ;
+; Entity Instance                       ; tan_x:Data_Path|MULT:multiplier|lpm_mult:lpm_mult_component ;
+;     -- LPM_WIDTHA                     ; 16                                                          ;
+;     -- LPM_WIDTHB                     ; 16                                                          ;
+;     -- LPM_WIDTHP                     ; 16                                                          ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                                                    ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                                          ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                                          ;
+;     -- USE_EAB                        ; OFF                                                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                                                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                                          ;
++---------------------------------------+-------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                        ;
++-------------------------------------------+-------------------------------------------------------------+
+; Name                                      ; Value                                                       ;
++-------------------------------------------+-------------------------------------------------------------+
+; Number of entity instances                ; 1                                                           ;
+; Entity Instance                           ; tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; ROM                                                         ;
+;     -- WIDTH_A                            ; 16                                                          ;
+;     -- NUMWORDS_A                         ; 8                                                           ;
+;     -- OUTDATA_REG_A                      ; CLOCK0                                                      ;
+;     -- WIDTH_B                            ; 1                                                           ;
+;     -- NUMWORDS_B                         ; 1                                                           ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                                      ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                        ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                   ;
++-------------------------------------------+-------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 36                          ;
+; cycloneiii_ff         ; 2                           ;
+;     plain             ; 2                           ;
+; cycloneiii_lcell_comb ; 6                           ;
+;     normal            ; 6                           ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 3                           ;
+;         3 data inputs ; 1                           ;
+;                       ;                             ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 1.18                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Sun Jan 09 20:42:40 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off tan_x_top_level -c tan_x_top_level
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file tan_x_top_level.v
+    Info (12023): Found entity 1: tan_x_top_level File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+Info (12127): Elaborating entity "tan_x_top_level" for the top level hierarchy
+Warning (12125): Using design file tan_x.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: tan_x
+Info (12128): Elaborating entity "tan_x" for hierarchy "tan_x:Data_Path" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 7
+Warning (275011): Block or symbol "tan_counter" of instance "counter" overlaps another block or symbol
+Warning (275011): Block or symbol "register" of instance "input_register" overlaps another block or symbol
+Warning (275011): Block or symbol "register" of instance "result_register" overlaps another block or symbol
+Warning (275009): Pin "cnt_en" not connected
+Warning (275009): Pin "reset" not connected
+Warning (275009): Pin "load" not connected
+Warning (275009): Pin "reset_temp" not connected
+Warning (275009): Pin "load_temp" not connected
+Warning (275009): Pin "reset_result" not connected
+Warning (275009): Pin "ld_result" not connected
+Warning (12125): Using design file tan_adder.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: tan_adder File: D:/modelsim_ase/Projects/tan_adder.v Line: 40
+Info (12128): Elaborating entity "tan_adder" for hierarchy "tan_x:Data_Path|tan_adder:adder"
+Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "tan_x:Data_Path|tan_adder:adder|lpm_add_sub:LPM_ADD_SUB_component" File: D:/modelsim_ase/Projects/tan_adder.v Line: 66
+Info (12130): Elaborated megafunction instantiation "tan_x:Data_Path|tan_adder:adder|lpm_add_sub:LPM_ADD_SUB_component" File: D:/modelsim_ase/Projects/tan_adder.v Line: 66
+Info (12133): Instantiated megafunction "tan_x:Data_Path|tan_adder:adder|lpm_add_sub:LPM_ADD_SUB_component" with the following parameter: File: D:/modelsim_ase/Projects/tan_adder.v Line: 66
+    Info (12134): Parameter "lpm_direction" = "ADD"
+    Info (12134): Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=NO,CIN_USED=NO"
+    Info (12134): Parameter "lpm_representation" = "UNSIGNED"
+    Info (12134): Parameter "lpm_type" = "LPM_ADD_SUB"
+    Info (12134): Parameter "lpm_width" = "16"
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_dqh.tdf
+    Info (12023): Found entity 1: add_sub_dqh File: D:/modelsim_ase/Projects/db/add_sub_dqh.tdf Line: 23
+Info (12128): Elaborating entity "add_sub_dqh" for hierarchy "tan_x:Data_Path|tan_adder:adder|lpm_add_sub:LPM_ADD_SUB_component|add_sub_dqh:auto_generated" File: d:/modelsim_ase/quartus/libraries/megafunctions/lpm_add_sub.tdf Line: 119
+Warning (12125): Using design file register.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: register File: D:/modelsim_ase/Projects/register.v Line: 3
+Info (12128): Elaborating entity "register" for hierarchy "tan_x:Data_Path|register:temp_register"
+Warning (12125): Using design file mult.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: MULT File: D:/modelsim_ase/Projects/mult.v Line: 40
+Info (12128): Elaborating entity "MULT" for hierarchy "tan_x:Data_Path|MULT:multiplier"
+Info (12128): Elaborating entity "lpm_mult" for hierarchy "tan_x:Data_Path|MULT:multiplier|lpm_mult:lpm_mult_component" File: D:/modelsim_ase/Projects/mult.v Line: 60
+Info (12130): Elaborated megafunction instantiation "tan_x:Data_Path|MULT:multiplier|lpm_mult:lpm_mult_component" File: D:/modelsim_ase/Projects/mult.v Line: 60
+Info (12133): Instantiated megafunction "tan_x:Data_Path|MULT:multiplier|lpm_mult:lpm_mult_component" with the following parameter: File: D:/modelsim_ase/Projects/mult.v Line: 60
+    Info (12134): Parameter "lpm_hint" = "MAXIMIZE_SPEED=5"
+    Info (12134): Parameter "lpm_representation" = "UNSIGNED"
+    Info (12134): Parameter "lpm_type" = "LPM_MULT"
+    Info (12134): Parameter "lpm_widtha" = "16"
+    Info (12134): Parameter "lpm_widthb" = "16"
+    Info (12134): Parameter "lpm_widthp" = "16"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_qfn.tdf
+    Info (12023): Found entity 1: mult_qfn File: D:/modelsim_ase/Projects/db/mult_qfn.tdf Line: 29
+Info (12128): Elaborating entity "mult_qfn" for hierarchy "tan_x:Data_Path|MULT:multiplier|lpm_mult:lpm_mult_component|mult_qfn:auto_generated" File: d:/modelsim_ase/quartus/libraries/megafunctions/lpm_mult.tdf Line: 377
+Warning (12125): Using design file tan_mux.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: tan_MUX File: D:/modelsim_ase/Projects/tan_mux.v Line: 40
+Info (12128): Elaborating entity "tan_MUX" for hierarchy "tan_x:Data_Path|tan_MUX:MUX"
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "tan_x:Data_Path|tan_MUX:MUX|lpm_mux:LPM_MUX_component" File: D:/modelsim_ase/Projects/tan_mux.v Line: 69
+Info (12130): Elaborated megafunction instantiation "tan_x:Data_Path|tan_MUX:MUX|lpm_mux:LPM_MUX_component" File: D:/modelsim_ase/Projects/tan_mux.v Line: 69
+Info (12133): Instantiated megafunction "tan_x:Data_Path|tan_MUX:MUX|lpm_mux:LPM_MUX_component" with the following parameter: File: D:/modelsim_ase/Projects/tan_mux.v Line: 69
+    Info (12134): Parameter "lpm_size" = "2"
+    Info (12134): Parameter "lpm_type" = "LPM_MUX"
+    Info (12134): Parameter "lpm_width" = "16"
+    Info (12134): Parameter "lpm_widths" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_tsc.tdf
+    Info (12023): Found entity 1: mux_tsc File: D:/modelsim_ase/Projects/db/mux_tsc.tdf Line: 23
+Info (12128): Elaborating entity "mux_tsc" for hierarchy "tan_x:Data_Path|tan_MUX:MUX|lpm_mux:LPM_MUX_component|mux_tsc:auto_generated" File: d:/modelsim_ase/quartus/libraries/megafunctions/lpm_mux.tdf Line: 87
+Warning (12125): Using design file tan_lut.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: tan_LUT File: D:/modelsim_ase/Projects/tan_lut.v Line: 40
+Info (12128): Elaborating entity "tan_LUT" for hierarchy "tan_x:Data_Path|tan_LUT:LUT"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component" File: D:/modelsim_ase/Projects/tan_lut.v Line: 82
+Info (12130): Elaborated megafunction instantiation "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component" File: D:/modelsim_ase/Projects/tan_lut.v Line: 82
+Info (12133): Instantiated megafunction "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component" with the following parameter: File: D:/modelsim_ase/Projects/tan_lut.v Line: 82
+    Info (12134): Parameter "address_aclr_a" = "NONE"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "ROM.hex"
+    Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "8"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
+    Info (12134): Parameter "widthad_a" = "3"
+    Info (12134): Parameter "width_a" = "16"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ss81.tdf
+    Info (12023): Found entity 1: altsyncram_ss81 File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_ss81" for hierarchy "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated" File: d:/modelsim_ase/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Warning (12125): Using design file tan_counter.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: tan_counter File: D:/modelsim_ase/Projects/tan_counter.v Line: 40
+Info (12128): Elaborating entity "tan_counter" for hierarchy "tan_x:Data_Path|tan_counter:counter"
+Info (12128): Elaborating entity "lpm_counter" for hierarchy "tan_x:Data_Path|tan_counter:counter|lpm_counter:LPM_COUNTER_component" File: D:/modelsim_ase/Projects/tan_counter.v Line: 73
+Info (12130): Elaborated megafunction instantiation "tan_x:Data_Path|tan_counter:counter|lpm_counter:LPM_COUNTER_component" File: D:/modelsim_ase/Projects/tan_counter.v Line: 73
+Info (12133): Instantiated megafunction "tan_x:Data_Path|tan_counter:counter|lpm_counter:LPM_COUNTER_component" with the following parameter: File: D:/modelsim_ase/Projects/tan_counter.v Line: 73
+    Info (12134): Parameter "lpm_avalue" = "0"
+    Info (12134): Parameter "lpm_direction" = "UP"
+    Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
+    Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
+    Info (12134): Parameter "lpm_width" = "3"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_rgk.tdf
+    Info (12023): Found entity 1: cntr_rgk File: D:/modelsim_ase/Projects/db/cntr_rgk.tdf Line: 26
+Info (12128): Elaborating entity "cntr_rgk" for hierarchy "tan_x:Data_Path|tan_counter:counter|lpm_counter:LPM_COUNTER_component|cntr_rgk:auto_generated" File: d:/modelsim_ase/quartus/libraries/megafunctions/lpm_counter.tdf Line: 259
+Warning (10463): Verilog HDL Declaration warning at tan_x_controller.v(2): "int" is SystemVerilog-2005 keyword File: D:/modelsim_ase/Projects/tan_x_controller.v Line: 2
+Warning (12125): Using design file tan_x_controller.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: tan_x_controller File: D:/modelsim_ase/Projects/tan_x_controller.v Line: 2
+Info (12128): Elaborating entity "tan_x_controller" for hierarchy "tan_x_controller:controller" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 8
+Warning (10230): Verilog HDL assignment warning at tan_x_controller.v(7): truncated value with size 14 to match size of target (13) File: D:/modelsim_ase/Projects/tan_x_controller.v Line: 7
+Warning (10240): Verilog HDL Always Construct warning at tan_x_controller.v(6): inferring latch(es) for variable "busy", which holds its previous value in one or more paths through the always construct File: D:/modelsim_ase/Projects/tan_x_controller.v Line: 6
+Info (10041): Inferred latch for "busy" at tan_x_controller.v(6) File: D:/modelsim_ase/Projects/tan_x_controller.v Line: 6
+Warning (14284): Synthesized away the following node(s):
+    Warning (14285): Synthesized away the following RAM node(s):
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[0]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 35
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[1]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 57
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[2]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 79
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[3]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 101
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[4]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 123
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[5]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 145
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[6]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 167
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[7]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 189
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[8]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 211
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[9]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 233
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[10]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 255
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[11]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 277
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[12]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 299
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[13]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 321
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[14]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 343
+        Warning (14320): Synthesized away node "tan_x:Data_Path|tan_LUT:LUT|altsyncram:altsyncram_component|altsyncram_ss81:auto_generated|q_a[15]" File: D:/modelsim_ase/Projects/db/altsyncram_ss81.tdf Line: 365
+    Warning (14285): Synthesized away the following DSP element node(s):
+        Warning (14320): Synthesized away node "tan_x:Data_Path|MULT:multiplier|lpm_mult:lpm_mult_component|mult_qfn:auto_generated|mac_mult1" File: D:/modelsim_ase/Projects/db/mult_qfn.tdf Line: 36
+        Warning (14320): Synthesized away node "tan_x:Data_Path|MULT:multiplier|lpm_mult:lpm_mult_component|mult_qfn:auto_generated|mac_out2" File: D:/modelsim_ase/Projects/db/mult_qfn.tdf Line: 45
+Warning (13012): Latch tan_x_controller:controller|busy has unsafe behavior File: D:/modelsim_ase/Projects/tan_x_controller.v Line: 2
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal tan_x_controller:controller|ps.init File: D:/modelsim_ase/Projects/tan_x_controller.v Line: 4
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "result[0]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[1]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[2]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[3]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[4]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[5]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[6]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[7]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[8]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[9]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[10]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[11]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[12]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[13]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[14]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (13410): Pin "result[15]" is stuck at VCC File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 23 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 16 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "X[0]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[1]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[2]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[3]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[4]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[5]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[6]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[7]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[8]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[9]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[10]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[11]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[12]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[13]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[14]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+    Warning (15610): No output dependent on input pin "X[15]" File: D:/modelsim_ase/Projects/tan_x_top_level.v Line: 4
+Info (21057): Implemented 40 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 18 input pins
+    Info (21059): Implemented 18 output pins
+    Info (21061): Implemented 4 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 79 warnings
+    Info: Peak virtual memory: 616 megabytes
+    Info: Processing ended: Sun Jan 09 20:42:56 2022
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:39
+
+

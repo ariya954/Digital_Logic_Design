@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_sdm_jtag_ela">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_sdm_jtag_ela" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="ret_tck" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="ret_tms" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tck" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tdi" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tdoutap" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tms" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tckutap" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tdiutap" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tdo" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tmsutap" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

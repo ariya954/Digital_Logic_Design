@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_sdm_nsp">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_sdm_nsp" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="fpga_core_rst" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fpga_warm_rst" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="gpio_intr" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="pwr_alert" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_mbox_int" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="s2f_user_clk_hio" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

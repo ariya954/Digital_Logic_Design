@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clk'
+Slack : -7.783
+TNS   : -295.851
+
+Type  : Slow Model Setup 'datapath:dP|counter:count|out[3]'
+Slack : -3.013
+TNS   : -20.901
+
+Type  : Slow Model Hold 'clk'
+Slack : -2.690
+TNS   : -6.189
+
+Type  : Slow Model Hold 'datapath:dP|counter:count|out[3]'
+Slack : 0.989
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -1.807
+TNS   : -133.997
+
+Type  : Slow Model Minimum Pulse Width 'datapath:dP|counter:count|out[3]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clk'
+Slack : -1.323
+TNS   : -40.640
+
+Type  : Fast Model Setup 'datapath:dP|counter:count|out[3]'
+Slack : -0.616
+TNS   : -2.215
+
+Type  : Fast Model Hold 'clk'
+Slack : -1.722
+TNS   : -4.546
+
+Type  : Fast Model Hold 'datapath:dP|counter:count|out[3]'
+Slack : 0.518
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -1.519
+TNS   : -110.988
+
+Type  : Fast Model Minimum Pulse Width 'datapath:dP|counter:count|out[3]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

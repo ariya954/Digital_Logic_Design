@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="fourteennm_sdm_jtag_mon">
+	<PARAMETERS>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="fourteennm_sdm_jtag_mon" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="tckmon" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tdimon" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="tmsmon" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

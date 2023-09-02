@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT NAME="ct1_atx_pll_pld_adapt">
+	<PARAMETERS>
+		<PARAMETER NAME="silicon_rev" TYPE="String" VALUE="14nm5" DEFAULT_VALUE="14nm5"/>
+		<PARAMETER NAME="LPM_TYPE" TYPE="STRING" VALUE="ct1_atx_pll_pld_adapt" />
+	</PARAMETERS>
+	<PORTS>
+		<PORT NAME="avmmclk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_clklow_buf" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_fref_buf" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_lock" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="lf_rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="rst_n" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="sta_clk" TYPE="INPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="clklow_buf" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="fref_buf" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_lf_rst_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="int_rst_n" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+		<PORT NAME="lock" TYPE="OUTPUT" DEFAULT_VALUE="0"/>
+	</PORTS>
+</ROOT>

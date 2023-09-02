@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\DLD lab 2\Desktop
+vFunction_Generator
+Z1 I=IC9e0c6>zH1V<OkIE0U21
+Z2 Vmnebd>=jzjU9hV_mPz`T32
+Z3 dC:\Users\DLD lab 2\Desktop\DLD_LAB_3\simulation\modelsim
+Z4 w1651351524
+Z5 8C:/Users/DLD lab 2/Desktop/DLD_LAB_3/simulation/modelsim/Function_Generator.vo
+Z6 FC:/Users/DLD lab 2/Desktop/DLD_LAB_3/simulation/modelsim/Function_Generator.vo
+L0 31
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/DLD_LAB_3/simulation/modelsim/Function_Generator.vo|
+Z9 o-work work -O0
+Z10 n@function_@generator
+!i10b 1
+Z11 !s100 H:5>MjCl^oigmigPnJJKG0
+!s85 0
+Z12 !s108 1651354067.186000
+Z13 !s107 C:/Users/DLD lab 2/Desktop/DLD_LAB_3/simulation/modelsim/Function_Generator.vo|
+!s101 -O0
+vFunction_Generator_TestBench
+!i10b 1
+!s100 P6GB4ei8i1fU8Z64gU>ah1
+I0<P_E68[YJAeMn3DY@Y4H0
+Z14 VB5TIALLLjnnBPPL2@_CiF2
+R3
+w1651354059
+Z15 8C:/Users/DLD lab 2/Desktop/DLD_LAB_3/simulation/modelsim/Function_Generator_TestBench.v
+Z16 FC:/Users/DLD lab 2/Desktop/DLD_LAB_3/simulation/modelsim/Function_Generator_TestBench.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1651354067.482000
+!s107 C:/Users/DLD lab 2/Desktop/DLD_LAB_3/simulation/modelsim/Function_Generator_TestBench.v|
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 2/Desktop/DLD_LAB_3/simulation/modelsim/Function_Generator_TestBench.v|
+!s101 -O0
+R9
+Z18 n@function_@generator_@test@bench
